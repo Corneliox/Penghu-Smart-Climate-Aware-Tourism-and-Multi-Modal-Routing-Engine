@@ -1097,6 +1097,10 @@ async function changeSeasonSimulatorMode(mode) {
 
   updateBridgeSafetyUI(bridgeSafety, ferrySafety, simSeasonState);
   window.dispatchEvent(new CustomEvent('climateStateUpdated', { detail: window.climateSystemState }));
+
+  if (typeof currentRouteCache !== 'undefined' && currentRouteCache) {
+    calculateSmartRoute();
+  }
 }
 
 /**
@@ -2920,8 +2924,8 @@ function setTravelMode(mode) {
   }
 
   // Reactive UX: Auto-recalculate active route when switching between Scooter and Walk
-  if (currentRouteCache && selectedStart && selectedDestination) {
-    calculateOptimalRoute();
+  if (currentRouteCache) {
+    calculateSmartRoute();
   }
 }
 
@@ -3212,94 +3216,3 @@ function clearGoogleApiKey() {
   updateRouterProviderUI();
   calculateSmartRoute();
 }
-
-// ====================================================================
-// V2.5.0 CWA WEATHER API MODAL & SEASON SIMULATOR CONTROLS
-// ====================================================================
-
-function openCwaModal() {
-  const modal = document.getElementById('cwa-api-modal');
-  const input = document.getElementById('input-cwa-api-key');
-  const statusText = document.getElementById('cwa-status-text');
-  const statusDot = document.getElementById('cwa-status-dot');
-  const savedKey = localStorage.getItem('penghu_cwa_api_key') || '';
-
-  if (modal) {
-    if (input) input.value = savedKey;
-    if (statusText && statusDot) {
-      if (savedKey) {
-        statusDot.className = 'w-2 h-2 rounded-full bg-sky-500 animate-pulse';
-        statusText.textContent = 'Token CWA Tersimpan: Menghubungkan ke CWA Official';
-      } else {
-        statusDot.className = 'w-2 h-2 rounded-full bg-emerald-500';
-        statusText.textContent = 'Menggunakan Open-Meteo Live Feed (Zero-Cost Baseline)';
-      }
-    }
-    modal.classList.remove('hidden');
-    modal.classList.add('flex');
-    if (window.lucide) lucide.createIcons();
-  }
-}
-
-function closeCwaModal() {
-  const modal = document.getElementById('cwa-api-modal');
-  if (modal) {
-    modal.classList.add('hidden');
-    modal.classList.remove('flex');
-  }
-}
-
-async function saveCwaApiKey() {
-  const input = document.getElementById('input-cwa-api-key');
-  if (!input) return;
-  const key = input.value.trim();
-  if (key) {
-    localStorage.setItem('penghu_cwa_api_key', key);
-    alert('Kunci CWA API berhasil disimpan! Memperbarui data cuaca resmi Taiwan...');
-  } else {
-    localStorage.removeItem('penghu_cwa_api_key');
-  }
-  closeCwaModal();
-  await syncWeatherAndSeason();
-}
-
-async function clearCwaApiKey() {
-  localStorage.removeItem('penghu_cwa_api_key');
-  const input = document.getElementById('input-cwa-api-key');
-  if (input) input.value = '';
-  alert('Kunci CWA API dihapus. Menggunakan Open-Meteo Zero-Cost Baseline.');
-  closeCwaModal();
-  await syncWeatherAndSeason();
-}
-
-function changeSeasonSimulatorMode(mode) {
-  localStorage.setItem('penghu_season_simulation', mode);
-
-  // Auto-switch Theme to match season
-  if (mode === 'summer') {
-    setTheme('tropical');
-  } else if (mode === 'monsoon') {
-    setTheme('monsoon');
-  } else if (mode === 'spring') {
-    setTheme('nature');
-  } else {
-    // Auto-detect based on current calendar month
-    const detected = detectCurrentSeason(null, 'auto');
-    setTheme(detected.activeThemeKey || 'tropical');
-  }
-
-  // Sync Weather & Climate Models
-  syncWeatherAndSeason();
-
-  // Recalculate route if active
-  if (typeof currentRouteCache !== 'undefined' && currentRouteCache) {
-    calculateOptimalRoute();
-  }
-}
-
-// Window object exposure for inline HTML event handlers
-window.openCwaModal = openCwaModal;
-window.closeCwaModal = closeCwaModal;
-window.saveCwaApiKey = saveCwaApiKey;
-window.clearCwaApiKey = clearCwaApiKey;
-window.changeSeasonSimulatorMode = changeSeasonSimulatorMode;
