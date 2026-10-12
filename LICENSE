@@ -1,0 +1,35 @@
+# PolyForm Noncommercial License 1.0.0
+https://polyformproject.org/licenses/noncommercial/1.0.0/
+
+Copyright (c) 2026 Cornelio (Corneliox) - Penghu Cool-Ride Project.
+Repository: https://github.com/Corneliox/MapNodeWeightRecommendation
+
+## 1. Permitted Use (Penggunaan yang Diizinkan)
+You are permitted to use, copy, modify, distribute, and perform this software, code, datasets, and documentation for **NONCOMMERCIAL PURPOSES ONLY**, free of charge, subject to the conditions of this license.
+
+Permitted noncommercial purposes include:
+* Personal use, experimentation, and independent learning.
+* Academic research, university courses, and educational evaluations.
+* Non-profit public health, heatstroke prevention, and community open-science initiatives.
+
+## 2. Mandatory Attribution (Kewajiban Menyertakan Atribusi & Kredit)
+You MUST retain and prominently display the above copyright notice, this license text, and clear attribution to the original author (**Cornelio / Corneliox**) and repository link (`https://github.com/Corneliox/MapNodeWeightRecommendation`) in all copies, distributions, interfaces, or substantial portions of the software.
+
+## 3. Commercial Restrictions (Larangan Tujuan Komersial)
+You **CANNOT** use, sell, sub-license, monetize, or exploit this software, its routing engines, biometeorological algorithms, node-weight recommendation models, or any derived works for any commercial purpose, monetary advantage, or business operation without an explicit written Commercial License Agreement and agreed payment/royalties to the Author.
+
+Prohibited commercial activities include, but are not limited to:
+1. Selling, reselling, or sub-licensing this software, application, or modified distributions thereof.
+2. Charging end-users, tourists, clients, or third parties for access to this routing service, hosted application, or API endpoints.
+3. White-labeling, embedding, or bundling this engine into commercial travel packages, scooter rental businesses, hotel booking platforms, or paid navigation software.
+4. Using this software for fee-generating commercial consultancy, marketing campaigns, or proprietary closed-source applications.
+
+## 4. Commercial Inquiries & Licensing Exceptions (Izin Komersial & Kerjasama)
+If you or your enterprise wish to integrate, deploy, or commercialize this technology for commercial operations, travel businesses, or fleet routing, you must obtain a separate commercial license by contacting the author:
+
+* **Author / Copyright Holder**: Cornelio (Corneliox)
+* **GitHub Profile**: https://github.com/Corneliox
+* **Commercial Terms**: Negotiated via a formal, written Commercial Licensing Agreement.
+
+## 5. No Warranty
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

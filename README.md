@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Leaflet](https://img.shields.io/badge/Leaflet-1.9.4-199900?style=for-the-badge&logo=leaflet&logoColor=white)](https://leafletjs.com/)
 [![Open-Meteo](https://img.shields.io/badge/Weather_API-Open--Meteo-FFD166?style=for-the-badge)](https://open-meteo.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-E07A5F.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![License: PolyForm Noncommercial 1.0.0](https://img.shields.io/badge/License-PolyForm_Noncommercial_1.0-E07A5F.svg?style=for-the-badge)](LICENSE)
 
 An intelligent, climate-adaptive multi-modal travel routing engine designed for the **Penghu Archipelago, Taiwan** (澎湖群島). 
 
@@ -130,5 +130,8 @@ python merge_penghu_dataset.py
 
 ---
 
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 📄 License & Attribution
+This project is source-available and licensed under the **[PolyForm Noncommercial License 1.0.0](LICENSE)**:
+* ✅ **Permitted**: Free to view, use, modify, and study for personal, educational, and academic research purposes.
+* 🏷️ **Attribution Required**: You must include proper credit and attribution to the original creator (**Corneliox**).
+* ❌ **Commercial Restrictions**: Strictly prohibited from selling, white-labeling, or commercially exploiting this software without a separate commercial license agreement and royalty arrangement. For commercial inquiries, contact [@Corneliox](https://github.com/Corneliox).
