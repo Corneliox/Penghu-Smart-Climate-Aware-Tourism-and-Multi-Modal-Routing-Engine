@@ -83,6 +83,12 @@
         </span>
       </div>
 
+      <!-- Dynamic Season Badge (All-Year Adaptive) -->
+      <div id="season-badge-pill" class="flex items-center gap-1.5 dynamic-card-inner border rounded-full px-2.5 py-1 text-xs cursor-pointer hover:opacity-100 transition shadow-xs" onclick="switchTab('route')" title="Deteksi Musim Otomatis">
+        <span id="season-badge-icon" class="text-xs">💨</span>
+        <span id="season-badge-text" class="font-bold text-[11px] hidden lg:inline" data-i18n="season_badge_monsoon">Monsun Timur Laut</span>
+      </div>
+
       <!-- Creator Link (Href to GitHub, visible on xl:) -->
       <a href="https://github.com/Corneliox" target="_blank" rel="noopener noreferrer" class="hidden xl:flex dynamic-card-inner border rounded-xl px-2.5 py-1.5 text-xs font-bold items-center gap-1.5 hover:opacity-100 transition-opacity text-primary-var shadow-sm" title="Created by Corneliox">
         <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path></svg>
@@ -92,6 +98,7 @@
       <!-- Theme Switcher Selector (Hidden on tiny screens, accessible in drawer) -->
       <select id="theme-selector" onchange="changeTheme(this.value)" class="hidden sm:inline-block dynamic-card-inner border rounded-xl px-2 py-1.5 text-[11px] sm:text-xs font-bold focus:outline-none cursor-pointer">
         <option value="tropical" data-i18n="theme_tropical">🏝️ Tropis Pantai</option>
+        <option value="monsoon" data-i18n="theme_monsoon">🌊 Badai Monsun</option>
         <option value="nature" data-i18n="theme_nature">🏜️ Petualangan Alam</option>
         <option value="ocean" data-i18n="theme_ocean">🌌 Ocean Dark</option>
       </select>
@@ -113,6 +120,12 @@
       <button onclick="openApiScheduleModal()" class="dynamic-card-inner border rounded-xl px-2 sm:px-2.5 py-1.5 text-[11px] sm:text-xs font-bold flex items-center gap-1.5 hover:opacity-100 transition-opacity" title="Jadwal & Status Kuota API">
         <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
         <span data-i18n="nav_api_status" class="hidden sm:inline">Status API</span>
+      </button>
+
+      <!-- Taiwan CWA Weather API Status/Modal Button -->
+      <button onclick="openCwaModal()" class="dynamic-card-inner border rounded-xl px-2 sm:px-2.5 py-1.5 text-[11px] sm:text-xs font-bold flex items-center gap-1 hover:opacity-100 transition-opacity text-sky-500" title="Taiwan CWA Weather API Integration">
+        <i data-lucide="cloud-sun" class="w-3.5 h-3.5"></i>
+        <span data-i18n="nav_cwa_btn" class="hidden sm:inline">CWA Taiwan</span>
       </button>
 
       <!-- Mobile Route Drawer Toggle Button -->
@@ -155,6 +168,20 @@
         <!-- ========================================================= -->
         <div id="tab-content-route" class="space-y-4">
           
+          <!-- Seasonal Mode Simulator Control (v2.5) -->
+          <div class="p-3 rounded-2xl dynamic-card-inner border flex items-center justify-between text-xs shadow-sm">
+            <div class="flex items-center gap-1.5 min-w-0">
+              <i data-lucide="compass" class="w-3.5 h-3.5 text-primary-var shrink-0"></i>
+              <span class="opacity-75 font-semibold truncate" data-i18n="season_selector_label">Mode Musim:</span>
+            </div>
+            <select id="season-simulator-select" onchange="changeSeasonSimulatorMode(this.value)" class="dynamic-card border rounded-xl px-2 py-1 text-xs font-bold focus:outline-none cursor-pointer">
+              <option value="auto" data-i18n="season_auto">Otomatis (Sesuai Tanggal)</option>
+              <option value="summer" data-i18n="season_summer">Musim Panas (酷夏防暑)</option>
+              <option value="monsoon" data-i18n="season_monsoon">Monsun Timur Laut (東北季風)</option>
+              <option value="spring" data-i18n="season_spring">Musim Semi (春秋慢活)</option>
+            </select>
+          </div>
+
           <!-- Active Scientific Scheme Banner -->
           <div class="p-3 rounded-2xl dynamic-card border flex items-center justify-between text-xs shadow-sm">
             <div class="flex items-center gap-2">
@@ -248,6 +275,65 @@
               <i data-lucide="sparkles" class="w-4 h-4"></i>
               <span data-i18n="btn_calculate">Hitung Rute Bebas Heatstroke</span>
             </button>
+          </div>
+
+          <!-- Penghu Great Bridge Crosswind Radar & MOTC Safety Card (v2.5) -->
+          <div id="bridge-crosswind-card" class="dynamic-card border rounded-2xl p-3.5 space-y-2.5 shadow-md transition-all">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <div id="bridge-status-indicator" class="w-2.5 h-2.5 rounded-full bg-emerald-500"></div>
+                <div>
+                  <h4 class="text-xs font-extrabold flex items-center gap-1.5" data-i18n="bridge_crosswind_card_title">
+                    Radar Angin Jembatan Lintas Laut
+                  </h4>
+                  <p class="text-[10px] opacity-65" data-i18n="bridge_crosswind_sub">Jalur 203 • Standar MOTC Taiwan</p>
+                </div>
+              </div>
+              <span id="bridge-level-badge" class="text-[10px] uppercase font-extrabold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-500 border border-emerald-500/30">
+                LEVEL 1: AMAN
+              </span>
+            </div>
+
+            <!-- Wind Gauge Meter Bar -->
+            <div class="space-y-1">
+              <div class="flex items-center justify-between text-[11px] font-bold">
+                <span class="opacity-75" data-i18n="bridge_crosswind_speed">Kecepatan Angin Samping:</span>
+                <span id="bridge-wind-speed-text" class="font-mono text-primary-var">24.5 km/j (6.8 m/s)</span>
+              </div>
+              <div class="crosswind-gauge-container">
+                <div id="bridge-wind-gauge-bar" class="crosswind-gauge-bar crosswind-safe" style="width: 35%;"></div>
+              </div>
+            </div>
+
+            <!-- Advisory & Speed limit -->
+            <div class="p-2.5 rounded-xl dynamic-card-inner border text-[11px] flex items-center justify-between gap-2">
+              <div class="min-w-0">
+                <span class="opacity-70 text-[10px] block" data-i18n="bridge_speed_limit">Batas Kecepatan Aman:</span>
+                <span id="bridge-speed-limit-text" class="font-extrabold text-xs text-primary-var" data-i18n="bridge_speed_normal">Maks 35 km/j</span>
+              </div>
+              <p id="bridge-notice-text" class="text-[11px] opacity-85 text-right flex-1 leading-tight" data-i18n="bridge_crosswind_safe_desc">
+                Angin stabil, motor aman melintas jembatan.
+              </p>
+            </div>
+          </div>
+
+          <!-- Maritime Ferry Sailing Safety Status Card (v2.5) -->
+          <div id="ferry-marine-safety-card" class="dynamic-card border rounded-2xl p-3.5 space-y-2 shadow-sm">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <i data-lucide="ship" class="w-4 h-4 text-sky-500"></i>
+                <div>
+                  <h4 class="text-xs font-bold" data-i18n="ferry_marine_title">Status Pelayaran Feri Maritim</h4>
+                  <p class="text-[10px] opacity-65" data-i18n="ferry_marine_sub">Magong ↔ Qimei / Wang'an / Jibei</p>
+                </div>
+              </div>
+              <span id="ferry-safety-badge" class="text-[10px] uppercase font-extrabold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-500 border border-emerald-500/30">
+                PELAYARAN NORMAL
+              </span>
+            </div>
+            <p id="ferry-safety-desc" class="text-[11px] opacity-80 leading-relaxed" data-i18n="ferry_status_normal_desc">
+              Tinggi gelombang laut < 2.0 m, angin < Beaufort 6. Seluruh feri penumpang beroperasi normal.
+            </p>
           </div>
 
           <!-- Comparison Card Matrix -->
@@ -740,7 +826,55 @@
     </div>
   </div>
 
-  <script src="app.js?v=2.3.0"></script>
+
+  <!-- ====================================================================
+       TAIWAN CWA WEATHER API KEY CONFIGURATION MODAL (v2.5)
+       ==================================================================== -->
+  <div id="cwa-api-modal" class="fixed inset-0 z-[9999] bg-black/60 backdrop-blur-sm hidden items-center justify-center p-4">
+    <div class="dynamic-card border rounded-3xl max-w-md w-full p-6 shadow-2xl space-y-4 animate-in fade-in zoom-in duration-200">
+      <div class="flex items-center justify-between border-b border-inherit pb-3">
+        <div class="flex items-center gap-2.5">
+          <div class="w-9 h-9 rounded-2xl bg-sky-500/10 text-sky-600 dark:text-sky-400 flex items-center justify-center shadow-xs">
+            <i data-lucide="cloud-sun" class="w-4 h-4"></i>
+          </div>
+          <div>
+            <h3 class="font-extrabold text-sm sm:text-base" data-i18n="cwa_modal_title">Taiwan CWA Weather API</h3>
+            <p class="text-[10px] opacity-70" data-i18n="cwa_modal_sub">Central Weather Administration • Client-Side</p>
+          </div>
+        </div>
+        <button onclick="closeCwaModal()" class="p-1 rounded-lg opacity-70 hover:opacity-100">
+          <i data-lucide="x" class="w-4 h-4"></i>
+        </button>
+      </div>
+
+      <div class="space-y-3 text-xs">
+        <p class="opacity-80 leading-relaxed" data-i18n="cwa_modal_desc">
+          Aplikasi ini secara default 100% Zero-Cost menggunakan Open-Meteo. Anda dapat memasukkan API Key resmi CWA Taiwan (opendata.cwa.gov.tw) untuk sensor mikroklimat resmi Penghu.
+        </p>
+
+        <div class="space-y-1.5">
+          <label class="font-bold opacity-80" data-i18n="cwa_input_label">CWA API Authorization Key:</label>
+          <input id="input-cwa-api-key" type="password" placeholder="CWA-XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX" class="w-full dynamic-card-inner border rounded-xl px-3.5 py-2.5 text-xs font-mono focus:outline-none focus:border-sky-500">
+        </div>
+
+        <div id="cwa-status-alert" class="p-3 rounded-xl dynamic-card-inner border text-[11px] flex items-center gap-2">
+          <div id="cwa-status-dot" class="w-2 h-2 rounded-full bg-emerald-500"></div>
+          <span id="cwa-status-text" class="opacity-80" data-i18n="cwa_status_fallback">Menggunakan Open-Meteo Live Feed (Zero-Cost Baseline)</span>
+        </div>
+
+        <p class="text-[10px] opacity-60 flex items-center gap-1" data-i18n="cwa_privacy_note">
+          🔒 Kunci Anda disimpan murni di localStorage browser Anda (penghu_cwa_api_key) dan TIDAK PERNAH diunggah ke server mana pun.
+        </p>
+      </div>
+
+      <div class="flex items-center justify-end gap-2 pt-2 border-t border-inherit">
+        <button onclick="clearCwaApiKey()" class="px-3 py-2 rounded-xl text-xs font-bold opacity-70 hover:opacity-100 hover:text-red-500 transition" data-i18n="cwa_btn_clear">Hapus Kunci</button>
+        <button onclick="saveCwaApiKey()" class="px-4 py-2 dynamic-btn-primary rounded-xl text-xs font-bold shadow transition" data-i18n="cwa_btn_save">Simpan & Aktifkan</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js?v=2.5.0"></script>
   <script>
     lucide.createIcons();
   </script>

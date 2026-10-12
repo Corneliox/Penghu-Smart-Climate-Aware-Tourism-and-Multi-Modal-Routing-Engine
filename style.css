@@ -58,6 +58,24 @@ body.theme-ocean {
   --shadow-color: rgba(6, 182, 212, 0.2);
 }
 
+/* Theme 4: Palet Badai Monsun Timur Laut (Dongbei Jifeng / Blue Storm) */
+body.theme-monsoon {
+  --bg-app: #0F172A; /* Midnight Slate */
+  --bg-sidebar: rgba(30, 41, 59, 0.95); /* Deep Navy Slate */
+  --bg-card: rgba(30, 41, 59, 0.88);
+  --bg-card-inner: #141E33;
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
+  --color-primary: #38BDF8; /* Sky Blue Badai */
+  --color-primary-hover: #0EA5E9;
+  --color-accent: #F97316; /* Gale Warning Orange */
+  --color-secondary: #06B6D4; /* Deep Cyan */
+  --border-color: rgba(56, 189, 248, 0.3);
+  --border-card: rgba(51, 65, 85, 0.8);
+  --shadow-color: rgba(56, 189, 248, 0.25);
+}
+
 /* Base Body Styles */
 * {
   -webkit-tap-highlight-color: transparent;
@@ -393,6 +411,57 @@ html {
 .i18n-fade-in {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* --- Crosswind Gauge Bar & Wind Risk Visualizer --- */
+.crosswind-gauge-container {
+  width: 100%;
+  height: 8px;
+  border-radius: 9999px;
+  background: rgba(148, 163, 184, 0.2);
+  overflow: hidden;
+  position: relative;
+}
+
+.crosswind-gauge-bar {
+  height: 100%;
+  transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1), background 0.6s ease;
+  border-radius: 9999px;
+}
+
+.crosswind-safe {
+  background: linear-gradient(90deg, #10B981, #34D399);
+}
+
+.crosswind-caution {
+  background: linear-gradient(90deg, #F59E0B, #F97316);
+}
+
+.crosswind-danger {
+  background: linear-gradient(90deg, #EF4444, #DC2626);
+  animation: pulse-danger 1.5s infinite;
+}
+
+@keyframes pulse-danger {
+  0%, 100% {
+    opacity: 1;
+    filter: drop-shadow(0 0 6px rgba(239, 68, 68, 0.8));
+  }
+  50% {
+    opacity: 0.6;
+    filter: drop-shadow(0 0 2px rgba(239, 68, 68, 0.3));
+  }
+}
+
+/* --- Maritime Ferry Marine Wave Animation --- */
+@keyframes marine-wave {
+  0% { transform: translateX(0) translateZ(0) scaleY(1); }
+  50% { transform: translateX(-25%) translateZ(0) scaleY(0.85); }
+  100% { transform: translateX(-50%) translateZ(0) scaleY(1); }
+}
+
+.marine-wave-anim {
+  animation: marine-wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
 }
 
 

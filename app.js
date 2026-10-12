@@ -239,6 +239,12 @@ document.addEventListener('DOMContentLoaded', async () => {
   setLanguage(savedLang);
 
   initMap();
+
+  // Restore Saved Season Simulation Mode
+  const savedSim = localStorage.getItem('penghu_season_simulation') || 'auto';
+  const simSelect = document.getElementById('season-simulator-select');
+  if (simSelect) simSelect.value = savedSim;
+
   fetchLiveWeather();
   loadDataset();
   setupInfiniteScroll();
@@ -320,15 +326,20 @@ function updateUILanguage() {
   if (themeSelect) {
     const curVal = themeSelect.value || currentTheme;
     const optTropical = themeSelect.querySelector('option[value="tropical"]');
+    const optMonsoon = themeSelect.querySelector('option[value="monsoon"]');
     const optNature = themeSelect.querySelector('option[value="nature"]');
     const optOcean = themeSelect.querySelector('option[value="ocean"]');
     if (optTropical) optTropical.innerText = t('theme_tropical');
+    if (optMonsoon) optMonsoon.innerText = t('theme_monsoon');
     if (optNature) optNature.innerText = t('theme_nature');
     if (optOcean) optOcean.innerText = t('theme_ocean');
     themeSelect.value = curVal;
   }
 
   updateRouterProviderUI();
+  if (window.climateSystemState) {
+    updateBridgeSafetyUI(window.climateSystemState.bridgeSafety, window.climateSystemState.ferrySafety, window.climateSystemState.season);
+  }
   if (isWeatherStationsEnabled) renderWeatherStationsMarkers();
   if (isTempGridEnabled) renderGridCellsPolygons();
 }
@@ -405,86 +416,757 @@ function initMap() {
   });
 }
 
-async function fetchLiveWeather() {
-  const url = 'https://api.open-meteo.com/v1/forecast?latitude=23.57&longitude=119.57&current=temperature_2m,relative_humidity_2m,apparent_temperature,is_day,precipitation,wind_speed_10m&hourly=uv_index,direct_normal_irradiance&daily=uv_index_max&timezone=Asia%2FTaipei';
+// ====================================================================
+// V2.5.0 CLIMATE-ADAPTIVE BACKEND ENGINE & HYBRID WEATHER RESOLVER
+// (Taiwan CWA Safety Standards, Beaufort Scale, Bridge Crosswind Vector)
+// ====================================================================
 
-  try {
-    const res = await fetch(url);
-    const data = await res.json();
+// Standardized Global Climate State conforming to v2.5.0 Data Contract
+window.climateSystemState = {
+  season: {
+    key: "monsoon",
+    labelI18nKey: "season_monsoon",
+    isAutoDetected: true,
+    localTaipeiDate: new Date().toISOString().slice(0, 10),
+    activeThemeKey: "monsoon"
+  },
+  weather: {
+    tempC: 26,
+    feelsLikeC: 27,
+    uvIndex: 4.5,
+    windSpeedMs: 8.5,
+    windSpeedKmh: 30.6,
+    windGustsKmh: 42.0,
+    windDirectionDeg: 45,
+    windDirectionText: "NE (Timur Laut / 東北)",
+    beaufortScale: 5,
+    provider: "Open-Meteo (Zero-Cost)",
+    isCwaOfficial: false
+  },
+  bridgeSafety: {
+    level: "safe",
+    crosswindSpeedKmh: 28.5,
+    effectiveWindKmh: 30.6,
+    maxSpeedLimitKmh: 35,
+    hazardNoticeKey: "bridge_crosswind_safe",
+    badgeClass: "bg-emerald-500/20 text-emerald-600 dark:text-emerald-300 border-emerald-500/30",
+    meterPercent: 42
+  },
+  ferrySafety: {
+    level: "normal",
+    seaStateNoticeKey: "ferry_status_normal",
+    badgeClass: "bg-emerald-500/20 text-emerald-600 dark:text-emerald-300 border-emerald-500/30"
+  }
+};
 
-    const currentTemp = Math.round(data.current.temperature_2m);
-    const feelsLike = Math.round(data.current.apparent_temperature);
-    const isDay = data.current?.is_day === 1;
+/**
+ * Konversi Kecepatan Angin (m/s) ke Skala Beaufort (0 - 12)
+ * Formula: B = round((v / 0.836)^(2/3))
+ */
+function getBeaufortScale(windSpeedMs) {
+  if (typeof windSpeedMs !== 'number' || isNaN(windSpeedMs) || windSpeedMs < 0) return 0;
+  const b = Math.round(Math.pow(windSpeedMs / 0.836, 2.0 / 3.0));
+  return Math.min(12, Math.max(0, b));
+}
 
-    // Determine exact current hour index in Taipei timezone
-    const nowTaipei = new Date().toLocaleString("en-US", { timeZone: "Asia/Taipei" });
-    const currentHourTaipei = new Date(nowTaipei).getHours();
+/**
+ * Konversi Derajat Angin (0 - 360) ke Arah Kompas 16 Arah Mata Angin
+ */
+function getWindDirectionCompass(deg) {
+  if (typeof deg !== 'number' || isNaN(deg)) return { code: 'N', text: 'N (Utara / 北)' };
+  const compassPoints = [
+    { code: 'N', text: 'N (Utara / 北)' },
+    { code: 'NNE', text: 'NNE (Utara-Timur Laut / 東北偏北)' },
+    { code: 'NE', text: 'NE (Timur Laut / 東北)' },
+    { code: 'ENE', text: 'ENE (Timur-Timur Laut / 東北偏東)' },
+    { code: 'E', text: 'E (Timur / 東)' },
+    { code: 'ESE', text: 'ESE (Timur-Tenggara / 東南偏東)' },
+    { code: 'SE', text: 'SE (Tenggara / 東南)' },
+    { code: 'SSE', text: 'SSE (Selatan-Tenggara / 東南偏南)' },
+    { code: 'S', text: 'S (Selatan / 南)' },
+    { code: 'SSW', text: 'SSW (Selatan-Barat Daya / 西南偏南)' },
+    { code: 'SW', text: 'SW (Barat Daya / 西南)' },
+    { code: 'WSW', text: 'WSW (Barat-Barat Daya / 西南偏西)' },
+    { code: 'W', text: 'W (Barat / 西)' },
+    { code: 'WNW', text: 'WNW (Barat-Barat Laut / 西北偏西)' },
+    { code: 'NW', text: 'NW (Barat Laut / 西北)' },
+    { code: 'NNW', text: 'NNW (Utara-Barat Laut / 西北偏北)' }
+  ];
+  const normalized = ((deg % 360) + 360) % 360;
+  const idx = Math.round(normalized / 22.5) % 16;
+  return compassPoints[idx];
+}
 
-    let hourIdx = currentHourTaipei;
-    if (data.hourly && data.hourly.time) {
-      const todayIsoPrefix = new Date(nowTaipei).toISOString().slice(0, 10);
-      const matchIdx = data.hourly.time.findIndex(t => t.startsWith(todayIsoPrefix) && parseInt(t.slice(11, 13)) === currentHourTaipei);
-      if (matchIdx !== -1) hourIdx = matchIdx;
+/**
+ * Deteksi Musim Kalender Astronomi Deterministik Zona Waktu Asia/Taipei
+ * Mendukung simulasi musim ('summer' | 'monsoon' | 'spring' | 'auto')
+ */
+function detectCurrentSeason(overrideDate = null, simulatedSeason = null) {
+  const activeSim = simulatedSeason || localStorage.getItem('penghu_season_simulation');
+  if (activeSim && activeSim !== 'auto') {
+    if (activeSim === 'summer') {
+      return {
+        key: 'summer',
+        labelI18nKey: 'season_summer',
+        isAutoDetected: false,
+        localTaipeiDate: overrideDate || new Date().toISOString().slice(0, 10),
+        activeThemeKey: 'tropical'
+      };
     }
+    if (activeSim === 'monsoon') {
+      return {
+        key: 'monsoon',
+        labelI18nKey: 'season_monsoon',
+        isAutoDetected: false,
+        localTaipeiDate: overrideDate || new Date().toISOString().slice(0, 10),
+        activeThemeKey: 'monsoon'
+      };
+    }
+    if (activeSim === 'spring') {
+      return {
+        key: 'spring',
+        labelI18nKey: 'season_spring',
+        isAutoDetected: false,
+        localTaipeiDate: overrideDate || new Date().toISOString().slice(0, 10),
+        activeThemeKey: 'nature'
+      };
+    }
+  }
 
-    // Accurate numeric assignment without falsy zero bugs
-    const rawUv = data.hourly?.uv_index?.[hourIdx];
-    const uvIndex = (typeof rawUv === 'number') ? Number(rawUv.toFixed(1)) : (isDay ? 7.5 : 0.0);
+  // Waktu lokal Taiwan
+  const nowTaipei = overrideDate ? new Date(overrideDate) : new Date(new Date().toLocaleString("en-US", { timeZone: "Asia/Taipei" }));
+  const month = nowTaipei.getMonth() + 1; // 1 - 12
+  const dateStr = nowTaipei.toISOString().slice(0, 10);
 
-    const rawDni = data.hourly?.direct_normal_irradiance?.[hourIdx];
-    const solarDni = (typeof rawDni === 'number') ? Math.round(rawDni) : (isDay ? 650 : 0);
+  // Musim Panas: Mei (5) hingga September (9)
+  if (month >= 5 && month <= 9) {
+    return {
+      key: 'summer',
+      labelI18nKey: 'season_summer',
+      isAutoDetected: true,
+      localTaipeiDate: dateStr,
+      activeThemeKey: 'tropical'
+    };
+  }
+  // Monsun Timur Laut: Oktober (10) hingga Maret (3)
+  if (month >= 10 || month <= 3) {
+    return {
+      key: 'monsoon',
+      labelI18nKey: 'season_monsoon',
+      isAutoDetected: true,
+      localTaipeiDate: dateStr,
+      activeThemeKey: 'monsoon'
+    };
+  }
+  // Musim Semi: April (4)
+  return {
+    key: 'spring',
+    labelI18nKey: 'season_spring',
+    isAutoDetected: true,
+    localTaipeiDate: dateStr,
+    activeThemeKey: 'nature'
+  };
+}
 
-    const approxWbgt = Math.round((feelsLike * 0.75) + (uvIndex * 0.3));
+/**
+ * Evaluasi Standar Keamanan Angin Sepeda Motor MOTC Taiwan di Jembatan Lintas Laut Penghu
+ * Orientasi Jembatan: Barat Laut <-> Tenggara (theta_bridge ~ 135 derajat)
+ */
+function evaluateBridgeCrosswindSafety(windSpeedMs, windDirectionDeg = 45, windGustsMs = null) {
+  const v_wind = Math.max(0, Number(windSpeedMs) || 0);
+  const theta_wind = (typeof windDirectionDeg === 'number') ? windDirectionDeg : 45;
+  const v_gusts = (windGustsMs !== null && typeof windGustsMs === 'number') ? Math.max(0, windGustsMs) : v_wind;
 
-    let heatLevelKey = 'heat_low';
-    let badgeClass = 'bg-emerald-500/20 text-emerald-600 dark:text-emerald-300 border-emerald-500/30';
+  // Orientasi Jembatan Penghu Great Bridge (Baisha <-> Xiyu)
+  const theta_bridge = 135.0;
+  const deltaAngleRad = Math.abs((theta_wind - theta_bridge) * (Math.PI / 180.0));
+  const v_cross = v_wind * Math.abs(Math.sin(deltaAngleRad));
 
-    if (!isDay) {
-      // Nighttime Logic
-      if (feelsLike < 30) {
-        heatLevelKey = 'heat_night_cool';
-        badgeClass = 'bg-cyan-500/20 text-cyan-600 dark:text-cyan-300 border-cyan-500/30';
-      } else {
-        heatLevelKey = 'heat_moderate';
-        badgeClass = 'bg-amber-500/20 text-amber-600 dark:text-amber-300 border-amber-500/30';
+  // Angin efektif mempertimbangkan hembusan badai (Peak Gusts)
+  const v_effective = Math.max(v_wind, v_gusts * 0.85);
+
+  let level = 'safe';
+  let maxSpeedLimitKmh = 35;
+  let hazardNoticeKey = 'bridge_crosswind_safe';
+  let badgeClass = 'bg-emerald-500/20 text-emerald-600 dark:text-emerald-300 border-emerald-500/30';
+
+  if (v_effective >= 17.2 || v_cross >= 17.2) {
+    // Level 3: Gale Hazard Ekstrem (Beaufort 8+)
+    level = 'danger';
+    maxSpeedLimitKmh = 0;
+    hazardNoticeKey = 'bridge_crosswind_danger';
+    badgeClass = 'bg-red-500/20 text-red-600 dark:text-red-300 border-red-500/40 animate-pulse';
+  } else if (v_effective >= 10.8 || v_cross >= 10.8) {
+    // Level 2: Waspada Angin Samping (Beaufort 6-7)
+    level = 'caution';
+    maxSpeedLimitKmh = 25;
+    hazardNoticeKey = 'bridge_crosswind_warning';
+    badgeClass = 'bg-amber-500/20 text-amber-600 dark:text-amber-300 border-amber-500/40';
+  }
+
+  const meterPercent = Math.min(100, Math.max(5, Math.round((v_effective / 20.0) * 100)));
+
+  return {
+    level,
+    crosswindSpeedKmh: Number((v_cross * 3.6).toFixed(1)),
+    effectiveWindKmh: Number((v_effective * 3.6).toFixed(1)),
+    maxSpeedLimitKmh,
+    hazardNoticeKey,
+    badgeClass,
+    meterPercent
+  };
+}
+
+/**
+ * Evaluasi Standar Keselamatan Pelayaran Kapal Feri Penumpang (Taiwan Maritime Port Bureau)
+ */
+function evaluateFerryMarineSafety(windSpeedMs, waveHeightM = null) {
+  const v_wind = Math.max(0, Number(windSpeedMs) || 0);
+  const wave = typeof waveHeightM === 'number' ? waveHeightM : (v_wind >= 17.2 ? 3.5 : (v_wind >= 13.9 ? 2.6 : 1.2));
+
+  let level = 'normal';
+  let seaStateNoticeKey = 'ferry_status_normal';
+  let badgeClass = 'bg-emerald-500/20 text-emerald-600 dark:text-emerald-300 border-emerald-500/30';
+
+  if (v_wind >= 17.2 || wave >= 3.0) {
+    level = 'suspended';
+    seaStateNoticeKey = 'ferry_status_suspended';
+    badgeClass = 'bg-red-500/20 text-red-600 dark:text-red-300 border-red-500/40 animate-pulse';
+  } else if (v_wind >= 13.9 || wave >= 2.5) {
+    level = 'warning';
+    seaStateNoticeKey = 'ferry_status_warning';
+    badgeClass = 'bg-amber-500/20 text-amber-600 dark:text-amber-300 border-amber-500/40';
+  }
+
+  return {
+    level,
+    seaStateNoticeKey,
+    badgeClass
+  };
+}
+
+/**
+ * Hybrid Weather & Climate Resolver (CWA REST API + Open-Meteo Silent Fallover)
+ */
+async function syncWeatherAndSeason() {
+  const cwaKey = localStorage.getItem('penghu_cwa_api_key');
+  const activeSim = localStorage.getItem('penghu_season_simulation');
+  let weatherResult = null;
+  let isCwaOfficial = false;
+  let providerName = 'Open-Meteo (Zero-Cost)';
+
+  // 0. Cek apakah pengguna mengaktifkan mode simulasi cuaca musim
+  if (activeSim && activeSim !== 'auto') {
+    if (activeSim === 'summer') {
+      weatherResult = {
+        temp: 35,
+        feelsLike: 40,
+        uvIndex: 10.5,
+        windSpeedMs: 4.5,
+        windGustsMs: 6.5,
+        windDirectionDeg: 180,
+        solarDni: 850,
+        isDay: true
+      };
+      providerName = 'Simulasi Musim Panas (Summer Heatwave)';
+    } else if (activeSim === 'monsoon') {
+      weatherResult = {
+        temp: 18,
+        feelsLike: 15,
+        uvIndex: 3.2,
+        windSpeedMs: 15.4,
+        windGustsMs: 22.5,
+        windDirectionDeg: 45,
+        solarDni: 320,
+        isDay: true
+      };
+      providerName = 'Simulasi Badai Monsun (Northeast Monsoon)';
+    } else if (activeSim === 'spring') {
+      weatherResult = {
+        temp: 24,
+        feelsLike: 25,
+        uvIndex: 5.5,
+        windSpeedMs: 6.0,
+        windGustsMs: 8.5,
+        windDirectionDeg: 90,
+        solarDni: 550,
+        isDay: true
+      };
+      providerName = 'Simulasi Musim Semi (Spring Cruiser)';
+    }
+  }
+
+  // 1. Coba panggil Taiwan CWA API jika Key tersimpan di browser pengguna (jika tidak dalam mode simulasi)
+  if (!weatherResult && cwaKey && cwaKey.trim().length > 0) {
+    try {
+      const cwaUrl = `https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-D0047-091?Authorization=${encodeURIComponent(cwaKey.trim())}&locationName=%E6%BE%8E%E6%B9%96%E7%B8%A3`;
+      const cwaRes = await fetch(cwaUrl, { headers: { 'Accept': 'application/json' } });
+      if (cwaRes.ok) {
+        const cwaData = await cwaRes.json();
+        const locationObj = cwaData.records?.locations?.[0]?.location?.[0];
+        if (locationObj && locationObj.weatherElement) {
+          const elements = locationObj.weatherElement;
+          const getElemVal = (code) => {
+            const el = elements.find(e => e.elementName === code);
+            return el?.time?.[0]?.elementValue?.[0]?.value;
+          };
+
+          const rawT = parseFloat(getElemVal('T') || getElemVal('Temperature'));
+          const rawAT = parseFloat(getElemVal('AT') || getElemVal('ApparentTemperature'));
+          const rawWS = parseFloat(getElemVal('WS') || getElemVal('WindSpeed'));
+          const rawWD = getElemVal('WD') || getElemVal('WindDirection');
+          const rawUVI = parseFloat(getElemVal('UVI') || 0);
+
+          let windDeg = 45; // Default NE
+          if (rawWD) {
+            if (!isNaN(parseFloat(rawWD))) {
+              windDeg = parseFloat(rawWD);
+            } else if (rawWD.includes('東') && rawWD.includes('北')) windDeg = 45;
+            else if (rawWD.includes('北')) windDeg = 0;
+            else if (rawWD.includes('東')) windDeg = 90;
+            else if (rawWD.includes('南')) windDeg = 180;
+            else if (rawWD.includes('西')) windDeg = 270;
+          }
+
+          if (!isNaN(rawT)) {
+            weatherResult = {
+              temp: Math.round(rawT),
+              feelsLike: !isNaN(rawAT) ? Math.round(rawAT) : Math.round(rawT),
+              uvIndex: !isNaN(rawUVI) ? Number(rawUVI.toFixed(1)) : 4.0,
+              windSpeedMs: !isNaN(rawWS) ? Number(rawWS.toFixed(1)) : 7.5,
+              windGustsMs: !isNaN(rawWS) ? Number((rawWS * 1.35).toFixed(1)) : 10.0,
+              windDirectionDeg: windDeg,
+              isDay: true,
+              solarDni: 550
+            };
+            isCwaOfficial = true;
+            providerName = 'Taiwan CWA Official';
+          }
+        }
       }
+    } catch (cwaErr) {
+      console.info('CWA API network/CORS issue, falling back seamlessly to Open-Meteo:', cwaErr);
+    }
+  }
+
+  // 2. Fallback / Zero-Cost Baseline: Open-Meteo API
+  if (!weatherResult) {
+    try {
+      const openMeteoUrl = 'https://api.open-meteo.com/v1/forecast?latitude=23.57&longitude=119.57&current=temperature_2m,relative_humidity_2m,apparent_temperature,is_day,precipitation,wind_speed_10m,wind_direction_10m,wind_gusts_10m&hourly=uv_index,direct_normal_irradiance&daily=uv_index_max&timezone=Asia%2FTaipei&wind_speed_unit=ms';
+      const omRes = await fetch(openMeteoUrl);
+      const omData = await omRes.json();
+
+      const currentTemp = Math.round(omData.current.temperature_2m);
+      const feelsLike = Math.round(omData.current.apparent_temperature);
+      const isDay = omData.current?.is_day === 1;
+
+      // Resolusi indeks jam lokal Taipei
+      const nowTaipei = new Date().toLocaleString("en-US", { timeZone: "Asia/Taipei" });
+      const currentHourTaipei = new Date(nowTaipei).getHours();
+
+      let hourIdx = currentHourTaipei;
+      if (omData.hourly && omData.hourly.time) {
+        const todayIsoPrefix = new Date(nowTaipei).toISOString().slice(0, 10);
+        const matchIdx = omData.hourly.time.findIndex(t => t.startsWith(todayIsoPrefix) && parseInt(t.slice(11, 13)) === currentHourTaipei);
+        if (matchIdx !== -1) hourIdx = matchIdx;
+      }
+
+      const rawUv = omData.hourly?.uv_index?.[hourIdx];
+      const uvIndex = (typeof rawUv === 'number') ? Number(rawUv.toFixed(1)) : (isDay ? 7.5 : 0.0);
+
+      const rawDni = omData.hourly?.direct_normal_irradiance?.[hourIdx];
+      const solarDni = (typeof rawDni === 'number') ? Math.round(rawDni) : (isDay ? 650 : 0);
+
+      const windSpeedMs = typeof omData.current?.wind_speed_10m === 'number' ? omData.current.wind_speed_10m : 6.5;
+      const windDirectionDeg = typeof omData.current?.wind_direction_10m === 'number' ? omData.current.wind_direction_10m : 45;
+      const windGustsMs = typeof omData.current?.wind_gusts_10m === 'number' ? omData.current.wind_gusts_10m : (windSpeedMs * 1.3);
+
+      weatherResult = {
+        temp: currentTemp,
+        feelsLike,
+        uvIndex,
+        windSpeedMs: Number(windSpeedMs.toFixed(1)),
+        windGustsMs: Number(windGustsMs.toFixed(1)),
+        windDirectionDeg: Math.round(windDirectionDeg),
+        solarDni,
+        isDay
+      };
+      providerName = 'Open-Meteo (Zero-Cost)';
+      isCwaOfficial = false;
+    } catch (omErr) {
+      console.warn('Weather fallback used:', omErr);
+      weatherResult = {
+        temp: 26,
+        feelsLike: 27,
+        uvIndex: 4.5,
+        windSpeedMs: 8.5,
+        windGustsMs: 11.5,
+        windDirectionDeg: 45,
+        solarDni: 500,
+        isDay: true
+      };
+      providerName = 'Offline Fallback';
+      isCwaOfficial = false;
+    }
+  }
+
+  // 3. Evaluasi Model Fisika & Regulasi
+  const beaufort = getBeaufortScale(weatherResult.windSpeedMs);
+  const compass = getWindDirectionCompass(weatherResult.windDirectionDeg);
+  const seasonState = detectCurrentSeason();
+  const bridgeSafety = evaluateBridgeCrosswindSafety(weatherResult.windSpeedMs, weatherResult.windDirectionDeg, weatherResult.windGustsMs);
+  const ferrySafety = evaluateFerryMarineSafety(weatherResult.windSpeedMs);
+
+  const approxWbgt = Math.round((weatherResult.feelsLike * 0.75) + (weatherResult.uvIndex * 0.3));
+
+  let heatLevelKey = 'heat_low';
+  let badgeClass = 'bg-emerald-500/20 text-emerald-600 dark:text-emerald-300 border-emerald-500/30';
+
+  if (!weatherResult.isDay) {
+    if (weatherResult.feelsLike < 30) {
+      heatLevelKey = 'heat_night_cool';
+      badgeClass = 'bg-cyan-500/20 text-cyan-600 dark:text-cyan-300 border-cyan-500/30';
     } else {
-      // Daytime Heat Strain Logic
-      if (feelsLike >= 38 || uvIndex >= 11) {
-        heatLevelKey = 'heat_extreme';
-        badgeClass = 'bg-red-500/20 text-red-600 dark:text-red-300 border-red-500/40 animate-pulse';
-      } else if (feelsLike >= 34 || uvIndex >= 8) {
-        heatLevelKey = 'heat_high';
-        badgeClass = 'bg-red-500/20 text-red-600 dark:text-red-300 border-red-500/40';
-      } else if (feelsLike >= 30 || uvIndex >= 6) {
-        heatLevelKey = 'heat_moderate';
-        badgeClass = 'bg-amber-500/20 text-amber-600 dark:text-amber-300 border-amber-500/30';
-      }
+      heatLevelKey = 'heat_moderate';
+      badgeClass = 'bg-amber-500/20 text-amber-600 dark:text-amber-300 border-amber-500/30';
     }
+  } else {
+    if (weatherResult.feelsLike >= 38 || weatherResult.uvIndex >= 11) {
+      heatLevelKey = 'heat_extreme';
+      badgeClass = 'bg-red-500/20 text-red-600 dark:text-red-300 border-red-500/40 animate-pulse';
+    } else if (weatherResult.feelsLike >= 34 || weatherResult.uvIndex >= 8) {
+      heatLevelKey = 'heat_high';
+      badgeClass = 'bg-red-500/20 text-red-600 dark:text-red-300 border-red-500/40';
+    } else if (weatherResult.feelsLike >= 30 || weatherResult.uvIndex >= 6) {
+      heatLevelKey = 'heat_moderate';
+      badgeClass = 'bg-amber-500/20 text-amber-600 dark:text-amber-300 border-amber-500/30';
+    }
+  }
 
-    currentWeatherData = { temp: currentTemp, feelsLike, uvIndex, wbgt: approxWbgt, solarDni, heatLevelKey, isDay };
+  // 4. Update window.climateSystemState Data Contract
+  window.climateSystemState = {
+    season: seasonState,
+    weather: {
+      tempC: weatherResult.temp,
+      feelsLikeC: weatherResult.feelsLike,
+      uvIndex: weatherResult.uvIndex,
+      windSpeedMs: weatherResult.windSpeedMs,
+      windSpeedKmh: Number((weatherResult.windSpeedMs * 3.6).toFixed(1)),
+      windGustsKmh: Number((weatherResult.windGustsMs * 3.6).toFixed(1)),
+      windDirectionDeg: weatherResult.windDirectionDeg,
+      windDirectionText: compass.text,
+      beaufortScale: beaufort,
+      provider: providerName,
+      isCwaOfficial: isCwaOfficial
+    },
+    bridgeSafety,
+    ferrySafety
+  };
 
-    document.getElementById('temp-display').textContent = `${currentTemp}°C (${t('feels_like')} ${feelsLike}°C)`;
-    document.getElementById('uv-display').textContent = isDay ? `UV: ${uvIndex} ☀️` : `UV: ${uvIndex} 🌙`;
-    
-    const badgeEl = document.getElementById('heat-badge');
+  // 5. Update Legacy Backwards-Compatible currentWeatherData
+  currentWeatherData = {
+    temp: weatherResult.temp,
+    feelsLike: weatherResult.feelsLike,
+    uvIndex: weatherResult.uvIndex,
+    wbgt: approxWbgt,
+    solarDni: weatherResult.solarDni,
+    windSpeedMs: weatherResult.windSpeedMs,
+    windGustsMs: weatherResult.windGustsMs,
+    windDirectionDeg: weatherResult.windDirectionDeg,
+    beaufort,
+    heatLevelKey,
+    isDay: weatherResult.isDay,
+    provider: providerName,
+    isCwaOfficial
+  };
+
+  // 6. Update UI Elements
+  const tempEl = document.getElementById('temp-display');
+  if (tempEl) tempEl.textContent = `${weatherResult.temp}°C (${t('feels_like')} ${weatherResult.feelsLike}°C)`;
+
+  const uvEl = document.getElementById('uv-display');
+  if (uvEl) uvEl.textContent = weatherResult.isDay ? `UV: ${weatherResult.uvIndex} ☀️` : `UV: ${weatherResult.uvIndex} 🌙`;
+
+  const badgeEl = document.getElementById('heat-badge');
+  if (badgeEl) {
     badgeEl.textContent = t(heatLevelKey);
     badgeEl.className = `text-[9px] uppercase font-extrabold px-2 py-0.5 rounded-full border ${badgeClass}`;
+  }
 
-    // Live update active heatmap layer if enabled
-    if (activeHeatmapMode !== 'normal') {
-      setHeatmapMode(activeHeatmapMode);
-    }
-    if (isTempGridEnabled) {
-      renderTempGridPolygons();
-    }
+  // Update Great Bridge Crosswind, Ferry Marine Safety & Season Badge UI (v2.5)
+  updateBridgeSafetyUI(bridgeSafety, ferrySafety, seasonState);
 
-  } catch (err) {
-    console.warn('Weather fallback used:', err);
-    document.getElementById('temp-display').textContent = '28°C (Terasa 30°C)';
-    document.getElementById('uv-display').textContent = 'UV: 0.0 🌙';
+  // Live update active heatmap layer if enabled
+  if (activeHeatmapMode !== 'normal') {
+    setHeatmapMode(activeHeatmapMode);
+  }
+  if (isTempGridEnabled) {
+    renderGridCellsPolygons();
+  }
+
+  // Broadcast State Updated Event (Browser Environment Safe)
+  if (typeof window !== 'undefined' && typeof window.dispatchEvent === 'function' && typeof CustomEvent !== 'undefined') {
+    window.dispatchEvent(new CustomEvent('climateStateUpdated', { detail: window.climateSystemState }));
+  }
+  return window.climateSystemState;
+}
+
+/**
+ * Backward-compatible Wrapper: fetchLiveWeather calls syncWeatherAndSeason
+ */
+async function fetchLiveWeather() {
+  return await syncWeatherAndSeason();
+}
+
+// Window Object Exposure for Cross-Domain Integration & Testing
+window.detectCurrentSeason = detectCurrentSeason;
+window.evaluateBridgeCrosswindSafety = evaluateBridgeCrosswindSafety;
+window.evaluateFerryMarineSafety = evaluateFerryMarineSafety;
+window.syncWeatherAndSeason = syncWeatherAndSeason;
+window.getBeaufortScale = getBeaufortScale;
+window.getWindDirectionCompass = getWindDirectionCompass;
+
+// ====================================================================
+// V2.5 CLIMATE-ADAPTIVE FRONT-END CONTROLLERS & SAFETY UI MANAGERS
+// ====================================================================
+
+let currentSeasonSimulatorMode = 'auto';
+
+/**
+ * Update Great Bridge Crosswind Radar, Ferry Safety & Dynamic Season Badge UI
+ */
+function updateBridgeSafetyUI(bridgeSafety, ferrySafety, seasonState) {
+  if (!bridgeSafety || !ferrySafety || !seasonState) return;
+
+  // 1. Season badge in navbar
+  const seasonBadgeIcon = document.getElementById('season-badge-icon');
+  const seasonBadgeText = document.getElementById('season-badge-text');
+  if (seasonBadgeIcon && seasonBadgeText) {
+    const icon = seasonState.key === 'summer' ? '☀️' : (seasonState.key === 'monsoon' ? '💨' : '🌸');
+    seasonBadgeIcon.textContent = icon;
+    const key = seasonState.labelI18nKey || `season_badge_${seasonState.key}`;
+    seasonBadgeText.textContent = t(key) || (seasonState.key === 'summer' ? 'Musim Panas' : (seasonState.key === 'monsoon' ? 'Monsun Timur Laut' : 'Musim Semi'));
+  }
+
+  // 2. Bridge Crosswind Card
+  const indicator = document.getElementById('bridge-status-indicator');
+  const levelBadge = document.getElementById('bridge-level-badge');
+  const speedText = document.getElementById('bridge-wind-speed-text');
+  const gaugeBar = document.getElementById('bridge-wind-gauge-bar');
+  const speedLimit = document.getElementById('bridge-speed-limit-text');
+  const noticeText = document.getElementById('bridge-notice-text');
+
+  if (speedText) {
+    speedText.textContent = `${bridgeSafety.crosswindSpeedKmh} km/j (${(bridgeSafety.crosswindSpeedKmh / 3.6).toFixed(1)} m/s)`;
+  }
+
+  if (gaugeBar) {
+    gaugeBar.style.width = `${bridgeSafety.meterPercent}%`;
+    gaugeBar.className = `crosswind-gauge-bar crosswind-${bridgeSafety.level}`;
+  }
+
+  if (indicator && levelBadge) {
+    if (bridgeSafety.level === 'danger') {
+      indicator.className = 'w-2.5 h-2.5 rounded-full bg-red-500 animate-ping';
+      levelBadge.className = 'text-[10px] uppercase font-extrabold px-2 py-0.5 rounded-full bg-red-500 text-white animate-pulse';
+      levelBadge.textContent = t('bridge_crosswind_danger');
+      if (speedLimit) speedLimit.textContent = t('bridge_speed_danger');
+      if (noticeText) noticeText.textContent = t('bridge_crosswind_danger_desc');
+    } else if (bridgeSafety.level === 'caution') {
+      indicator.className = 'w-2.5 h-2.5 rounded-full bg-amber-500';
+      levelBadge.className = 'text-[10px] uppercase font-extrabold px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-500 border border-amber-500/40';
+      levelBadge.textContent = t('bridge_crosswind_warning');
+      if (speedLimit) speedLimit.textContent = t('bridge_speed_caution');
+      if (noticeText) noticeText.textContent = t('bridge_crosswind_warning_desc');
+    } else {
+      indicator.className = 'w-2.5 h-2.5 rounded-full bg-emerald-500';
+      levelBadge.className = 'text-[10px] uppercase font-extrabold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-500 border border-emerald-500/30';
+      levelBadge.textContent = t('bridge_crosswind_safe');
+      if (speedLimit) speedLimit.textContent = t('bridge_speed_normal');
+      if (noticeText) noticeText.textContent = t('bridge_crosswind_safe_desc');
+    }
+  }
+
+  // 3. Ferry Safety Card
+  const ferryBadge = document.getElementById('ferry-safety-badge');
+  const ferryDesc = document.getElementById('ferry-safety-desc');
+  if (ferryBadge && ferryDesc) {
+    if (ferrySafety.level === 'suspended') {
+      ferryBadge.className = 'text-[10px] uppercase font-extrabold px-2 py-0.5 rounded-full bg-red-500 text-white animate-pulse';
+      ferryBadge.textContent = t('ferry_status_suspended');
+      ferryDesc.textContent = t('ferry_status_suspended_desc');
+    } else if (ferrySafety.level === 'warning') {
+      ferryBadge.className = 'text-[10px] uppercase font-extrabold px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-500 border border-amber-500/40';
+      ferryBadge.textContent = t('ferry_status_warning');
+      ferryDesc.textContent = t('ferry_status_warning_desc');
+    } else {
+      ferryBadge.className = 'text-[10px] uppercase font-extrabold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-500 border border-emerald-500/30';
+      ferryBadge.textContent = t('ferry_status_normal');
+      ferryDesc.textContent = t('ferry_status_normal_desc');
+    }
   }
 }
+
+/**
+ * Seasonal Mode Simulator Dropdown Handler
+ */
+async function changeSeasonSimulatorMode(mode) {
+  currentSeasonSimulatorMode = mode;
+  
+  if (mode === 'auto') {
+    await syncWeatherAndSeason();
+    return;
+  }
+
+  let simSeasonState = { key: mode, labelI18nKey: `season_${mode}`, isAutoDetected: false, localTaipeiDate: new Date().toISOString().slice(0, 10), activeThemeKey: 'tropical' };
+  let simWeather = { temp: 35.5, feelsLike: 40, uvIndex: 11.2, windSpeedMs: 3.5, windGustsMs: 5.0, windDirectionDeg: 180, isDay: true, solarDni: 900 };
+
+  if (mode === 'summer') {
+    simSeasonState.activeThemeKey = 'tropical';
+    simWeather = { temp: 35.5, feelsLike: 40.5, uvIndex: 11.2, windSpeedMs: 3.8, windGustsMs: 5.5, windDirectionDeg: 180, isDay: true, solarDni: 920 };
+    setTheme('tropical');
+  } else if (mode === 'monsoon') {
+    simSeasonState.activeThemeKey = 'monsoon';
+    simWeather = { temp: 19.5, feelsLike: 16.0, uvIndex: 3.5, windSpeedMs: 15.5, windGustsMs: 20.5, windDirectionDeg: 45, isDay: true, solarDni: 350 };
+    setTheme('monsoon');
+  } else if (mode === 'spring') {
+    simSeasonState.activeThemeKey = 'nature';
+    simWeather = { temp: 24.0, feelsLike: 24.5, uvIndex: 6.0, windSpeedMs: 6.5, windGustsMs: 9.0, windDirectionDeg: 90, isDay: true, solarDni: 650 };
+    setTheme('nature');
+  }
+
+  const beaufort = getBeaufortScale(simWeather.windSpeedMs);
+  const compass = getWindDirectionCompass(simWeather.windDirectionDeg);
+  const bridgeSafety = evaluateBridgeCrosswindSafety(simWeather.windSpeedMs, simWeather.windDirectionDeg, simWeather.windGustsMs);
+  const ferrySafety = evaluateFerryMarineSafety(simWeather.windSpeedMs);
+
+  let heatLevelKey = 'heat_low';
+  let badgeClass = 'bg-emerald-500/20 text-emerald-600 dark:text-emerald-300 border-emerald-500/30';
+  if (simWeather.feelsLike >= 38 || simWeather.uvIndex >= 11) {
+    heatLevelKey = 'heat_extreme';
+    badgeClass = 'bg-red-500/20 text-red-600 dark:text-red-300 border-red-500/40 animate-pulse';
+  } else if (simWeather.feelsLike >= 34) {
+    heatLevelKey = 'heat_high';
+    badgeClass = 'bg-red-500/20 text-red-600 dark:text-red-300 border-red-500/40';
+  }
+
+  window.climateSystemState = {
+    season: simSeasonState,
+    weather: {
+      tempC: simWeather.temp,
+      feelsLikeC: simWeather.feelsLike,
+      uvIndex: simWeather.uvIndex,
+      windSpeedMs: simWeather.windSpeedMs,
+      windSpeedKmh: Number((simWeather.windSpeedMs * 3.6).toFixed(1)),
+      windGustsKmh: Number((simWeather.windGustsMs * 3.6).toFixed(1)),
+      windDirectionDeg: simWeather.windDirectionDeg,
+      windDirectionText: compass.text,
+      beaufortScale: beaufort,
+      provider: 'Simulation Mode',
+      isCwaOfficial: false
+    },
+    bridgeSafety,
+    ferrySafety
+  };
+
+  currentWeatherData = {
+    temp: simWeather.temp,
+    feelsLike: simWeather.feelsLike,
+    uvIndex: simWeather.uvIndex,
+    wbgt: Math.round((simWeather.feelsLike * 0.75) + (simWeather.uvIndex * 0.3)),
+    solarDni: simWeather.solarDni,
+    windSpeedMs: simWeather.windSpeedMs,
+    windGustsMs: simWeather.windGustsMs,
+    windDirectionDeg: simWeather.windDirectionDeg,
+    beaufort,
+    heatLevelKey,
+    isDay: true,
+    provider: 'Simulation Mode',
+    isCwaOfficial: false
+  };
+
+  const tempEl = document.getElementById('temp-display');
+  if (tempEl) tempEl.textContent = `${simWeather.temp}°C (${t('feels_like')} ${simWeather.feelsLike}°C)`;
+  const uvEl = document.getElementById('uv-display');
+  if (uvEl) uvEl.textContent = `UV: ${simWeather.uvIndex} ☀️`;
+  const badgeEl = document.getElementById('heat-badge');
+  if (badgeEl) {
+    badgeEl.textContent = t(heatLevelKey);
+    badgeEl.className = `text-[9px] uppercase font-extrabold px-2 py-0.5 rounded-full border ${badgeClass}`;
+  }
+
+  updateBridgeSafetyUI(bridgeSafety, ferrySafety, simSeasonState);
+  window.dispatchEvent(new CustomEvent('climateStateUpdated', { detail: window.climateSystemState }));
+}
+
+/**
+ * Taiwan CWA API Modal Controls
+ */
+function openCwaModal() {
+  const modal = document.getElementById('cwa-api-modal');
+  if (modal) {
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+    const input = document.getElementById('input-cwa-api-key');
+    if (input) input.value = localStorage.getItem('penghu_cwa_api_key') || '';
+    updateCwaStatusUI();
+  }
+}
+
+function closeCwaModal() {
+  const modal = document.getElementById('cwa-api-modal');
+  if (modal) {
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+  }
+}
+
+function updateCwaStatusUI() {
+  const key = localStorage.getItem('penghu_cwa_api_key');
+  const dot = document.getElementById('cwa-status-dot');
+  const text = document.getElementById('cwa-status-text');
+  if (dot && text) {
+    if (key && key.trim().length > 0) {
+      dot.className = 'w-2 h-2 rounded-full bg-emerald-500 animate-pulse';
+      text.textContent = t('cwa_status_active');
+    } else {
+      dot.className = 'w-2 h-2 rounded-full bg-slate-400';
+      text.textContent = t('cwa_status_fallback');
+    }
+  }
+}
+
+async function saveCwaApiKey() {
+  const input = document.getElementById('input-cwa-api-key');
+  if (input) {
+    const key = input.value.trim();
+    if (key.length > 0) {
+      localStorage.setItem('penghu_cwa_api_key', key);
+    } else {
+      localStorage.removeItem('penghu_cwa_api_key');
+    }
+    updateCwaStatusUI();
+    closeCwaModal();
+    await syncWeatherAndSeason();
+  }
+}
+
+async function clearCwaApiKey() {
+  localStorage.removeItem('penghu_cwa_api_key');
+  const input = document.getElementById('input-cwa-api-key');
+  if (input) input.value = '';
+  updateCwaStatusUI();
+  closeCwaModal();
+  await syncWeatherAndSeason();
+}
+
+window.openCwaModal = openCwaModal;
+window.closeCwaModal = closeCwaModal;
+window.saveCwaApiKey = saveCwaApiKey;
+window.clearCwaApiKey = clearCwaApiKey;
+window.changeSeasonSimulatorMode = changeSeasonSimulatorMode;
+window.updateBridgeSafetyUI = updateBridgeSafetyUI;
+
 
 // ====================================================================
 // CONTINUOUS 2D IDW METEOROLOGICAL FIELD ENGINE & EXPERIMENTAL GRID MESH
@@ -1964,6 +2646,15 @@ function renderSafeTimeline(startTitle, destTitle, shelters, routeData, schemeMe
         <p class="text-[11px] opacity-75 leading-relaxed">
           ${t('step_final_desc') || 'Menempuh etape terakhir sejauh'} <b>~${finalLegDistance} km</b> (${finalLegMinutes} ${t('step_mins_riding') || 'menit'}) ${t('step_to_dest') || 'menuju destinasi'}.
         </p>
+        ${(window.climateSystemState?.bridgeSafety && window.climateSystemState.bridgeSafety.level !== 'safe') ? `
+          <div class="mt-1.5 p-2 rounded-xl border text-[11px] leading-snug flex items-start gap-2 ${window.climateSystemState.bridgeSafety.badgeClass}">
+            <span class="text-sm shrink-0">${window.climateSystemState.bridgeSafety.level === 'danger' ? '🚨' : '⚠️'}</span>
+            <div>
+              <p class="font-extrabold">${t(window.climateSystemState.bridgeSafety.hazardNoticeKey)}</p>
+              <p class="text-[10px] opacity-85 mt-0.5">Kecepatan Angin: ${window.climateSystemState.bridgeSafety.effectiveWindKmh} km/j (Angin Samping: ${window.climateSystemState.bridgeSafety.crosswindSpeedKmh} km/j) • Batas MOTC: ${window.climateSystemState.bridgeSafety.maxSpeedLimitKmh} km/j</p>
+            </div>
+          </div>
+        ` : ''}
       </div>
     </div>
 
@@ -2521,3 +3212,94 @@ function clearGoogleApiKey() {
   updateRouterProviderUI();
   calculateSmartRoute();
 }
+
+// ====================================================================
+// V2.5.0 CWA WEATHER API MODAL & SEASON SIMULATOR CONTROLS
+// ====================================================================
+
+function openCwaModal() {
+  const modal = document.getElementById('cwa-api-modal');
+  const input = document.getElementById('input-cwa-api-key');
+  const statusText = document.getElementById('cwa-status-text');
+  const statusDot = document.getElementById('cwa-status-dot');
+  const savedKey = localStorage.getItem('penghu_cwa_api_key') || '';
+
+  if (modal) {
+    if (input) input.value = savedKey;
+    if (statusText && statusDot) {
+      if (savedKey) {
+        statusDot.className = 'w-2 h-2 rounded-full bg-sky-500 animate-pulse';
+        statusText.textContent = 'Token CWA Tersimpan: Menghubungkan ke CWA Official';
+      } else {
+        statusDot.className = 'w-2 h-2 rounded-full bg-emerald-500';
+        statusText.textContent = 'Menggunakan Open-Meteo Live Feed (Zero-Cost Baseline)';
+      }
+    }
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+    if (window.lucide) lucide.createIcons();
+  }
+}
+
+function closeCwaModal() {
+  const modal = document.getElementById('cwa-api-modal');
+  if (modal) {
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+  }
+}
+
+async function saveCwaApiKey() {
+  const input = document.getElementById('input-cwa-api-key');
+  if (!input) return;
+  const key = input.value.trim();
+  if (key) {
+    localStorage.setItem('penghu_cwa_api_key', key);
+    alert('Kunci CWA API berhasil disimpan! Memperbarui data cuaca resmi Taiwan...');
+  } else {
+    localStorage.removeItem('penghu_cwa_api_key');
+  }
+  closeCwaModal();
+  await syncWeatherAndSeason();
+}
+
+async function clearCwaApiKey() {
+  localStorage.removeItem('penghu_cwa_api_key');
+  const input = document.getElementById('input-cwa-api-key');
+  if (input) input.value = '';
+  alert('Kunci CWA API dihapus. Menggunakan Open-Meteo Zero-Cost Baseline.');
+  closeCwaModal();
+  await syncWeatherAndSeason();
+}
+
+function changeSeasonSimulatorMode(mode) {
+  localStorage.setItem('penghu_season_simulation', mode);
+
+  // Auto-switch Theme to match season
+  if (mode === 'summer') {
+    setTheme('tropical');
+  } else if (mode === 'monsoon') {
+    setTheme('monsoon');
+  } else if (mode === 'spring') {
+    setTheme('nature');
+  } else {
+    // Auto-detect based on current calendar month
+    const detected = detectCurrentSeason(null, 'auto');
+    setTheme(detected.activeThemeKey || 'tropical');
+  }
+
+  // Sync Weather & Climate Models
+  syncWeatherAndSeason();
+
+  // Recalculate route if active
+  if (typeof currentRouteCache !== 'undefined' && currentRouteCache) {
+    calculateOptimalRoute();
+  }
+}
+
+// Window object exposure for inline HTML event handlers
+window.openCwaModal = openCwaModal;
+window.closeCwaModal = closeCwaModal;
+window.saveCwaApiKey = saveCwaApiKey;
+window.clearCwaApiKey = clearCwaApiKey;
+window.changeSeasonSimulatorMode = changeSeasonSimulatorMode;

@@ -71,6 +71,9 @@
         <a href="#climate-radar" class="opacity-80 hover:opacity-100 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors" data-i18n="nav_climate_radar">
           Radar Iklim
         </a>
+        <a href="#two-seasons" class="opacity-80 hover:opacity-100 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors" data-i18n="nav_two_seasons">
+          Dua Musim
+        </a>
         <a href="#how-it-works" class="opacity-80 hover:opacity-100 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors" data-i18n="nav_how_it_works">
           Cara Kerja
         </a>
@@ -97,6 +100,7 @@
         <!-- Theme Selector (Visible on md: and up, in mobile drawer on small screens) -->
         <select id="theme-selector" onchange="changeTheme(this.value)" class="hidden md:inline-block glass-card-inner border rounded-xl px-2.5 py-1.5 text-xs font-bold focus:outline-none cursor-pointer">
           <option value="tropical" data-i18n="theme_tropical">🏝️ Tropis Pantai</option>
+          <option value="monsoon" data-i18n="theme_monsoon">🌊 Badai Monsun</option>
           <option value="nature" data-i18n="theme_nature">🏜️ Petualangan Alam</option>
           <option value="ocean" data-i18n="theme_ocean">🌌 Ocean Dark</option>
         </select>
@@ -134,6 +138,7 @@
         </div>
         <select id="theme-selector-mobile" onchange="changeTheme(this.value)" class="w-full glass-card border rounded-xl px-3 py-2 text-xs font-bold focus:outline-none cursor-pointer">
           <option value="tropical" data-i18n="theme_tropical">🏝️ Tropis Pantai</option>
+          <option value="monsoon" data-i18n="theme_monsoon">🌊 Badai Monsun</option>
           <option value="nature" data-i18n="theme_nature">🏜️ Petualangan Alam</option>
           <option value="ocean" data-i18n="theme_ocean">🌌 Ocean Dark</option>
         </select>
@@ -148,6 +153,10 @@
         <a href="#climate-radar" onclick="toggleMobileMenu()" class="block py-2.5 px-3 rounded-xl hover:bg-black/5 dark:hover:bg-white/5 flex items-center gap-2 font-bold text-xs sm:text-sm">
           <i data-lucide="activity" class="w-4 h-4 text-primary-var"></i>
           <span data-i18n="nav_climate_radar">Radar Iklim</span>
+        </a>
+        <a href="#two-seasons" onclick="toggleMobileMenu()" class="block py-2.5 px-3 rounded-xl hover:bg-black/5 dark:hover:bg-white/5 flex items-center gap-2 font-bold text-xs sm:text-sm">
+          <i data-lucide="wind" class="w-4 h-4 text-primary-var"></i>
+          <span data-i18n="nav_two_seasons">Dua Musim</span>
         </a>
         <a href="#how-it-works" onclick="toggleMobileMenu()" class="block py-2.5 px-3 rounded-xl hover:bg-black/5 dark:hover:bg-white/5 flex items-center gap-2 font-bold text-xs sm:text-sm">
           <i data-lucide="git-merge" class="w-4 h-4 text-primary-var"></i>
@@ -511,6 +520,164 @@
     </div>
   </section>
 
+
+
+  <!-- ====================================================================
+       3B. KEPULAUAN DUA WAJAH: DUA REZIM IKLIM & REGULASI ANGIN MOTC (v2.5)
+       ==================================================================== -->
+  <section id="two-seasons" class="w-full py-[6vh] md:py-[8vh] border-b glass-navbar relative overflow-hidden">
+    <div class="w-[94%] sm:w-[92%] md:w-[90%] lg:w-[88%] xl:w-[86%] 2xl:w-[82%] mx-auto">
+      
+      <!-- Section Header -->
+      <div class="text-center w-[96%] sm:w-[88%] md:w-[78%] lg:w-[68%] mx-auto mb-[5vh]">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full gradient-badge text-xs font-extrabold mb-3">
+          <i data-lucide="sun-snow" class="w-3.5 h-3.5 text-primary-var"></i>
+          <span data-i18n="two_faces_badge">DINAMIKA IKLIM PENGHU SEPANJANG TAHUN</span>
+        </div>
+        <h2 class="text-2xl sm:text-3xl md:text-4xl 2xl:text-5xl font-extrabold tracking-tight mb-3" data-i18n="two_faces_title">
+          Kepulauan Dua Wajah: Puncak Terik Panas vs Badai Monsun Timur Laut
+        </h2>
+        <p class="text-sm sm:text-base 2xl:text-lg opacity-75 leading-relaxed" data-i18n="two_faces_sub">
+          Pariwisata di Penghu memiliki kontras ekstrem antara musim panas tanpa peneduh dan musim dingin yang diterpa badai monsun. Cool-Ride v2.5 hadir sebagai navigator adaptif sepanjang tahun.
+        </p>
+      </div>
+
+      <!-- 3 Seasonal Contrast Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+        
+        <!-- Card 1: Summer Heatwave -->
+        <div class="glass-card rounded-3xl p-6 sm:p-7 border hover:border-amber-500/50 transition-all flex flex-col justify-between group">
+          <div class="space-y-4">
+            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-amber-400 to-red-500 text-white flex items-center justify-center font-bold text-xl shadow-md group-hover:scale-105 transition-transform">
+              ☀️
+            </div>
+            <div>
+              <span class="text-[11px] font-extrabold uppercase tracking-wider text-amber-500">MEI – SEPTEMBER</span>
+              <h3 class="text-base sm:text-lg font-extrabold mt-1" data-i18n="summer_card_title">
+                Musim Panas (Mei – September / 酷夏防暑)
+              </h3>
+            </div>
+            <p class="text-xs sm:text-sm opacity-80 leading-relaxed" data-i18n="summer_card_desc">
+              Suhu >35°C, UV ekstrem 10–12. Tantangan utama: sengatan panas (heatstroke) & dehidrasi pada rute motor terbuka. Solusi: Injeksi jeda AC di 50+ minimarket 7-11/FamilyMart & es kaktus.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-card flex items-center justify-between text-xs font-mono font-bold">
+            <span class="text-amber-500">UV 10–12 • Heatstroke Risk</span>
+            <span class="opacity-60">ISO 7243 Model</span>
+          </div>
+        </div>
+
+        <!-- Card 2: Northeast Monsoon -->
+        <div class="glass-card rounded-3xl p-6 sm:p-7 border border-sky-500/40 glow-primary transition-all flex flex-col justify-between group bg-sky-500/5">
+          <div class="space-y-4">
+            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-sky-400 to-blue-600 text-white flex items-center justify-center font-bold text-xl shadow-md group-hover:scale-105 transition-transform">
+              💨
+            </div>
+            <div>
+              <span class="text-[11px] font-extrabold uppercase tracking-wider text-sky-400">OKTOBER – MARET</span>
+              <h3 class="text-base sm:text-lg font-extrabold mt-1 text-sky-400" data-i18n="monsoon_card_title">
+                Musim Monsun (Oktober – Maret / 東北季風)
+              </h3>
+            </div>
+            <p class="text-xs sm:text-sm opacity-80 leading-relaxed" data-i18n="monsoon_card_desc">
+              Angin kencang 40–70 km/jam (Beaufort 7–10). Tantangan utama: hembusan angin samping (crosswind) berbahaya di Jembatan Lintas Laut Penghu & risiko penangguhan feri laut. Solusi: Radar kepatuhan kecepatan MOTC & monitor cuaca maritim.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-card flex items-center justify-between text-xs font-mono font-bold">
+            <span class="text-sky-400">Angin 40–70 km/j • Beaufort 7–10</span>
+            <span class="opacity-60">MOTC Standard</span>
+          </div>
+        </div>
+
+        <!-- Card 3: Spring Cruiser -->
+        <div class="glass-card rounded-3xl p-6 sm:p-7 border hover:border-emerald-500/50 transition-all flex flex-col justify-between group">
+          <div class="space-y-4">
+            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-emerald-400 to-teal-600 text-white flex items-center justify-center font-bold text-xl shadow-md group-hover:scale-105 transition-transform">
+              🌸
+            </div>
+            <div>
+              <span class="text-[11px] font-extrabold uppercase tracking-wider text-emerald-500">APRIL & OKTOBER</span>
+              <h3 class="text-base sm:text-lg font-extrabold mt-1" data-i18n="spring_card_title">
+                Musim Semi / Transisi (April & Oktober / 春秋慢活)
+              </h3>
+            </div>
+            <p class="text-xs sm:text-sm opacity-80 leading-relaxed" data-i18n="spring_card_desc">
+              Suhu sejuk 22–26°C dengan angin laut bersahabat. Waktu terbaik untuk jelajah santai pesisir dan wisata budaya pulau.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-card flex items-center justify-between text-xs font-mono font-bold">
+            <span class="text-emerald-500">22–26°C • Angin Sedang</span>
+            <span class="opacity-60">Scenic Cruiser</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- MOTC Taiwan Official Great Bridge Wind Regulation Infographic -->
+      <div class="glass-card rounded-3xl p-6 sm:p-8 border space-y-6">
+        <div>
+          <div class="flex items-center gap-2 mb-2">
+            <div class="w-3 h-3 rounded-full bg-primary-var animate-pulse"></div>
+            <span class="text-xs font-extrabold uppercase tracking-wider text-primary-var">PROTOKOL RESMI BIRO JALAN RAYA TAIWAN</span>
+          </div>
+          <h3 class="text-xl sm:text-2xl font-extrabold tracking-tight" data-i18n="motc_reg_title">
+            Regulasi Resmi Kecepatan Angin Jembatan Taiwan (MOTC)
+          </h3>
+          <p class="text-xs sm:text-sm opacity-75 mt-1" data-i18n="motc_reg_sub">
+            Biro Jalan Raya Taiwan menetapkan protokol batas kecepatan motor di Jembatan Lintas Laut Penghu (Jalur 203):
+          </p>
+        </div>
+
+        <!-- 3 Levels Breakdown -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          
+          <!-- Level 1: Normal -->
+          <div class="p-4 rounded-2xl glass-card-inner border border-emerald-500/30 space-y-2">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-extrabold px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-500">
+                LEVEL 1
+              </span>
+              <span class="text-xs font-mono font-bold text-emerald-500" data-i18n="motc_lvl1_spec">&lt; 10.8 m/s (&lt; 39 km/j)</span>
+            </div>
+            <h4 class="font-extrabold text-sm" data-i18n="motc_lvl1_title">Level 1: Kecepatan Normal</h4>
+            <p class="text-xs opacity-80 leading-relaxed" data-i18n="motc_lvl1_desc">
+              Jembatan aman dilintasi sepeda motor. Kecepatan jelajah standar disarankan 35 km/jam.
+            </p>
+          </div>
+
+          <!-- Level 2: Caution -->
+          <div class="p-4 rounded-2xl glass-card-inner border border-amber-500/40 space-y-2 bg-amber-500/5">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-extrabold px-2.5 py-0.5 rounded-full bg-amber-500/20 text-amber-500">
+                LEVEL 2
+              </span>
+              <span class="text-xs font-mono font-bold text-amber-500" data-i18n="motc_lvl2_spec">10.8 – 17.1 m/s (39 – 61 km/j)</span>
+            </div>
+            <h4 class="font-extrabold text-sm text-amber-500" data-i18n="motc_lvl2_title">Level 2: Waspada Angin Samping</h4>
+            <p class="text-xs opacity-80 leading-relaxed" data-i18n="motc_lvl2_desc">
+              Waspada hembusan angin samping! Pegang kemudi motor erat-erat, dilarang menyalip, batas kecepatan wajib ≤ 25 km/jam.
+            </p>
+          </div>
+
+          <!-- Level 3: Danger -->
+          <div class="p-4 rounded-2xl glass-card-inner border border-red-500/50 space-y-2 bg-red-500/5">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-extrabold px-2.5 py-0.5 rounded-full bg-red-500 text-white animate-pulse">
+                LEVEL 3: BAHAYA
+              </span>
+              <span class="text-xs font-mono font-bold text-red-500" data-i18n="motc_lvl3_spec">≥ 17.2 m/s (≥ 62 km/j)</span>
+            </div>
+            <h4 class="font-extrabold text-sm text-red-500" data-i18n="motc_lvl3_title">Level 3: Bahaya Ekstrem Badai</h4>
+            <p class="text-xs opacity-80 leading-relaxed" data-i18n="motc_lvl3_desc">
+              Bahaya fatal motor terbalik terhempas angin badai monsun. Sistem menyarankan tunda melintas atau beralih ke bus umum / mobil.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
 
   <!-- ====================================================================
        4. CARA KERJA ALGORITMA "NODING" (FLUID 3-STEP INFOGRAPHIC)
@@ -1493,9 +1660,11 @@
         if (sel && dict) {
           const curVal = sel.value || currentTheme;
           const optTropical = sel.querySelector('option[value="tropical"]');
+          const optMonsoon = sel.querySelector('option[value="monsoon"]');
           const optNature = sel.querySelector('option[value="nature"]');
           const optOcean = sel.querySelector('option[value="ocean"]');
           if (optTropical && dict['theme_tropical']) optTropical.innerText = dict['theme_tropical'];
+          if (optMonsoon && dict['theme_monsoon']) optMonsoon.innerText = dict['theme_monsoon'];
           if (optNature && dict['theme_nature']) optNature.innerText = dict['theme_nature'];
           if (optOcean && dict['theme_ocean']) optOcean.innerText = dict['theme_ocean'];
           sel.value = curVal;

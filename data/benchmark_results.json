@@ -65,7 +65,93 @@
         "total_itinerary_mins": 32.0,
         "thermal_strain_reduction_pct": 70.5
       }
-    ]
+    ],
+    "winter_monsoon_schemes": [
+      {
+        "scheme": "Scheme 1: ISO 7243 (WBGT Threshold)",
+        "citation": "ISO 7243:2017 / Budd (2008)",
+        "formula": "T_max = 60 / (WBGT - 27)^1.2",
+        "direct_duration_mins": 17.0,
+        "needs_shelter": false,
+        "recommended_rest_mins": 0.0,
+        "total_itinerary_mins": 17.0,
+        "thermal_strain_reduction_pct": 0.0
+      },
+      {
+        "scheme": "Scheme 2: UTCI Physiological Strain",
+        "citation": "Bröde et al. (2012), Int. J. Biometeorology",
+        "formula": "Phi_UTCI = 1 + 0.7 * ((FeelsLike - 26)/10)^2.4",
+        "direct_duration_mins": 17.0,
+        "needs_shelter": false,
+        "recommended_rest_mins": 0.0,
+        "total_itinerary_mins": 17.0,
+        "thermal_strain_reduction_pct": 0.0
+      },
+      {
+        "scheme": "Scheme 3: Solar Radiation Budget",
+        "citation": "Brown & Gillespie (1995) / Vanos et al. (2010)",
+        "formula": "R_abs = (DNI * 0.85) + (UV * 20)",
+        "direct_duration_mins": 17.0,
+        "needs_shelter": false,
+        "recommended_rest_mins": 0.0,
+        "total_itinerary_mins": 17.0,
+        "thermal_strain_reduction_pct": 0.0
+      },
+      {
+        "scheme": "Scheme 4: Bi-Objective Pareto Router",
+        "citation": "Raith & Ehrgott (2009), Comput. & Oper. Res.",
+        "formula": "Min [w1*T + w2*Strain] s.t. Detour <= 1.20",
+        "direct_duration_mins": 17.0,
+        "needs_shelter": true,
+        "recommended_rest_mins": 12.0,
+        "total_itinerary_mins": 30.3,
+        "thermal_strain_reduction_pct": 64.5
+      },
+      {
+        "scheme": "Scheme 5: Taiwan Subtropical PET",
+        "citation": "Höppe (1999) / Lin et al. (2010), Build. Environ.",
+        "formula": "PET = Ta + 0.33*(e-10) - 0.70*v_wind + R_abs/100",
+        "direct_duration_mins": 17.0,
+        "needs_shelter": false,
+        "recommended_rest_mins": 0.0,
+        "total_itinerary_mins": 17.0,
+        "thermal_strain_reduction_pct": 0.0
+      },
+      {
+        "scheme": "Scheme 6: Scooter Convective Heat-Blast",
+        "citation": "ISO 9920 / de Freitas et al. (1985)",
+        "formula": "Q_conv = 8.6*(v_app^0.6) * (Ta - 34.0)",
+        "direct_duration_mins": 17.0,
+        "needs_shelter": false,
+        "recommended_rest_mins": 0.0,
+        "total_itinerary_mins": 17.0,
+        "thermal_strain_reduction_pct": 0.0
+      }
+    ],
+    "aerodynamic_eval": {
+      "summer": {
+        "is_bridge": true,
+        "wind_speed_ms": 4.5,
+        "peak_gusts_ms": 6.5,
+        "crosswind_speed_kmh": 11.5,
+        "nominal_drag_n": 31.8,
+        "monsoon_drag_n": 56.1,
+        "drag_increase_pct": 76.2,
+        "motc_safety_level": "Level 1: Safe (Kecepatan Normal)",
+        "recommended_speed_kmh": 35.0
+      },
+      "winter_monsoon": {
+        "is_bridge": true,
+        "wind_speed_ms": 15.4,
+        "peak_gusts_ms": 22.5,
+        "crosswind_speed_kmh": 55.4,
+        "nominal_drag_n": 31.8,
+        "monsoon_drag_n": 31.8,
+        "drag_increase_pct": 0.0,
+        "motc_safety_level": "Level 2: Crosswind Caution (Batas Kecepatan 25 km/jam)",
+        "recommended_speed_kmh": 24.5
+      }
+    }
   },
   {
     "route_name": "Xiyu Exploration (Magong -> Daguoye Columnar Basalt)",
@@ -133,7 +219,93 @@
         "total_itinerary_mins": 10.3,
         "thermal_strain_reduction_pct": 0.0
       }
-    ]
+    ],
+    "winter_monsoon_schemes": [
+      {
+        "scheme": "Scheme 1: ISO 7243 (WBGT Threshold)",
+        "citation": "ISO 7243:2017 / Budd (2008)",
+        "formula": "T_max = 60 / (WBGT - 27)^1.2",
+        "direct_duration_mins": 10.3,
+        "needs_shelter": false,
+        "recommended_rest_mins": 0.0,
+        "total_itinerary_mins": 10.3,
+        "thermal_strain_reduction_pct": 0.0
+      },
+      {
+        "scheme": "Scheme 2: UTCI Physiological Strain",
+        "citation": "Bröde et al. (2012), Int. J. Biometeorology",
+        "formula": "Phi_UTCI = 1 + 0.7 * ((FeelsLike - 26)/10)^2.4",
+        "direct_duration_mins": 10.3,
+        "needs_shelter": false,
+        "recommended_rest_mins": 0.0,
+        "total_itinerary_mins": 10.3,
+        "thermal_strain_reduction_pct": 0.0
+      },
+      {
+        "scheme": "Scheme 3: Solar Radiation Budget",
+        "citation": "Brown & Gillespie (1995) / Vanos et al. (2010)",
+        "formula": "R_abs = (DNI * 0.85) + (UV * 20)",
+        "direct_duration_mins": 10.3,
+        "needs_shelter": false,
+        "recommended_rest_mins": 0.0,
+        "total_itinerary_mins": 10.3,
+        "thermal_strain_reduction_pct": 0.0
+      },
+      {
+        "scheme": "Scheme 4: Bi-Objective Pareto Router",
+        "citation": "Raith & Ehrgott (2009), Comput. & Oper. Res.",
+        "formula": "Min [w1*T + w2*Strain] s.t. Detour <= 1.20",
+        "direct_duration_mins": 10.3,
+        "needs_shelter": false,
+        "recommended_rest_mins": 0.0,
+        "total_itinerary_mins": 10.3,
+        "thermal_strain_reduction_pct": 0.0
+      },
+      {
+        "scheme": "Scheme 5: Taiwan Subtropical PET",
+        "citation": "Höppe (1999) / Lin et al. (2010), Build. Environ.",
+        "formula": "PET = Ta + 0.33*(e-10) - 0.70*v_wind + R_abs/100",
+        "direct_duration_mins": 10.3,
+        "needs_shelter": false,
+        "recommended_rest_mins": 0.0,
+        "total_itinerary_mins": 10.3,
+        "thermal_strain_reduction_pct": 0.0
+      },
+      {
+        "scheme": "Scheme 6: Scooter Convective Heat-Blast",
+        "citation": "ISO 9920 / de Freitas et al. (1985)",
+        "formula": "Q_conv = 8.6*(v_app^0.6) * (Ta - 34.0)",
+        "direct_duration_mins": 10.3,
+        "needs_shelter": false,
+        "recommended_rest_mins": 0.0,
+        "total_itinerary_mins": 10.3,
+        "thermal_strain_reduction_pct": 0.0
+      }
+    ],
+    "aerodynamic_eval": {
+      "summer": {
+        "is_bridge": true,
+        "wind_speed_ms": 4.5,
+        "peak_gusts_ms": 6.5,
+        "crosswind_speed_kmh": 11.5,
+        "nominal_drag_n": 31.8,
+        "monsoon_drag_n": 56.1,
+        "drag_increase_pct": 76.2,
+        "motc_safety_level": "Level 1: Safe (Kecepatan Normal)",
+        "recommended_speed_kmh": 35.0
+      },
+      "winter_monsoon": {
+        "is_bridge": true,
+        "wind_speed_ms": 15.4,
+        "peak_gusts_ms": 22.5,
+        "crosswind_speed_kmh": 55.4,
+        "nominal_drag_n": 31.8,
+        "monsoon_drag_n": 31.8,
+        "drag_increase_pct": 0.0,
+        "motc_safety_level": "Level 2: Crosswind Caution (Batas Kecepatan 25 km/jam)",
+        "recommended_speed_kmh": 24.5
+      }
+    }
   },
   {
     "route_name": "Huxi Line (Magong Airport -> Kuobishan Moses Parting)",
@@ -201,7 +373,93 @@
         "total_itinerary_mins": 9.5,
         "thermal_strain_reduction_pct": 0.0
       }
-    ]
+    ],
+    "winter_monsoon_schemes": [
+      {
+        "scheme": "Scheme 1: ISO 7243 (WBGT Threshold)",
+        "citation": "ISO 7243:2017 / Budd (2008)",
+        "formula": "T_max = 60 / (WBGT - 27)^1.2",
+        "direct_duration_mins": 9.5,
+        "needs_shelter": false,
+        "recommended_rest_mins": 0.0,
+        "total_itinerary_mins": 9.5,
+        "thermal_strain_reduction_pct": 0.0
+      },
+      {
+        "scheme": "Scheme 2: UTCI Physiological Strain",
+        "citation": "Bröde et al. (2012), Int. J. Biometeorology",
+        "formula": "Phi_UTCI = 1 + 0.7 * ((FeelsLike - 26)/10)^2.4",
+        "direct_duration_mins": 9.5,
+        "needs_shelter": false,
+        "recommended_rest_mins": 0.0,
+        "total_itinerary_mins": 9.5,
+        "thermal_strain_reduction_pct": 0.0
+      },
+      {
+        "scheme": "Scheme 3: Solar Radiation Budget",
+        "citation": "Brown & Gillespie (1995) / Vanos et al. (2010)",
+        "formula": "R_abs = (DNI * 0.85) + (UV * 20)",
+        "direct_duration_mins": 9.5,
+        "needs_shelter": false,
+        "recommended_rest_mins": 0.0,
+        "total_itinerary_mins": 9.5,
+        "thermal_strain_reduction_pct": 0.0
+      },
+      {
+        "scheme": "Scheme 4: Bi-Objective Pareto Router",
+        "citation": "Raith & Ehrgott (2009), Comput. & Oper. Res.",
+        "formula": "Min [w1*T + w2*Strain] s.t. Detour <= 1.20",
+        "direct_duration_mins": 9.5,
+        "needs_shelter": false,
+        "recommended_rest_mins": 0.0,
+        "total_itinerary_mins": 9.5,
+        "thermal_strain_reduction_pct": 0.0
+      },
+      {
+        "scheme": "Scheme 5: Taiwan Subtropical PET",
+        "citation": "Höppe (1999) / Lin et al. (2010), Build. Environ.",
+        "formula": "PET = Ta + 0.33*(e-10) - 0.70*v_wind + R_abs/100",
+        "direct_duration_mins": 9.5,
+        "needs_shelter": false,
+        "recommended_rest_mins": 0.0,
+        "total_itinerary_mins": 9.5,
+        "thermal_strain_reduction_pct": 0.0
+      },
+      {
+        "scheme": "Scheme 6: Scooter Convective Heat-Blast",
+        "citation": "ISO 9920 / de Freitas et al. (1985)",
+        "formula": "Q_conv = 8.6*(v_app^0.6) * (Ta - 34.0)",
+        "direct_duration_mins": 9.5,
+        "needs_shelter": false,
+        "recommended_rest_mins": 0.0,
+        "total_itinerary_mins": 9.5,
+        "thermal_strain_reduction_pct": 0.0
+      }
+    ],
+    "aerodynamic_eval": {
+      "summer": {
+        "is_bridge": false,
+        "wind_speed_ms": 4.5,
+        "peak_gusts_ms": 6.5,
+        "crosswind_speed_kmh": 11.5,
+        "nominal_drag_n": 31.8,
+        "monsoon_drag_n": 39.6,
+        "drag_increase_pct": 24.2,
+        "motc_safety_level": "Level 1: Safe (Kecepatan Normal)",
+        "recommended_speed_kmh": 35.0
+      },
+      "winter_monsoon": {
+        "is_bridge": false,
+        "wind_speed_ms": 15.4,
+        "peak_gusts_ms": 22.5,
+        "crosswind_speed_kmh": 55.4,
+        "nominal_drag_n": 31.8,
+        "monsoon_drag_n": 31.8,
+        "drag_increase_pct": 0.0,
+        "motc_safety_level": "Level 1: Safe (Kecepatan Normal)",
+        "recommended_speed_kmh": 35.0
+      }
+    }
   },
   {
     "route_name": "Magong Historical Walking Tour",
@@ -269,6 +527,92 @@
         "total_itinerary_mins": 6.1,
         "thermal_strain_reduction_pct": 0.0
       }
-    ]
+    ],
+    "winter_monsoon_schemes": [
+      {
+        "scheme": "Scheme 1: ISO 7243 (WBGT Threshold)",
+        "citation": "ISO 7243:2017 / Budd (2008)",
+        "formula": "T_max = 60 / (WBGT - 27)^1.2",
+        "direct_duration_mins": 6.1,
+        "needs_shelter": false,
+        "recommended_rest_mins": 0.0,
+        "total_itinerary_mins": 6.1,
+        "thermal_strain_reduction_pct": 0.0
+      },
+      {
+        "scheme": "Scheme 2: UTCI Physiological Strain",
+        "citation": "Bröde et al. (2012), Int. J. Biometeorology",
+        "formula": "Phi_UTCI = 1 + 0.7 * ((FeelsLike - 26)/10)^2.4",
+        "direct_duration_mins": 6.1,
+        "needs_shelter": false,
+        "recommended_rest_mins": 0.0,
+        "total_itinerary_mins": 6.1,
+        "thermal_strain_reduction_pct": 0.0
+      },
+      {
+        "scheme": "Scheme 3: Solar Radiation Budget",
+        "citation": "Brown & Gillespie (1995) / Vanos et al. (2010)",
+        "formula": "R_abs = (DNI * 0.85) + (UV * 20)",
+        "direct_duration_mins": 6.1,
+        "needs_shelter": false,
+        "recommended_rest_mins": 0.0,
+        "total_itinerary_mins": 6.1,
+        "thermal_strain_reduction_pct": 0.0
+      },
+      {
+        "scheme": "Scheme 4: Bi-Objective Pareto Router",
+        "citation": "Raith & Ehrgott (2009), Comput. & Oper. Res.",
+        "formula": "Min [w1*T + w2*Strain] s.t. Detour <= 1.20",
+        "direct_duration_mins": 6.1,
+        "needs_shelter": false,
+        "recommended_rest_mins": 0.0,
+        "total_itinerary_mins": 6.1,
+        "thermal_strain_reduction_pct": 0.0
+      },
+      {
+        "scheme": "Scheme 5: Taiwan Subtropical PET",
+        "citation": "Höppe (1999) / Lin et al. (2010), Build. Environ.",
+        "formula": "PET = Ta + 0.33*(e-10) - 0.70*v_wind + R_abs/100",
+        "direct_duration_mins": 6.1,
+        "needs_shelter": false,
+        "recommended_rest_mins": 0.0,
+        "total_itinerary_mins": 6.1,
+        "thermal_strain_reduction_pct": 0.0
+      },
+      {
+        "scheme": "Scheme 6: Scooter Convective Heat-Blast",
+        "citation": "ISO 9920 / de Freitas et al. (1985)",
+        "formula": "Q_conv = 8.6*(v_app^0.6) * (Ta - 34.0)",
+        "direct_duration_mins": 6.1,
+        "needs_shelter": false,
+        "recommended_rest_mins": 0.0,
+        "total_itinerary_mins": 6.1,
+        "thermal_strain_reduction_pct": 0.0
+      }
+    ],
+    "aerodynamic_eval": {
+      "summer": {
+        "is_bridge": false,
+        "wind_speed_ms": 4.5,
+        "peak_gusts_ms": 6.5,
+        "crosswind_speed_kmh": 11.5,
+        "nominal_drag_n": 0.5,
+        "monsoon_drag_n": 1.9,
+        "drag_increase_pct": 257.6,
+        "motc_safety_level": "Level 1: Safe (Kecepatan Normal)",
+        "recommended_speed_kmh": 4.5
+      },
+      "winter_monsoon": {
+        "is_bridge": false,
+        "wind_speed_ms": 15.4,
+        "peak_gusts_ms": 22.5,
+        "crosswind_speed_kmh": 55.4,
+        "nominal_drag_n": 0.5,
+        "monsoon_drag_n": 0.5,
+        "drag_increase_pct": 0.0,
+        "motc_safety_level": "Level 1: Safe (Kecepatan Normal)",
+        "recommended_speed_kmh": 4.5
+      }
+    }
   }
 ]
