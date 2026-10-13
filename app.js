@@ -373,7 +373,7 @@ function initMap() {
   map = L.map('map', { zoomControl: false, minZoom: 9, maxZoom: 18 }).setView([23.54, 119.58], 10);
   L.control.zoom({ position: 'bottomleft' }).addTo(map);
 
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png?key=cb1_4iuh_1_e0e97aa8ad09a5b4e1f5bf7c', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> contributors',
     subdomains: 'abcd',
     maxNativeZoom: 18,
