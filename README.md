@@ -1,6 +1,6 @@
 # 🏝️ Penghu Cool-Ride: Smart Climate-Aware Tourism & Node-Weight Routing Engine
 
-[![Version](https://img.shields.io/badge/Release-v2.4.0--Stable-06D6A0?style=for-the-badge&logo=git)](https://github.com/Corneliox/MapNodeWeightRecommendation/releases)
+[![Version](https://img.shields.io/badge/Release-v2.5.0--Stable-06D6A0?style=for-the-badge&logo=git)](https://github.com/Corneliox/MapNodeWeightRecommendation/releases)
 [![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-00A8B5?style=for-the-badge&logo=github)](https://corneliox.github.io/MapNodeWeightRecommendation/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Leaflet](https://img.shields.io/badge/Leaflet-1.9.4-199900?style=for-the-badge&logo=leaflet&logoColor=white)](https://leafletjs.com/)
@@ -21,8 +21,16 @@ Experience the live web application on GitHub Pages:
 
 ---
 
-## 🚀 Key Stable Features (v2.4.0)
+## 🚀 Key Stable Features (v2.5.0)
 
+* **🌬️ Seasonal-Adaptive Climate Engine (Dual-Regime Intelligence)**:
+  * Seamlessly adapts all year round: Mitigates extreme summer heatstroke risks while safeguarding tourists against severe winter northeast monsoon gales (Beaufort 8–10).
+* **🌉 Penghu Great Bridge Crosswind Radar & MOTC Safety Advisories**:
+  * Dedicated telemetry for the 2.49 km exposed cross-sea bridge, tracking crosswind speeds, gust intensities, Beaufort ratings, and official MOTC safety recommendations for scooters.
+* **🚢 Maritime Ferry Sailing Feasibility & Wave Telemetry**:
+  * Real-time marine wind & wave height safety assessment across all inter-island ferry corridors (Magong ⇄ Qimei, Wang'an, Tongpan, Jibei).
+* **🇹🇼 Taiwan CWA Hybrid Weather Engine**:
+  * Integrated support for official Taiwan Central Weather Administration (CWA) Open Data APIs with high-precision telemetry, interactive simulator, and seamless Open-Meteo fallback.
 * **🛵 Dual Routing Engine Architecture (Google Routes API + OSRM Multi-Mirror)**:
   * Seamless support for Google Cloud Routes API with `TWO_WHEELER` mode and `TRAFFIC_AWARE` real-time congestion data.
   * Instant automatic fallback to multi-mirror open-source OSRM routing with zero user disruption.
