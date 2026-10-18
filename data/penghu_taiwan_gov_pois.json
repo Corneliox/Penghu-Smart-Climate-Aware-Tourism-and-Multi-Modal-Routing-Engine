@@ -11,7 +11,7 @@
     "longitude": 119.602,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1. 目前無套裝行程，需團體包船前往，與船公司談妥後，由「北海遊客中心」所在地，赤崁碼頭出發。 ​2. 馬公到北海遊客中心： (1)機車／汽車：由馬公市區沿縣道203至東衛左轉北行，途經中屯、講美、港子，至赤崁碼頭即可抵達北海遊客中心。 (2)公車資訊：由馬公市搭乘外垵線、通樑線至赤崁站下車後，步行約10分鐘可抵達北海遊客中心。 3. 澎湖縣公共車船管理處公車時刻表連結",
     "parking_info": "",
     "website": "",
@@ -29,7 +29,7 @@
     "longitude": 119.60246,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1.前往吉貝需由赤崁碼頭附近的「北海遊客中心」購票搭乘船班前往。 2.選搭定期交通船或民營快艇(旺季行駛)前往吉貝嶼，約18分鐘即可抵達。 3.交通船時間： 開船時間 週六到週四 週五 吉貝出發 07:00／14:00 07:00／16:00 赤崁出發 11:15／17:00 11:15／17:30 4. 馬公到北海遊客中心： (1)自行前往：自馬公市區沿縣道203至東衛左轉北行，途經中屯、講美、港子，至赤崁碼頭即可抵達北海遊客中心。 (2)公車資訊：由馬公市搭乘外垵線、通樑線的公車至赤崁站下車後步行約10分鐘，可抵達北海遊客中心。 5.澎湖縣公共車船管理處公車時刻表連結",
     "parking_info": "",
     "website": "",
@@ -47,7 +47,7 @@
     "longitude": 119.5563,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1. 目前無套裝行程，需團體包船前往，與船公司談妥後，由「北海遊客中心」所在地，赤崁碼頭出發。 2. 馬公到北海遊客中心：機車／汽車：由馬公市區沿縣道203至東衛左轉北行，途經中屯、講美、港子，至赤崁碼頭即可抵達北海遊客中心。",
     "parking_info": "",
     "website": "",
@@ -65,7 +65,7 @@
     "longitude": 119.608,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1.前往險礁需由赤崁碼頭附近的「北海遊客中心」購票搭乘船班前往（僅旺季有船隻行駛）。 2.馬公往北海遊客中心： （1）機車／汽車：由馬公市區沿縣道203至東衛左轉北行，途經中屯、講美、港子，至赤崁碼頭即可抵達北海遊客中心。 （2）公車資訊：由馬公市搭乘往外垵、通樑的公車於赤崁站下車，再步行約10分鐘即可到達。",
     "parking_info": "",
     "website": "",
@@ -83,7 +83,7 @@
     "longitude": 119.632,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1.前往員貝嶼需由岐頭碼頭附近的「岐頭遊客中心」購票搭乘船班前往。 2.選搭定期交通船或民營快艇(旺季行駛)前往員貝嶼，約10分鐘即可抵達。 3.馬公到岐頭碼頭：自馬公巿區沿203縣道至東衛左轉，續經中正橋，永安橋進入白沙鄉，至港子大榕樹右轉即可到達。",
     "parking_info": "",
     "website": "",
@@ -101,7 +101,7 @@
     "longitude": 119.666641,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "小白沙嶼為澎湖玄武岩保留區，非經申請不得登島。",
     "parking_info": "",
     "website": "",
@@ -119,7 +119,7 @@
     "longitude": 119.65943,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1.前往鳥嶼需由岐頭碼頭附近的「岐頭遊客中心」購票搭乘船班前往。 2.選搭定期交通船或民營快艇(旺季行駛)前往員貝嶼，約15分鐘即可抵達。 3.馬公到岐頭碼頭：自馬公巿區沿203縣道至東衛左轉，續經中正橋，永安橋進入白沙鄉，至港子大榕樹右轉即可到達。",
     "parking_info": "",
     "website": "",
@@ -137,7 +137,7 @@
     "longitude": 119.5144101606,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -155,7 +155,7 @@
     "longitude": 119.570167,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -173,7 +173,7 @@
     "longitude": 119.567917,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -191,7 +191,7 @@
     "longitude": 119.583639,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -209,7 +209,7 @@
     "longitude": 119.574694,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -227,7 +227,7 @@
     "longitude": 119.597,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -245,7 +245,7 @@
     "longitude": 119.6026437302,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -263,7 +263,7 @@
     "longitude": 119.517,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -281,7 +281,7 @@
     "longitude": 119.517,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -299,7 +299,7 @@
     "longitude": 119.515,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -317,7 +317,7 @@
     "longitude": 119.499,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -335,7 +335,7 @@
     "longitude": 119.477,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -353,7 +353,7 @@
     "longitude": 119.556,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -371,7 +371,7 @@
     "longitude": 119.678,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -389,7 +389,7 @@
     "longitude": 119.66,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -407,7 +407,7 @@
     "longitude": 119.65,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -425,7 +425,7 @@
     "longitude": 119.6263483651,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -443,7 +443,7 @@
     "longitude": 119.629,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -461,7 +461,7 @@
     "longitude": 119.51981339,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -479,7 +479,7 @@
     "longitude": 119.5607886719,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "http://www.tnc-kao.com.tw/",
@@ -497,7 +497,7 @@
     "longitude": 119.568164924,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -515,7 +515,7 @@
     "longitude": 119.5136711,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -533,7 +533,7 @@
     "longitude": 119.5140622,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -551,7 +551,7 @@
     "longitude": 119.5688889,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -569,7 +569,7 @@
     "longitude": 119.56431,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -587,7 +587,7 @@
     "longitude": 119.56636,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -605,7 +605,7 @@
     "longitude": 119.57746,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -623,7 +623,7 @@
     "longitude": 119.61155,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -641,7 +641,7 @@
     "longitude": 119.5963,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -659,7 +659,7 @@
     "longitude": 119.56693,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -677,7 +677,7 @@
     "longitude": 119.63869,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -695,7 +695,7 @@
     "longitude": 119.66151,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -713,7 +713,7 @@
     "longitude": 119.6079,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -731,7 +731,7 @@
     "longitude": 119.56533,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -749,7 +749,7 @@
     "longitude": 119.56207,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -767,7 +767,7 @@
     "longitude": 119.56733,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -785,7 +785,7 @@
     "longitude": 119.66151,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -803,7 +803,7 @@
     "longitude": 119.66875,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -821,7 +821,7 @@
     "longitude": 119.66151,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -839,7 +839,7 @@
     "longitude": 119.5699,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -857,7 +857,7 @@
     "longitude": 119.51367,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -875,7 +875,7 @@
     "longitude": 119.51367,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -893,7 +893,7 @@
     "longitude": 119.51367,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -911,7 +911,7 @@
     "longitude": 119.51961,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -929,7 +929,7 @@
     "longitude": 119.50845,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -947,7 +947,7 @@
     "longitude": 119.50249,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -965,7 +965,7 @@
     "longitude": 119.51118,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -983,7 +983,7 @@
     "longitude": 119.50879,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -1001,7 +1001,7 @@
     "longitude": 119.50787,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -1019,7 +1019,7 @@
     "longitude": 119.48467,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -1037,7 +1037,7 @@
     "longitude": 119.52156,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -1055,7 +1055,7 @@
     "longitude": 119.51151,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -1073,7 +1073,7 @@
     "longitude": 119.52778,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -1091,7 +1091,7 @@
     "longitude": 119.50985,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -1109,7 +1109,7 @@
     "longitude": 119.43534,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -1127,7 +1127,7 @@
     "longitude": 119.3225,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -1145,7 +1145,7 @@
     "longitude": 119.32125,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -1163,7 +1163,7 @@
     "longitude": 119.6725,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -1181,7 +1181,7 @@
     "longitude": 119.61556,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -1199,7 +1199,7 @@
     "longitude": 119.51667,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -1217,7 +1217,7 @@
     "longitude": 119.51667,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -1235,7 +1235,7 @@
     "longitude": 119.60316,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -1253,7 +1253,7 @@
     "longitude": 119.61324,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -1271,7 +1271,7 @@
     "longitude": 119.61925,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -1289,7 +1289,7 @@
     "longitude": 119.61224,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -1307,7 +1307,7 @@
     "longitude": 119.60028,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -1325,7 +1325,7 @@
     "longitude": 119.60028,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -1343,7 +1343,7 @@
     "longitude": 119.59506,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -1361,7 +1361,7 @@
     "longitude": 119.6397,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -1379,7 +1379,7 @@
     "longitude": 119.70028,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -1397,7 +1397,7 @@
     "longitude": 119.68582,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -1415,7 +1415,7 @@
     "longitude": 119.60572,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "沿澎湖縣201縣道往風櫃方向行駛，目標位於鎖港段，鄰近澎湖農會澎南超市店。",
     "parking_info": "",
     "website": "",
@@ -1433,7 +1433,7 @@
     "longitude": 119.50887,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "馬公出發，沿澎203號縣道，往西嶼鄉方向，接著走澎8鄉道，再接澎3鄉道",
     "parking_info": "",
     "website": "",
@@ -1451,7 +1451,7 @@
     "longitude": 119.5741533063,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -1469,7 +1469,7 @@
     "longitude": 119.6807039713,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "公車：搭乘尖山循環線，至「菓葉下」站下車； 搭乘龍門循環線，至「菓葉」站下車。 汽／機車：馬公市區→縣道204→縣道202 →右轉行駛到目的地， 約24分鐘車程。",
     "parking_info": "",
     "website": "",
@@ -1487,7 +1487,7 @@
     "longitude": 119.48994,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1. 機車／汽車：自馬公巿區沿縣道203，經白沙鄉過跨海大橋進入西嶼鄉，經過內垵村後可抵達。 2. 公車資訊：搭乘外垵線至西臺古堡站下車。",
     "parking_info": "",
     "website": "",
@@ -1505,7 +1505,7 @@
     "longitude": 119.5640262,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "自馬公商港或公車總站，沿民族路步行或趨車皆容易到達。",
     "parking_info": "",
     "website": "",
@@ -1523,7 +1523,7 @@
     "longitude": 119.56423,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "施公祠位於澎湖天后宮附近，中央街內，中央街區巷道狹小，可由中央街或惠安路民族路交接處，步行前往參觀。",
     "parking_info": "",
     "website": "",
@@ -1541,7 +1541,7 @@
     "longitude": 119.5641429,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "萬軍井位於施公祠外側右前方，中央街區巷道狹小，可由中央街或惠安路民族路交接處，步行前往參觀。",
     "parking_info": "",
     "website": "",
@@ -1559,7 +1559,7 @@
     "longitude": 119.56487,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "馬公市中心約5至10分鐘步程",
     "parking_info": "",
     "website": "",
@@ -1577,7 +1577,7 @@
     "longitude": 119.5622635,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "機車／汽車：順承門位於中山路上，馬公商港旁。",
     "parking_info": "",
     "website": "",
@@ -1595,7 +1595,7 @@
     "longitude": 119.55825,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "機車／汽車： 1.公車總站(民生路)至介壽路左轉，即可到達。 2.中山路接新復路即可到達。",
     "parking_info": "",
     "website": "",
@@ -1613,7 +1613,7 @@
     "longitude": 119.5725128,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "位於南海遊艇碼頭旁。巿區步行或自行駕車前往皆容易到達。",
     "parking_info": "",
     "website": "",
@@ -1631,7 +1631,7 @@
     "longitude": 119.5794515,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1. 機車／汽車：自馬公巿區沿新生路即可到達。 2. 公車資訊：請選擇風櫃線（繞經澎湖國軍醫院線）及烏崁線，至孔子廟站下車。 3.澎湖縣公共車船管理處時刻表連結",
     "parking_info": "",
     "website": "http://www.phlm.nat.gov.tw/ch/",
@@ -1649,7 +1649,7 @@
     "longitude": 119.6065873008,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1.機車／汽車：自馬公巿區沿中華路，接縣道204，經石泉後，即可到達。 2.公車資訊：請搭乘尖山線或澎南線，至澎湖國家風景區站下車。",
     "parking_info": "",
     "website": "",
@@ -1667,7 +1667,7 @@
     "longitude": 119.5953,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "機車／汽車：自馬公市區經中華路，接縣道204至石泉國小右轉，205號縣道後左轉，看到「菜園生命公園」指標右轉，一小段路後即可到達。",
     "parking_info": "",
     "website": "",
@@ -1685,7 +1685,7 @@
     "longitude": 119.6025425296,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1. 汽車／機車：自馬公巿區沿中華路接縣道204，至興仁右轉接縣道201，經鐵線至鎖港，於鎖港農會超巿前左轉接鄉道澎27，前行至澎25右轉，即可到達。 2. 公車資訊：請搭乘山水線及風櫃線於後烏南站下車。",
     "parking_info": "",
     "website": "",
@@ -1703,7 +1703,7 @@
     "longitude": 119.5922,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1. 機車/汽車：自馬公市區經中華路，接縣道204，至縣道201交接處(興仁)右轉，一路前行，至鎖港接鄉道澎26，即可到達。 2. 公車資訊：搭乘山水線及風櫃線兩路公車於山水站下車。",
     "parking_info": "",
     "website": "",
@@ -1721,7 +1721,7 @@
     "longitude": 119.5671,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1. 機車／汽車：自馬公巿區出發，由中華路接縣道204至興仁，右轉接縣道201，途經鎖港、五德、井垵，即可到達。 2. 公車資訊：請搭乘風櫃線公車於嵵裡站下車。 3.澎湖縣政府公共車船管理處時刻表連結",
     "parking_info": "",
     "website": "",
@@ -1739,7 +1739,7 @@
     "longitude": 119.54393,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "自行開車： 1. 機車／汽車：自馬公市區經中華路，接縣道204，至縣道201交接處(興仁)右轉，一路前行，即可到達。 2. 公車資訊：請搭乘風櫃線於風櫃終點站下車。",
     "parking_info": "",
     "website": "",
@@ -1757,7 +1757,7 @@
     "longitude": 119.547309,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1.機車／汽車：離開馬公市區走204縣道，至201縣道交接處(興仁)右轉，一路前行，到達風櫃里時，即有指標指往蛇頭山。",
     "parking_info": "",
     "website": "",
@@ -1775,7 +1775,7 @@
     "longitude": 119.59767,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -1793,7 +1793,7 @@
     "longitude": 119.51352,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1.由南海遊艇碼頭（新營路25號）搭乘交通船或民營快艇（旺季行駛，包裝於南四島套裝行程中）前往。 2. 交通船時間： 開航時間 4月－9月 10月－3月 馬公出發 09:30／15:30 09:30／15:30 虎井出發 11:30／06:00 11:30／06:30",
     "parking_info": "",
     "website": "",
@@ -1811,7 +1811,7 @@
     "longitude": 119.52115,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1.由南海遊艇碼頭（新營路25號）搭乘交通船或遊艇（旺季行駛，包裝在南四島套裝行程中）前往。 2.桶盤之星連絡電話0932-897023",
     "parking_info": "",
     "website": "",
@@ -1829,7 +1829,7 @@
     "longitude": 119.6296996,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1. 機車／汽車：自馬公巿區經中華路，沿縣道204，經石泉、興仁、烏崁等村落即可到達。 2. 公車資訊：請搭乘尖山線或烏崁線，於馬公航空站下車。 3. 澎湖縣公共車船管理處公車時刻表連結",
     "parking_info": "",
     "website": "",
@@ -1847,7 +1847,7 @@
     "longitude": 119.6392887931,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1. 機車／汽車：自馬公巿區出發，經中華路，接縣道204，經過澎湖遊客中心及機場，道路右側即有指標往隘門沙灘。 2. 公車資訊：搭乘尖山線公車至隘門站下車後，步行15分鐘即可到達。",
     "parking_info": "",
     "website": "",
@@ -1865,7 +1865,7 @@
     "longitude": 119.64256,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1.機車/汽車：由馬公市區沿中華路接縣道204，一路經過石泉、興仁、烏崁等社區及馬公航空站後於隘門圓環右轉，即可在道路右側看到林投公園指標。在林投村鳳凰殿後的小路右轉即可抵達。 2.公車資訊：搭乘尖山線至林投公園站下車。",
     "parking_info": "",
     "website": "",
@@ -1883,7 +1883,7 @@
     "longitude": 119.68093,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1. 機車／汽車：由馬公市區出發，由中華路接204縣道一路往東前行，經過龍門村後，一路跟隨指標引導，即可到達東岸的菓葉觀日樓。 2. 公車資訊：請搭乘龍門線及尖山線，於菓葉站下車後，步行5-10分可達。",
     "parking_info": "",
     "website": "",
@@ -1901,7 +1901,7 @@
     "longitude": 119.67143,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1.機車/汽車：自馬公巿區經中華路接縣道203至東衛，直行接縣道204，經成功、西溪、湖西等村落，至鄉道澎14左轉經南寮至北寮村，即有指標往北寮遊憩區。 2.公車資訊：北寮線及龍門線皆有公車抵達北寮，班車時間建議至公車總站詢問售票口。 3.澎湖縣公共車船管理處公車總站電話：06-9272376",
     "parking_info": "",
     "website": "",
@@ -1919,7 +1919,7 @@
     "longitude": 119.647151,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1. 機車／汽車：自馬公巿區出發，沿203縣道至東衛銜接202縣道，經過西溪後左轉接澎13鄉道，即可到達。 2. 公車資訊：搭乘青螺線至青螺站下車。",
     "parking_info": "",
     "website": "",
@@ -1937,7 +1937,7 @@
     "longitude": 119.6058,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1.機車／汽車：自馬公巿區出發，沿縣道203號，至東衛左轉往北直走，過中正橋後即到達中屯。 2.公車資訊：從馬公公車總站搭往外垵、通梁的公車，在中屯站下車步行前往。",
     "parking_info": "",
     "website": "",
@@ -1955,7 +1955,7 @@
     "longitude": 119.6092754,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1. 機車／汽車：自馬公巿區沿203縣道至東衛左轉，續經中正橋，永安橋進入白沙鄉，至港子大榕樹右轉即可到達。 2. 公車資訊：請搭乘通梁線並於岐頭站下車，步行2分鐘即可到達。",
     "parking_info": "",
     "website": "",
@@ -1973,7 +1973,7 @@
     "longitude": 119.6035403114,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1. 機車/汽車：由馬公市區沿縣道203至東衛左轉北行，途經中屯、講美、港子，至赤崁碼頭即可抵達北海遊客中心。 2. 公車資訊：搭乘通梁線或外垵線至赤崁站下車後步行約10分鐘即可到達。",
     "parking_info": "",
     "website": "",
@@ -1991,7 +1991,7 @@
     "longitude": 119.5708095,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1. 機車／汽車：自馬公巿區出發，沿縣道203於東衛左轉北行，經中屯、講美、赤崁等村落，至白沙分局前右側道路前往後寮社區，社區內有指標指往後寮遊客中心。 2. 公車資訊：請搭乘通梁線公車，於後寮內站下車，再步行前往。 3. 澎湖縣公共車船管理處公車時刻表連結",
     "parking_info": "",
     "website": "",
@@ -2009,7 +2009,7 @@
     "longitude": 119.55721,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1. 機車／汽車：由馬公市區出發，一路沿著203縣道，經東衛左轉前行，經過中正、永安橋後，進入白沙鄉，經講美、港子、赤崁、後寮等村落，通樑村即可到達。 2. 公車資訊：請搭乘通梁線和外垵線，於通梁站下車。 3.澎湖縣公共車船管理處公車時刻表連結",
     "parking_info": "",
     "website": "",
@@ -2027,7 +2027,7 @@
     "longitude": 119.54639,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "澎湖跨海大橋連結白沙鄉通梁村與西嶼鄉合界、橫礁兩村。 1. 機車／汽車：由馬公市區沿縣道203，至東衛左轉，經中屯，講美，赤崁，後寮等村落，即可到達通梁村旁的澎湖跨海大橋。 2. 公車資訊：請搭乘通梁線與外垵線，並於通梁站下車",
     "parking_info": "",
     "website": "",
@@ -2045,7 +2045,7 @@
     "longitude": 119.6116393,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1.前往吉貝需由赤崁碼頭附近的「北海遊客中心」購票搭乘船班前往。 2.選搭定期交通船或民營快艇(旺季行駛)前往吉貝嶼，約18分鐘即可抵達。 3. 交通船時間： 開船時間 週六到週四 週五 吉貝出發 07:00 / 14:00 07:00 / 16:00 赤崁出發 11:15 / 17:00 11:15 / 17:30 4.馬公到北海遊客中心： (1)自行前往：自馬公市區沿縣道203至東衛左轉北行，途經中屯、講美、港子，至赤崁碼頭即可抵達北海遊客中心。 (2)公車資訊：由馬公市搭乘外垵線、通樑線的公車至赤崁站下車後步行約10分鐘，可抵達北海遊客中心。 5.澎湖縣公共車船管理處公車時刻表連結",
     "parking_info": "",
     "website": "",
@@ -2063,7 +2063,7 @@
     "longitude": 119.52092,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1. 機車／汽車：由馬公市區沿縣道203至東衛左轉，途經白沙鄉，過跨海大橋，於縣道203約26公里處右轉續接鄉道澎2，即可抵達。 2. 公車資訊：搭乘外垵線經小門的班次，即可抵達小門嶼。 3. 澎湖縣公共車船管理處公車時刻表連結",
     "parking_info": "",
     "website": "",
@@ -2081,7 +2081,7 @@
     "longitude": 119.51725,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1. 機車／汽車：由馬公市區沿縣道203至東衛左轉，途經白沙鄉，過跨海大橋，於縣道203約26公里處右轉續接鄉道澎2，即可抵達。 2. 公車資訊：搭乘外垵線經小門的班次，即可抵達小門嶼。",
     "parking_info": "",
     "website": "",
@@ -2099,7 +2099,7 @@
     "longitude": 119.518853,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1. 機車/汽車：由馬公市區出發，沿縣道203至東衛左轉北行，途經白沙鄉，過跨海大橋，於縣道203約30公里處左轉續接鄉道澎3，即可抵達。 2. 公車資訊：搭乘外垵線經二崁的班次,即可抵達二崁傳統聚落保存區。 3.澎湖縣公共車船管理處公車時刻表連結",
     "parking_info": "",
     "website": "",
@@ -2117,7 +2117,7 @@
     "longitude": 119.5162075859,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1.機車／汽車：自馬公巿區出發沿縣道203，至東衛左轉北行，經白沙鄉，過跨海大橋後進入西嶼鄉，過了二崁後即可看到前往大菓葉柱狀玄武岩指標。",
     "parking_info": "",
     "website": "",
@@ -2135,7 +2135,7 @@
     "longitude": 119.4938916069,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1.機車/汽車：自馬公巿區往縣道203方向，東衛處左轉，經白沙鄉，過跨海大橋，進入西嶼鄉，過內垵國小後即可到達。 2.公車資訊：可搭乘西嶼線，內垵國小站下車，往南方上坡路段步行約5分鐘。",
     "parking_info": "",
     "website": "",
@@ -2153,7 +2153,7 @@
     "longitude": 119.507171,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "機車／汽車： (1)自馬公巿區沿縣道203，經白沙鄉過跨海大橋進入西嶼鄉，在內垵國小前左轉鄉道澎5可達。 (2)結束大菓葉柱狀玄武岩行程後，沿鄉道澎5，經過赤馬村後，進入內垵村落前可達。",
     "parking_info": "",
     "website": "",
@@ -2171,7 +2171,7 @@
     "longitude": 119.489633,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1. 機車／汽車：自馬公巿區沿縣道203，經白沙鄉過跨海大橋進入西嶼鄉，經過內垵村後可抵達。 2. 公車資訊：搭乘外垵線至西臺古堡站下車。",
     "parking_info": "",
     "website": "",
@@ -2189,7 +2189,7 @@
     "longitude": 119.4690526,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1. 機車／汽車：自馬公巿區沿縣道２０３，至東衛左轉，經白沙鄉、過跨海大橋後至外垵，接澎６鄉道，即可到達漁翁島燈塔。",
     "parking_info": "",
     "website": "",
@@ -2207,7 +2207,7 @@
     "longitude": 119.4251875,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1. 七美遊客中心位於七美鄉南滬港旁，搭船前往七美鄉時，一下船即可看到七美遊客中心。 2. 搭船的澎友，請自巿區南海遊艇碼頭（新營路25號）搭乘車管處交通船或民營快艇(僅旺季行駛)前往，船行時間約70分鐘(交通船需時2小時)。 3.選擇搭機，每日皆有德安航空往返馬公，七美和高雄間。 4.澎湖縣政府公共車船管理處交通船時刻表連結 5.德安航空連結",
     "parking_info": "",
     "website": "",
@@ -2225,7 +2225,7 @@
     "longitude": 119.4251875,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1. 七美人塚位於七美鄉，可選擇搭機或搭船前往七美鄉，到達後再選擇騎乘機車或搭乘遊覽車前往，自南滬港沿澎43號鄉道，即可到達七美人塚。 2. 選擇搭船，需自巿區南海遊艇碼頭（新營路25號）搭乘車管處交通船或民營快艇(僅旺季行駛)前往，船行時間約70分鐘(交通船需時2小時)。 3. 選擇搭機，每日皆有德安航空往返馬公，七美和高雄間。",
     "parking_info": "",
     "website": "",
@@ -2243,7 +2243,7 @@
     "longitude": 119.4301,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1.望夫石位於七美鄉，可選擇搭機或搭船前往七美鄉，到達後再選擇騎乘機車或搭乘遊覽車前往，自南滬港沿七美燈塔南行則可見望夫石。 2.選擇搭船，需自巿區南海遊艇碼頭（新營路25號）搭乘車管處交通船或民營快艇(僅旺季行駛)前往，船行時間約70分鐘（交通船需2小時）。 3.選擇搭機，每日皆有德安航空往返馬公，七美和高雄間。",
     "parking_info": "",
     "website": "",
@@ -2261,7 +2261,7 @@
     "longitude": 119.42968,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1. 月鯉灣遊憩區位於七美鄉，可選擇搭機或搭船前往七美鄉，到達後再選擇騎乘機車或搭乘遊覽車前往，自南滬港沿澎43號鄉道，即可到達月鯉灣遊憩區。 2. 選擇搭船，需自巿區南海遊艇碼頭（新營路25號）搭乘車管處交通船或民營快艇（僅旺季行駛）前往，船行時間約70分鐘（交通船需時2小時）。 3. 選擇搭機，每日皆有德安航空往返馬公，七美和高雄間。",
     "parking_info": "",
     "website": "",
@@ -2279,7 +2279,7 @@
     "longitude": 119.43535,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1. 大獅風景區位於七美鄉，可選擇搭機或搭船前往七美鄉，到達後再選擇騎乘機車或搭乘遊覽車前往，自南滬港沿澎43號鄉道，經月鯉灣遊憩區接海邊道路往北即可到達大獅風景區。 2. 選擇搭船，需自巿區南海遊艇碼頭（新營路25號）搭乘車管處交通船或民營快艇(僅旺季行駛)前往，船行時間約70分鐘(交通船需時2小時)。 3. 選擇搭機，每日皆有德安航空往返馬公，七美和高雄間。",
     "parking_info": "",
     "website": "",
@@ -2297,7 +2297,7 @@
     "longitude": 119.437532,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1.龍埕位於大獅風景區旁，可選擇搭機或搭船前往七美鄉，到達後再選擇騎乘機車或搭乘遊覽車前往，自南滬港沿澎43號鄉道，經月鯉灣遊憩區接海邊道路往北即可到達龍埕。 2.搭船的澎友，請自巿區南海遊艇碼頭搭乘車管處交通船或民營快艇（僅旺季行駛）前往，船行時間約70分鐘（交通船約2小時）。 3.選擇搭機，每日皆有德安航空往返馬公，七美和高雄間。 4.澎湖縣政府公共車船管理處交通船時刻表連結 5.德安航空連結",
     "parking_info": "",
     "website": "",
@@ -2315,7 +2315,7 @@
     "longitude": 119.443572,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1. 小臺灣位於七美鄉，可選擇搭機或搭船前往七美鄉，到達後再選擇騎乘機車或搭乘遊覽車前往，自南滬港沿澎43號鄉道，經月鯉灣遊憩區接海邊道路往北即可到達小臺灣。 2. 選擇搭船，需自巿區南海遊艇碼頭搭乘車管處交通船或民營快艇(僅旺季行駛)前往，船行時間約70分鐘(交通船需時2小時)。 3. 選擇搭機，每日皆有德安航空往返馬公，七美和高雄間。",
     "parking_info": "",
     "website": "",
@@ -2333,7 +2333,7 @@
     "longitude": 119.44697,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1. 七美遊客中心位於七美鄉南滬港旁，搭船前往七美鄉時，一下船即可看到七美遊客中心。 2. 搭船的澎友，請自巿區南海遊艇碼頭（新營路25號）搭乘車管處交通船或民營快艇（僅旺季行駛）前往，船行時間約70分鐘（交通船約2小時）。 3.選擇搭機，每日皆有德安航空往返馬公，七美和高雄間。",
     "parking_info": "",
     "website": "",
@@ -2351,7 +2351,7 @@
     "longitude": 119.4353441,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -2369,7 +2369,7 @@
     "longitude": 119.506923411,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "望安綠蠵龜觀光保育中心位於望安鄉，須搭船前往，自巿區南海遊艇碼頭（新營路25號）搭乘車管處交通船或民營快艇(僅旺季行駛)前往，船行時間約40分鐘，到達後騎乘機車前往。",
     "parking_info": "",
     "website": "",
@@ -2387,7 +2387,7 @@
     "longitude": 119.50316,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "網垵口沙灘位於望安鄉，須搭船前往，自巿區南海遊艇碼頭（新營路25號）搭乘車船處交通船或民營快艇(僅旺季行駛)前往，船行時間約40分鐘，到達後騎乘機車前往。",
     "parking_info": "",
     "website": "",
@@ -2405,7 +2405,7 @@
     "longitude": 119.49601,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1.花宅古厝（中社村）位於望安鄉，須搭船前往，自巿區南海遊艇碼頭搭乘車船處交通船或民營快艇（僅旺季行駛）前往，船行時間約40分鐘，到達後騎乘機車或搭乘遊覽車前往。",
     "parking_info": "",
     "website": "",
@@ -2423,7 +2423,7 @@
     "longitude": 119.49371,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "網垵口沙灘位於望安鄉，須搭船前往，自巿區南海遊艇碼頭搭乘車船處交通船或民營快艇(僅旺季行駛)前往，船行時間約40分鐘，到達後騎乘機車或搭乘遊覽車前往。",
     "parking_info": "",
     "website": "",
@@ -2441,7 +2441,7 @@
     "longitude": 119.50047,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "鴛鴦窟、藏軍洞位於望安鄉，須搭船前往，自巿區南海遊艇碼頭（新營路25號）搭乘車管處交通船或民營快艇（僅旺季行駛）前往，船行時間約40分鐘，到達後騎乘機車前往。",
     "parking_info": "",
     "website": "",
@@ -2459,7 +2459,7 @@
     "longitude": 119.527687,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "1.將軍澳需搭船前往。 2.上午時分可搭乘車船處交通船至望安後，轉搭計程船至將軍澳。 3.下午時分可搭乘光正6號前往將軍澳。 4.光正6號往返馬公-將軍澳-望安之間。 5.光正6號開船時間 每日14:30 馬公-將軍澳-望安；隔日07:00 望安-將軍澳-馬公",
     "parking_info": "",
     "website": "",
@@ -2477,7 +2477,7 @@
     "longitude": 119.56408,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -2495,7 +2495,7 @@
     "longitude": 119.5639616,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -2513,7 +2513,7 @@
     "longitude": 119.5607409,
     "service_time": "",
     "fee_info": "",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -2531,7 +2531,7 @@
     "longitude": 119.61155,
     "service_time": "",
     "fee_info": "無",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -2549,7 +2549,7 @@
     "longitude": 119.56076,
     "service_time": "",
     "fee_info": "無",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -2567,7 +2567,7 @@
     "longitude": 119.6712,
     "service_time": "預約",
     "fee_info": "依體驗行程預約表10人成行",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -2585,7 +2585,7 @@
     "longitude": 119.64177,
     "service_time": "",
     "fee_info": "現金／Line pay",
-    "is_free": 0,
+    "is_free": null,
     "traffic_info": "",
     "parking_info": "",
     "website": "",
@@ -3945,24 +3945,6 @@
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
     "id": "Restaurant_A15010200H_000076",
-    "name": "澎島之星BBQ【馬公市】",
-    "description": "澎島之星燒烤吃到飽",
-    "town": "馬公市",
-    "address": "漁隆路50號3樓",
-    "latitude": 23.56557,
-    "longitude": 119.57002,
-    "service_time": "",
-    "fee_info": null,
-    "is_free": null,
-    "traffic_info": "",
-    "parking_info": "",
-    "website": "https://www.facebook.com/澎島之星燒烤吃到飽-1663385280595870/",
-    "image_url": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg"
-  },
-  {
-    "source": "Taiwan_Gov_OpenData_v2",
-    "category": "restaurants",
-    "id": "Restaurant_A15010200H_000077",
     "name": "湖光食客義式餐廳【馬公市】",
     "description": "提供美式早午餐、義式燉飯、義大利麵、咖啡，供餐時間：10:00～14:00 17:00～21:00",
     "town": "馬公市",
@@ -3980,7 +3962,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000078",
+    "id": "Restaurant_A15010200H_000077",
     "name": "謝家肉餅【馬公市】",
     "description": "澎湖文化中心附近的在地美食",
     "town": "馬公市",
@@ -3998,7 +3980,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000079",
+    "id": "Restaurant_A15010200H_000078",
     "name": "南海碼頭自助碳烤【馬公市】",
     "description": "澎湖自助烤肉吃到飽",
     "town": "馬公市",
@@ -4016,7 +3998,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000080",
+    "id": "Restaurant_A15010200H_000079",
     "name": "朝食暮饗早午餐&宵夜中【馬公市】",
     "description": "#澎湖早餐#澎湖早午餐#澎湖晚餐#澎湖宵夜",
     "town": "馬公市",
@@ -4034,7 +4016,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000081",
+    "id": "Restaurant_A15010200H_000080",
     "name": "鍋道樂和風鍋物料理【馬公市】",
     "description": "搭配最好的鍋底，給您最簡單、最幸福的感受。",
     "town": "馬公市",
@@ -4052,7 +4034,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000082",
+    "id": "Restaurant_A15010200H_000081",
     "name": "阿婆鹹粥【馬公市】",
     "description": "古早味小吃,鹹粥粄條湯麵魚丸湯花枝湯",
     "town": "馬公市",
@@ -4070,7 +4052,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000083",
+    "id": "Restaurant_A15010200H_000082",
     "name": "那朵古早味手工蛋餅早餐車【馬公市】",
     "description": "早餐與早午餐餐廳",
     "town": "馬公市",
@@ -4088,7 +4070,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000084",
+    "id": "Restaurant_A15010200H_000083",
     "name": "藍媽媽仙草店【馬公市】",
     "description": "傳承口碑，真材實料製作，以不甜膩口味，呈現現代人不造成身體負擔的吃法。",
     "town": "馬公市",
@@ -4106,7 +4088,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000085",
+    "id": "Restaurant_A15010200H_000084",
     "name": "蔡記饌蔬食坊【馬公市】",
     "description": "推廣蔬食食材都採用最好的並且都以手工製作以不油膩.不鹹的方式來保留食材的原味",
     "town": "馬公市",
@@ -4124,7 +4106,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000086",
+    "id": "Restaurant_A15010200H_000085",
     "name": "Addict Restaurant 癮餐廳【馬公市】",
     "description": "西式手法結合在地新鮮食材",
     "town": "馬公市",
@@ -4142,7 +4124,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000087",
+    "id": "Restaurant_A15010200H_000086",
     "name": "新巴適經典麻辣鍋-澎湖吃到飽【馬公市】",
     "description": "澎湖吃到飽/澎湖美食/澎湖火鍋/在地推薦餐廳/澎湖必吃美食/人氣餐廳",
     "town": "馬公市",
@@ -4160,7 +4142,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000088",
+    "id": "Restaurant_A15010200H_000087",
     "name": "澎湖樂晨早午餐【馬公市】",
     "description": "尋找熟悉的滋味，一種讓人懷念、感動的味道，其實很簡單一期一會，追求的是職人的認真、執著和堅持 「樂晨」是圓夢的基地，我們誠摯歡迎您！ 老闆開店前獲獎經歷：⭐️⭐️2019年榮獲米其林餐盤推薦⭐️⭐️",
     "town": "馬公市",
@@ -4178,7 +4160,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000089",
+    "id": "Restaurant_A15010200H_000088",
     "name": "海島咖啡館【馬公市】",
     "description": "寵物友善咖啡廳",
     "town": "馬公市",
@@ -4196,7 +4178,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000090",
+    "id": "Restaurant_A15010200H_000089",
     "name": "六六早餐店【馬公市】",
     "description": "因應防疫人人有責.愛大家更要保護自己.即日起入店請配合戴好口罩.實聯制.拿起隨身手機掃一掃QR 謝謝大家一同配合",
     "town": "馬公市",
@@ -4214,7 +4196,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000091",
+    "id": "Restaurant_A15010200H_000090",
     "name": "嚎鯎海味館【馬公市】",
     "description": "為您服務是濠誠的榮幸",
     "town": "馬公市",
@@ -4232,7 +4214,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000092",
+    "id": "Restaurant_A15010200H_000091",
     "name": "鼎灣米糕總店【湖西鄉】",
     "description": "澎湖縣湖西鄉的餐廳",
     "town": "湖西鄉",
@@ -4250,7 +4232,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000093",
+    "id": "Restaurant_A15010200H_000092",
     "name": "大城北牛肉麵【湖西鄉】",
     "description": "神秘的牛肉麵",
     "town": "湖西鄉",
@@ -4268,7 +4250,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000094",
+    "id": "Restaurant_A15010200H_000093",
     "name": "369漁樂世界 碳烤熱炒美食【馬公市】",
     "description": "碳烤，舒適BBQ / 霸氣活海鮮",
     "town": "馬公市",
@@ -4286,7 +4268,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000095",
+    "id": "Restaurant_A15010200H_000094",
     "name": "雲泰（泰式料理）【馬公市】",
     "description": "來自緬甸的華僑，選用泰式雲南料理方法烹調澎湖海鮮。",
     "town": "馬公市",
@@ -4304,7 +4286,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000096",
+    "id": "Restaurant_A15010200H_000095",
     "name": "山水牛肉麵【馬公市】",
     "description": "牛肉炒泡麵、牛三寶(牛腱,牛肚,牛腩)、牛肉意麵",
     "town": "馬公市",
@@ -4322,25 +4304,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000097",
-    "name": "時咖啡 SHILICAFE【馬公市】",
-    "description": "※ 因店家每週公休時間不固定，建議民眾前往參訪前，先至店家的官方Facebook粉絲專頁確認當週營業狀態，以免現場撲空影響行程唷~ 時咖啡 SHILI CAFE 我們座落在嵵裡沙灘內，隱約的藏身在澎湖特殊的洗石子建築內。 復古的外觀，小清新的裝修，是來嵵裡沙灘不能錯過的小小咖啡店。 來找我們喝一杯 交個朋友吧",
-    "town": "馬公市",
-    "address": "嵵裡里160號",
-    "latitude": 23.52627,
-    "longitude": 119.56774,
-    "service_time": "",
-    "fee_info": null,
-    "is_free": null,
-    "traffic_info": "",
-    "parking_info": "",
-    "website": "https://www.facebook.com/shilicafe/",
-    "image_url": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg"
-  },
-  {
-    "source": "Taiwan_Gov_OpenData_v2",
-    "category": "restaurants",
-    "id": "Restaurant_A15010200H_000098",
+    "id": "Restaurant_A15010200H_000096",
     "name": "永明蚵堡【白沙鄉】",
     "description": "現採的石蚵",
     "town": "白沙鄉",
@@ -4358,7 +4322,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000099",
+    "id": "Restaurant_A15010200H_000097",
     "name": "阿姨仙人掌冰【白沙鄉】",
     "description": "通梁古榕旁邊40~50年歷史的在地老店店裡仙人掌冰",
     "town": "白沙鄉",
@@ -4376,7 +4340,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000100",
+    "id": "Restaurant_A15010200H_000098",
     "name": "花枝丸三兄弟【白沙鄉】",
     "description": "現炸花枝三兄弟~ 紫菜.海菜.原味(澎湖花枝丸真材實料)",
     "town": "白沙鄉",
@@ -4394,7 +4358,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000101",
+    "id": "Restaurant_A15010200H_000099",
     "name": "牧羊人咖啡館【西嶼鄉】",
     "description": "一家鬧中取靜，可享受在古厝中悠閒喝咖啡，吃點心，聊是非，休息充電好去處。",
     "town": "西嶼鄉",
@@ -4412,7 +4376,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000102",
+    "id": "Restaurant_A15010200H_000100",
     "name": "二崁杏仁茶【西嶼鄉】",
     "description": "澎湖二崁村最具知名的茶飲",
     "town": "西嶼鄉",
@@ -4430,7 +4394,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000103",
+    "id": "Restaurant_A15010200H_000101",
     "name": "緝馬灣花枝丸【西嶼鄉】",
     "description": "我們在座落於西嶼鄉的寧靜小漁村-赤馬村, 老闆有學做花枝丸五年以上的經驗. 因為堅持使用在地食材, 因此創立了. 製作花枝丸, 從剝皮到製作成產品程序複雜, 秉持著要給客人最天然最新鮮最道地的味道. 全程手工處理, 整枝花枝從頭到腳從裡到外都不浪費，每個部分都是美味的食材，絕不添加進口花枝和味精來增加口感。",
     "town": "西嶼鄉",
@@ -4448,7 +4412,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000104",
+    "id": "Restaurant_A15010200H_000102",
     "name": "Ken's廚房【西嶼鄉】",
     "description": "Ken’s廚房用澎湖在地最頂級的食材，簡單但適切的烹調方式，讓您的澎湖之旅增添一頓難忘的味道，因為很多料理需要時間精心製作，所以敬請三天前預約，讓您的餐點更加豐富美味。",
     "town": "西嶼鄉",
@@ -4466,7 +4430,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000105",
+    "id": "Restaurant_A15010200H_000103",
     "name": "三山商號功夫刈包【西嶼鄉】",
     "description": "外垵必吃美食",
     "town": "西嶼鄉",
@@ -4484,7 +4448,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000106",
+    "id": "Restaurant_A15010200H_000104",
     "name": "外垵刈包 福氣早餐店【西嶼鄉】",
     "description": "澎湖西嶼「外垵刈包福氣早餐店」30年老店，北環西嶼地方美食! 請認一樓平房才是。",
     "town": "西嶼鄉",
@@ -4502,7 +4466,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000107",
+    "id": "Restaurant_A15010200H_000105",
     "name": "南寮風車有機農場休息站【湖西鄉】",
     "description": "南寮風車有機農場在地文化深度體驗",
     "town": "湖西鄉",
@@ -4520,7 +4484,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000108",
+    "id": "Restaurant_A15010200H_000106",
     "name": "澎福古棗味【湖西鄉】",
     "description": "「澎福食品」，是由湖西老字號的「福榮食品廠」所經營的傳統美食販售店。",
     "town": "湖西鄉",
@@ -4538,7 +4502,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000109",
+    "id": "Restaurant_A15010200H_000107",
     "name": "兩個番茄農場【湖西鄉】",
     "description": "好吃的重慶美食盡在兩個番茄農場",
     "town": "湖西鄉",
@@ -4556,7 +4520,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000110",
+    "id": "Restaurant_A15010200H_000108",
     "name": "Cimei越南大骨湯麵【七美鄉】",
     "description": "七美就是要去看雙心石滬及各大美景 就來越南大骨湯麵滿足您的味蕾吧！",
     "town": "七美鄉",
@@ -4574,7 +4538,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000111",
+    "id": "Restaurant_A15010200H_000109",
     "name": "夏至23.5攝影文創咖啡【馬公市】",
     "description": "結合澎湖在地攝影的文創咖啡館",
     "town": "馬公市",
@@ -4592,7 +4556,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000112",
+    "id": "Restaurant_A15010200H_000110",
     "name": "二馬豆花【西嶼鄉】",
     "description": "每日10:00~12:00、13:00~18:00限量，賣完就沒了！",
     "town": "西嶼鄉",
@@ -4610,7 +4574,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000113",
+    "id": "Restaurant_A15010200H_000111",
     "name": "原味漁村小吃 【馬公市】",
     "description": "鮮蚵滷肉飯、原味鮮蚵原味好滋味，在地實在味。",
     "town": "馬公市",
@@ -4628,7 +4592,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000114",
+    "id": "Restaurant_A15010200H_000112",
     "name": "阿虹的店【西嶼鄉】",
     "description": "西嶼第一家天然水蓮羹、花粉涼丼、小管麵線、海膽炒蛋、三杯小卷、燒酒螺、仙人掌冰淇淋",
     "town": "西嶼鄉",
@@ -4646,7 +4610,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000115",
+    "id": "Restaurant_A15010200H_000113",
     "name": "瑪咖朵披薩 Mercato Pizza【馬公市】",
     "description": "瑪咖朵披薩Mercato Pizza 來自熱情的澎湖，提供優質的海鮮披薩，也是全台灣第一間雲朵披薩專賣店。 2019年老闆Liya親赴義大利拿坡里學習新潮流派「雲朵餅皮」，傳承自「傳統拿坡里披薩」的薄餅皮，以義大利麵粉、老麵製作，經兩次發酵、三道工序，餅皮加上滿滿的精選食材，放進義大利進口烤箱烤出豹紋般的特色餅皮，披薩餅皮空氣感十足，鬆軟Q彈超有嚼勁。 我們用心製作披薩的細節，為的是給你們最好的品質！希望你們會喜歡：）",
     "town": "馬公市",
@@ -4664,7 +4628,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000116",
+    "id": "Restaurant_A15010200H_000114",
     "name": "老李胡椒餅【馬公市】",
     "description": "澎湖唯一炭火胡椒餅",
     "town": "馬公市",
@@ -4682,7 +4646,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000117",
+    "id": "Restaurant_A15010200H_000115",
     "name": "劉正港檸檬汁中正店",
     "description": "澎湖馬公老字號飲品",
     "town": "馬公市",
@@ -4700,7 +4664,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000118",
+    "id": "Restaurant_A15010200H_000116",
     "name": "舒心食光【馬公市】",
     "description": "澎湖在地蛋奶素早午餐",
     "town": "馬公市",
@@ -4718,7 +4682,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000119",
+    "id": "Restaurant_A15010200H_000117",
     "name": "盛記東山鴨頭【馬公市】",
     "description": "澎湖在地人宵夜",
     "town": "馬公市",
@@ -4736,7 +4700,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000120",
+    "id": "Restaurant_A15010200H_000118",
     "name": "菜宅裡的小酒館 The Garden Tapas & Bar【馬公市】",
     "description": "鄰近山水沙灘步行一分鐘，在澎湖傳統菜宅裡，以紅色貨櫃打造的西班牙風格小酒館，提供葡萄酒、生啤、調酒，以及下酒菜西班牙小碟菜TAPAS，適合三兩好友短歇小酌！",
     "town": "馬公市",
@@ -4754,7 +4718,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000121",
+    "id": "Restaurant_A15010200H_000119",
     "name": "藍洞Apatite【馬公市】",
     "description": "澎湖福朋喜來登酒店一樓的餐廳，全天候供餐",
     "town": "馬公市",
@@ -4772,7 +4736,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000122",
+    "id": "Restaurant_A15010200H_000120",
     "name": "紫玉仙草 【馬公市】",
     "description": "消暑仙草冰",
     "town": "馬公市",
@@ -4790,7 +4754,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000123",
+    "id": "Restaurant_A15010200H_000121",
     "name": "澎湖仙人掌冰城 【馬公市】",
     "description": "現打仙人掌果汁",
     "town": "馬公市",
@@ -4808,7 +4772,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000124",
+    "id": "Restaurant_A15010200H_000122",
     "name": "阿挺海鮮【西嶼鄉】",
     "description": "小管麵線、海菜魚丸湯、紫菜冬粉",
     "town": "西嶼鄉",
@@ -4826,7 +4790,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000125",
+    "id": "Restaurant_A15010200H_000123",
     "name": "赤崁加志魚麵店 【白沙鄉】",
     "description": "赤崁只有在地人才知道的美食",
     "town": "白沙鄉",
@@ -4844,7 +4808,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000126",
+    "id": "Restaurant_A15010200H_000124",
     "name": "仁品【白沙鄉】",
     "description": "『仁品』以生產製造高品質的『花枝丸』而聞名，香Ｑ可口的花枝丸。",
     "town": "馬公市",
@@ -4862,7 +4826,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000127",
+    "id": "Restaurant_A15010200H_000125",
     "name": "回家澎湖炸物烤物 【白沙鄉】",
     "description": "炸粿(狗蝦)、炸米糕、花枝丸、海丸子、蘿蔔糕",
     "town": "白沙鄉",
@@ -4880,7 +4844,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000128",
+    "id": "Restaurant_A15010200H_000126",
     "name": "大池炸粿&鯊魚排【西嶼鄉】",
     "description": "烏龜背蝦子，賣完就沒有了",
     "town": "西嶼鄉",
@@ -4898,7 +4862,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000129",
+    "id": "Restaurant_A15010200H_000127",
     "name": "澎湖漁港麵店（漁港麵） 【馬公市】",
     "description": "在地的老麵店",
     "town": "馬公市",
@@ -4916,7 +4880,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000130",
+    "id": "Restaurant_A15010200H_000128",
     "name": "福台排骨麵 【馬公市】",
     "description": "在地70年老麵店",
     "town": "馬公市",
@@ -4934,7 +4898,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000131",
+    "id": "Restaurant_A15010200H_000129",
     "name": "蔬脆蛋餅 【馬公市】",
     "description": "麵糰，不添加豬油及人工發酵成分。 餅皮，經由高溫快速油炸外酥內Q。 餅皮脆一點，軟一點... 調味要鹹一點、淡一點還是辣一點... 完全客製化...",
     "town": "馬公市",
@@ -4952,7 +4916,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000132",
+    "id": "Restaurant_A15010200H_000130",
     "name": "魚好刺身專門店【西嶼鄉】",
     "description": "澎湖當地新鮮漁獲，製作出的料理",
     "town": "西嶼鄉",
@@ -4970,7 +4934,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000133",
+    "id": "Restaurant_A15010200H_000131",
     "name": "福牡蠣屋【馬公市】",
     "description": "最好的牡蠣，留在澎湖。 台灣人的牡蠣屋，澎湖人的驕傲。我們是老實蚵，牡蠣及各式海鮮料理 營業時間 11:00–14:30、17:00–21:00",
     "town": "馬公市",
@@ -4988,7 +4952,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000134",
+    "id": "Restaurant_A15010200H_000132",
     "name": "詠華香炸物販賣所",
     "description": "老闆老闆娘服務很親切，甘梅地瓜薯條是招牌中的招牌，酥脆鮮甜。 鹹酥雞肉質鮮嫩且不油膩，搭配蒜頭、九層塔非常對味！ 炸物店難得出現的櫛瓜，健康美味又兼具營養價值，很值得一試！",
     "town": "馬公市",
@@ -5006,7 +4970,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000135",
+    "id": "Restaurant_A15010200H_000133",
     "name": "劉正港檸檬汁中華店",
     "description": "劉正港檸檬汁(中華店) 【一甲子的純粹，澎湖人的集體記憶】 ​自 1978 年由劉鉗先生創立以來，此品牌在澎湖馬公守候了近 50 年。 從第一杯檸檬汁開始，中華店-劉家二代始終秉持老父親的經營理念「堅持每日現榨檸檬、手工熬煮蔗糖、飲品全程冰鎮不加冰塊、保留最純粹風味。以「新鮮、天然、健康」為核心理念。 ​成為在地人與旅客心中的經典消暑品牌。",
     "town": "馬公市",
@@ -5024,7 +4988,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000136",
+    "id": "Restaurant_A15010200H_000134",
     "name": "藍媽媽仙草【中央店】",
     "description": "藍媽媽仙草在自家車庫105年4月開始賣起一碗傳統仙草商品，用自家廚房現煮，讓食材像媽媽下廚做菜的好味道，成藍媽媽仙草一直在做的經營導向。藍媽媽仙草以傳統吃法呈現，讓一碗仙草吃起來滿滿古早味記憶。",
     "town": "馬公市",
@@ -5042,7 +5006,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000137",
+    "id": "Restaurant_A15010200H_000135",
     "name": "雛菊見DAISY HOUSE-澎湖店【馬公市】",
     "description": "【雛菊】義大利的國花，深受充滿熱情和活力的義大利人所喜愛，澎湖別名【菊島】，所以我們以雛菊為名，希望大家在菊島品嘗到美味的義式料理。",
     "town": "馬公市",
@@ -5060,7 +5024,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000138",
+    "id": "Restaurant_A15010200H_000136",
     "name": "文康滷菜【馬公市】",
     "description": "各式滷味，種類豐富、香味四溢。",
     "town": "馬公市",
@@ -5078,7 +5042,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000139",
+    "id": "Restaurant_A15010200H_000137",
     "name": "鮮雅圖手抓海鮮【馬公市】",
     "description": "來到澎湖必去的節目(綜藝新時代、花甲少年)及網紅推薦餐廳,以美式手抓海鮮崛起的【鮮雅圖】千萬別錯過!起源自美國南方港口的海鮮吃法,老闆將道地的美式海鮮飲食方式引進澎湖,特聘台北五星級飯店主廚,現點現做,堅持提供最新鮮的餐點, 烹飪入味的海鮮裝入桶子直接倒在客人桌上享用,豪邁的手抓吃法正是鮮雅圖的特色,饕客們都直呼「吃得好過癮!」。 店內異國風格設計,熱情橘黃色調,半開放式的寬敞空間讓用餐氛圍更顯舒適,可愛的法門店長「阿尼基」還會巡視客人狀況,提前預約來店內慶生,熱情的老闆還會招待一份特色菜,主餐也提供戰斧豬、手抓素食及其他單點美食,滿足每位饕客的需求。來【鮮雅圖】嚐鮮朝聖,手抓海鮮的魅力只有吃過的人才能體會手抓海鮮的魅力。低消:NT$350/人.手抓海鮮龍蝦套餐 NT$1,050",
     "town": "白沙鄉",
@@ -5096,7 +5060,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000140",
+    "id": "Restaurant_A15010200H_000138",
     "name": "吳記沙拉營養三明治【馬公市】",
     "description": "小管沙拉三明治結合海鮮與沙拉風味，口味清爽，為旅客體驗在地飲食文化的選項之一。店家亦提供蛋奶素選項，滿足不同飲食需求。",
     "town": "馬公市",
@@ -5114,7 +5078,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000141",
+    "id": "Restaurant_A15010200H_000139",
     "name": "海苑 活造鍋物【馬公市】",
     "description": "\"主打 【澎湖活體海鮮】、【日本A5和牛】、【Prime 等級美牛】 嚴選當季盛產肥美活體海鮮 活體海魚：現點、現撈、去骨、切片、擺盤呈現！ 我們提供生食、涮魚片等多重口感體驗\"",
     "town": "馬公市",
@@ -5132,7 +5096,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000142",
+    "id": "Restaurant_A15010200H_000140",
     "name": "別野餐廳【白沙鄉】",
     "description": "吉貝島海鮮無菜單料理",
     "town": "白沙鄉",
@@ -5150,7 +5114,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000143",
+    "id": "Restaurant_A15010200H_000141",
     "name": "海城 上湯鮮魚粥【馬公市】",
     "description": "\"澎湖在地海鮮料理，堅持澎湖在地食材取之當季用之當令！ 【活體鮮魚湯】 使用當日進港現流活魚！手工去骨切片而成的無骨魚片！可以大口吃魚不需擔心魚刺問題～ 無論大人、小孩都能安心享用澎湖在地活體鮮魚的鮮甜美味！\"",
     "town": "馬公市",
@@ -5168,7 +5132,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000144",
+    "id": "Restaurant_A15010200H_000142",
     "name": "天津（包料）蔥抓餅【馬公市】",
     "description": "如果你也熱愛鬆軟又富有層次感的美食，那你絕不能錯過 天津包料蔥抓餅！這款蔥抓餅不僅擁有千層口感，還有讓人一吃就停不下來的魅力。 【千層鬆軟，口感絕佳】 天津的蔥抓餅，以「鬆到無法立著拍」而聞名，每一口都充滿了餅皮的層次感， 咬下去的時候酥脆與柔軟兼具，完全滿足你的味蕾。而且，他們家的餅不油膩，就算多吃幾張也不會覺得負擔。 【多元口味選擇，滿足每個人】 無論你喜歡原味的純粹，還是偏愛鹹香的培根起司，甚至想嘗試甜口味的特調， 都能在這裡找到你的最愛！口味選擇多樣，讓每次品嚐都有全新驚喜。 【多年來的好味道】 身為一位忠實顧客，天津的蔥抓餅陪伴了我的無數下午茶時光。不論是忙裡偷閒的片刻， 還是與朋友分享的愉悅，都讓人回味無窮。這是一份不斷帶給人幸福感的味道！",
     "town": "馬公市",
@@ -5186,7 +5150,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000145",
+    "id": "Restaurant_A15010200H_000143",
     "name": "魚之屋 無菜單海鮮料理【馬公市】",
     "description": "一家將在地食材最做適當的料理方式千萬裝潢舒適的空間",
     "town": "馬公市",
@@ -5204,7 +5168,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000146",
+    "id": "Restaurant_A15010200H_000144",
     "name": "潮境 TideLand｜海鮮料理【馬公市】",
     "description": "「潮境」寓意海潮交會，象徵融合與層次，2021年開幕，由一群熱愛料理的年輕人經營，結合創意與澎湖新鮮海味，受型男大主廚拍攝肯定。我們經常到世界各地汲取創作靈感，菜單隨季節更換，2人就能享受的精緻合菜料理。 ★合菜形式出餐，同桌需選同價位 ★每人 $600 / $900 / $1200（2人就可上菜） ★$1200 套餐最晚需前1天預訂，現場恕無法提供 ★不吃生食／有海鮮過敏，請提前告知以便調整 ★依季節性海鮮魚貨出菜，不定時更換菜單，實際菜色以現場供應為主 ★高階無菜單需求，歡迎私訊粉專討論專屬菜單 ★超過11人(含)以上團體或有1人用餐需求，請直接來電聯繫我們 ★夏季用餐，酌收 10% 服務費，感謝體諒",
     "town": "馬公市",
@@ -5222,7 +5186,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000147",
+    "id": "Restaurant_A15010200H_000145",
     "name": "Bunny Café【白沙鄉】",
     "description": "高空海景咖啡廳",
     "town": "白沙鄉",
@@ -5240,7 +5204,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000148",
+    "id": "Restaurant_A15010200H_000146",
     "name": "友先燒烤店 (有先燒烤)【馬公市】",
     "description": "海陸自助式燒烤吃到飽",
     "town": "馬公市",
@@ -5258,7 +5222,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000149",
+    "id": "Restaurant_A15010200H_000147",
     "name": "梅乃之鮮果汁養生活力飲",
     "description": "2003年開業以來堅持秉承新鮮自然健康養生飲品",
     "town": "馬公市",
@@ -5276,7 +5240,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000150",
+    "id": "Restaurant_A15010200H_000148",
     "name": "雞母塢驛站",
     "description": "雞母塢驛站｜用一口澎湖味，訴說在地故事 雞母塢驛站坐落於澎湖馬公五德里，承襲「雞母塢」這片土地的人文歷史與海洋文化，將在地食材、漁村風味與職人精神融入每一道料理。 我們堅持選用新鮮食材，結合澎湖海味與家鄉料理，讓每位來訪的旅人，不只是享用一頓餐點，更能感受澎湖的人情味與土地溫度。 從特色便當、風味料理、海鮮餐點，到伴手禮與漁村體驗，雞母塢驛站致力成為旅人認識澎湖、品味澎湖、帶走澎湖記憶的重要一站。 一份料理，一段故事；一趟旅程，一份感動。 雞母塢驛站，讓澎湖的美味與溫暖，陪伴每一位遠道而來的朋友",
     "town": "馬公市",
@@ -5294,7 +5258,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000151",
+    "id": "Restaurant_A15010200H_000149",
     "name": "Nick Bar",
     "description": "老古厝戶外運動酒吧（有投影大螢幕可觀看球賽） *下大爆雨皆為休息日*",
     "town": "湖西鄉",
@@ -5312,7 +5276,7 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "restaurants",
-    "id": "Restaurant_A15010200H_000152",
+    "id": "Restaurant_A15010200H_000150",
     "name": "小滿烤肉食材",
     "description": "烤肉食材一站式服務one-stop-shopping 免出門，直送旅宿，輕鬆享受海島美味！",
     "town": "馬公市",
@@ -5343,7 +5307,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/55870.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/55870.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -5703,7 +5667,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56288.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56288.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -6009,7 +5973,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/199474.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/199474.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -6081,7 +6045,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56562.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56562.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -6099,7 +6063,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/281499.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/281499.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -6261,7 +6225,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56664.png?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56664.png?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -6315,7 +6279,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56710.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56710.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -6441,7 +6405,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "http://www.yaling-hotel.tw/yaling-hotel.htm",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56741.JPG?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56741.JPG?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -6585,7 +6549,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56918.JPG?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56918.JPG?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -6801,7 +6765,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "https://www.facebook.com/oceanman0403/",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/68747.JPG?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/68747.JPG?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -7089,7 +7053,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "http://www.yaling-hotel.tw/foung-gu-hotel.htm",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57251.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57251.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -7107,7 +7071,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57260.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57260.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -7125,7 +7089,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "http://www.pescadoresresort.com",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57262.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57262.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -7197,7 +7161,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/304859.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/304859.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -7251,7 +7215,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "https://sites.google.com/penghuyuxiang.com/yuxiangyuxianghomestay/%E9%A6%96%E9%A0%81/%E5%A6%82%E4%BD%95%E8%A8%82%E6%88%BF",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57377.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57377.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -7287,7 +7251,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "http://www.yaling-hotel.tw/",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/148851.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/148851.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -7323,7 +7287,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57416.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57416.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -7809,7 +7773,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "http://www.everspring-hotel.com.tw",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/147664.jpeg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/147664.jpeg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -7827,7 +7791,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57776.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57776.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -7917,7 +7881,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/148781.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/148781.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -8025,7 +7989,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "http://mhoteltw.com",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57894.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57894.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -8079,7 +8043,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58006.JPG?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58006.JPG?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -8115,7 +8079,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車12輛、機車0輛、大客車0輛",
     "website": "https://castle888.com.tw/",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/77678.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/77678.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -8295,7 +8259,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/184785.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/184785.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -8313,7 +8277,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58170.JPG?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58170.JPG?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -8385,7 +8349,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58215.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58215.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -8493,7 +8457,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/183296.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/183296.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -8619,7 +8583,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/76264.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/76264.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -8673,7 +8637,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58446.JPG?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58446.JPG?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -8691,7 +8655,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58457.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58457.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -8763,7 +8727,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "http://www.sky-square-hotel.com/reservation/",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/127594.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/127594.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -8853,7 +8817,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車3輛、機車0輛、大客車0輛",
     "website": "http://www.daydream.tw/index.html",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58604.JPG?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58604.JPG?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -8871,7 +8835,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "https://www.hotel-g.com.tw/room/",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/146957.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/146957.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -8907,7 +8871,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58647.JPG?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58647.JPG?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -8997,7 +8961,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58713.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58713.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -9051,7 +9015,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "https://damorlee.com/",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58772.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58772.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -9123,7 +9087,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "http://www.yentai-hotel.com.tw/",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/354469.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/354469.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -9267,7 +9231,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車257輛、機車93輛、大客車3輛",
     "website": "http://www.discoveryhotel.com.tw",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/199693.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/199693.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -9465,7 +9429,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車10輛、機車0輛、大客車0輛",
     "website": "http://www.apause.com.tw",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/78703.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/78703.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -9519,7 +9483,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "http://sunintheplace.weebly.com",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59135.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59135.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -9663,7 +9627,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59241.JPG?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59241.JPG?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -9699,7 +9663,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "http://www.be-my-house.com/",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59272.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59272.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -9735,7 +9699,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "http://www.069266161.com",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59291.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59291.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -9879,7 +9843,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "http://www.yurong.com.tw",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59496.JPG?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59496.JPG?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -9987,7 +9951,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "https://stores.taiwan66.com.tw/jackfamily/business-items",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59549.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59549.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -10329,7 +10293,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車4輛、機車10輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59738.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59738.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -10347,7 +10311,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59744.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59744.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -10581,7 +10545,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59914.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59914.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -10599,7 +10563,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車5輛、機車20輛、大客車1輛",
     "website": "http://www.sunlight-castle.com/index.htm",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/154535.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/154535.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -10851,7 +10815,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "http://www.pescadoresresort.com",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/100385.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/100385.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -10887,7 +10851,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60116.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60116.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -10905,7 +10869,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/80530.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/80530.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -10995,7 +10959,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60178.JPG?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60178.JPG?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -11067,7 +11031,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "https://www.siwei-ocean.com/simple/",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60226.JPG?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60226.JPG?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -11139,7 +11103,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "http://www.beachcastle.com.tw",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60317.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60317.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -11193,7 +11157,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60362.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60362.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -12219,7 +12183,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60896.JPG?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60896.JPG?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -12255,7 +12219,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車200輛、機車14輛、大客車6輛",
     "website": "http://www.fourpoints-penghu.com/",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60942.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60942.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -12399,7 +12363,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60971.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60971.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -13371,7 +13335,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/61704.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/61704.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -13551,7 +13515,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "https://fengdao2.mystrikingly.com/",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/61811.png?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/61811.png?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -13659,7 +13623,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/61915.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/61915.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -13695,7 +13659,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車3輛、機車0輛、大客車0輛",
     "website": "http://www.phjp.com.tw",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/184782.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/184782.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -14019,7 +13983,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "http://www.bowahotel.com.tw",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/173489.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/173489.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -14091,7 +14055,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車5輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/146330.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/146330.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -14163,7 +14127,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62317.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62317.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -14217,7 +14181,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/78665.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/78665.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -14307,7 +14271,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62414.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62414.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -14397,7 +14361,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "http://www.an-i.com.tw/",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/94841.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/94841.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -14559,7 +14523,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "http://www.be-my-house.com/",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62642.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62642.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -14595,7 +14559,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "https://www.theday.com.tw/room_type.html",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62661.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62661.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -14865,7 +14829,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "http://www.yaling-hotel.tw/foung-kou-hotel.htm",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/317711.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/317711.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -14901,7 +14865,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62782.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62782.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -15189,7 +15153,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "http://penghu-dream.com",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62937.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62937.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -15333,7 +15297,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63044.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63044.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -15369,7 +15333,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63048.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63048.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -15459,7 +15423,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/100086.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/100086.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -15513,7 +15477,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "http://www.facebook.com/1886loma",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63075.JPG?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63075.JPG?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -15549,7 +15513,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "https://www.longhong.com.tw/homestay.php",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63087.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63087.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -15621,7 +15585,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "http://www.camome9261236.com/",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63172.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63172.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -15819,7 +15783,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "https://www.siwei-ocean.com/seaway/index.html",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63342.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63342.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -15873,7 +15837,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "https://www.facebook.com/SunYoung.PH/",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63385.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63385.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -15891,7 +15855,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/184793.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/184793.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -16125,7 +16089,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車5輛、機車5輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/68253.JPG?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/68253.JPG?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -16161,7 +16125,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/184281.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/184281.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -16431,7 +16395,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車9輛、機車40輛、大客車4輛",
     "website": "https://www.phb-resort.com.tw",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/78518.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/78518.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -16863,7 +16827,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "https://www.facebook.com/MyFriends142/",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/164143.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/164143.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -16917,7 +16881,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/350521.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/350521.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -17079,7 +17043,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "http://gamastay.com/",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/179654.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/179654.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -17205,7 +17169,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "http://www.nahu57.com",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/101507.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/101507.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -17223,7 +17187,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/101739.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/101739.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -17277,7 +17241,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "https://yu9117.wixsite.com/ancientstreet",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/75857.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/75857.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -17403,7 +17367,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "https://www.facebook.com/juyijupenghuhomestay/",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349317.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349317.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -17934,7 +17898,7 @@
     "name": "葉子民宿",
     "description": "位於澎湖縣的民宿",
     "town": "馬公市",
-    "address": "鎖港里6鄰鎖管港436號",
+    "address": "鎖港里鎖管港436號",
     "latitude": 23.5240828,
     "longitude": 119.6035694,
     "service_time": "",
@@ -18303,7 +18267,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/133682.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/133682.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -18501,7 +18465,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/98677.JPG?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/98677.JPG?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -18609,7 +18573,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "https://www.facebook.com/%E6%BE%8E%E6%B9%96%E5%A4%8F%E6%97%A5%E9%A6%99%E6%B0%A3%E6%B0%91%E5%AE%BF-113789713643928/?modal=admin_todo_tour",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/304773.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/304773.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -19797,7 +19761,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/126157.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/126157.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -19959,7 +19923,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/250272.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/250272.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -19977,7 +19941,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/250668.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/250668.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -20859,7 +20823,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "https://bonfireoftravelers.com/",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349900.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349900.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -21039,7 +21003,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/129793.JPG?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/129793.JPG?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -21075,7 +21039,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/307686.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/307686.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -22443,7 +22407,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "https://sites.google.com/view/somewhere-guesthouse/",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/180899.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/180899.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -22767,7 +22731,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349591.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349591.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -22947,7 +22911,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車2輛、機車10輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/268658.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/268658.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -23721,7 +23685,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車8輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/172346.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/172346.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -24567,7 +24531,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "https://www.argoqingwan.com.tw/room/3/",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/307486.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/307486.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -24747,7 +24711,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車1輛、機車5輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/283034.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/283034.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -24765,7 +24729,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "https://www.serendipityhouse.com.tw",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/323915.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/323915.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -25989,7 +25953,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/221844.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/221844.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -26151,7 +26115,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/350005.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/350005.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -26637,7 +26601,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/284422.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/284422.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -26709,7 +26673,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/350309.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/350309.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -27303,7 +27267,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車2輛、機車2輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/337462.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/337462.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -27879,7 +27843,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "https://www.booking-owlnest.com/triplesuitevilla",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349211.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349211.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -28023,7 +27987,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/327858.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/327858.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -28185,7 +28149,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/296431.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/296431.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -28761,7 +28725,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "https://sanhoyan.hexa.tw/",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/334459.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/334459.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -28797,7 +28761,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/301897.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/301897.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -28815,7 +28779,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/301892.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/301892.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -28905,7 +28869,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/350468.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/350468.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -29607,7 +29571,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/325215.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/325215.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -29625,7 +29589,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/329223.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/329223.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -29787,7 +29751,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349869.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349869.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -30003,7 +29967,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/333381.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/333381.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -30219,7 +30183,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/340661.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/340661.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -30237,7 +30201,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/347032.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/347032.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -30255,7 +30219,7 @@
     "traffic_info": "",
     "parking_info": "車位:小客車0輛、機車0輛、大客車0輛",
     "website": "",
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/351303.jpg?v=20261005"
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/351303.jpg?v=20261017"
   },
   {
     "source": "Taiwan_Gov_OpenData_v2",
@@ -30368,13 +30332,13 @@
   {
     "source": "Taiwan_Gov_OpenData_v2",
     "category": "hotels",
-    "id": "Hotel_A15010000H_039671",
-    "name": "永詠民宿",
-    "description": "位於澎湖的民宿。",
-    "town": "馬公市",
-    "address": "西文里21鄰西文澳86之105號",
-    "latitude": 23.565,
-    "longitude": 119.583,
+    "id": "Hotel_A15010000H_039743",
+    "name": "蘭陵居民宿",
+    "description": "澎湖縣民宿",
+    "town": "湖西鄉",
+    "address": "成功村1鄰港底8號",
+    "latitude": 23.577987,
+    "longitude": 119.621573,
     "service_time": "",
     "fee_info": null,
     "is_free": null,
