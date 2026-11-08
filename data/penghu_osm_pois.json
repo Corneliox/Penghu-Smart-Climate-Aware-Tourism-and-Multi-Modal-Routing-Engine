@@ -10,8 +10,8 @@
     "opening_hours": null,
     "wheelchair": null,
     "air_conditioning": null,
-    "latitude": 23.2196248,
-    "longitude": 119.4464207,
+    "latitude": 23.2194319,
+    "longitude": 119.4465494,
     "raw_tags": {
       "name": "雙心石滬觀景台",
       "name:zh": "雙心石滬觀景台",
@@ -31,15 +31,14 @@
     "opening_hours": null,
     "wheelchair": null,
     "air_conditioning": null,
-    "latitude": 23.1874149,
-    "longitude": 119.4297408,
+    "latitude": 23.1876485,
+    "longitude": 119.4300278,
     "raw_tags": {
       "name": "望夫石",
       "name:en": "Waiting for Husband Rock",
       "name:zh": "望夫石",
       "name:zh-Hans": "望夫石",
       "name:zh-Hant": "望夫石",
-      "natural": "stone",
       "tourism": "attraction"
     }
   },
@@ -722,8 +721,8 @@
     "opening_hours": null,
     "wheelchair": null,
     "air_conditioning": null,
-    "latitude": 23.1894592,
-    "longitude": 119.4304635,
+    "latitude": 23.1894444,
+    "longitude": 119.4304213,
     "raw_tags": {
       "tourism": "viewpoint"
     }
@@ -739,31 +738,14 @@
     "opening_hours": null,
     "wheelchair": null,
     "air_conditioning": null,
-    "latitude": 23.2030886,
-    "longitude": 119.4386665,
+    "latitude": 23.2030812,
+    "longitude": 119.4386142,
     "raw_tags": {
       "historic": "memorial",
       "name": "龍埕生態",
       "name:zh": "龍埕生態",
       "name:zh-Hans": "龙埕生态",
       "name:zh-Hant": "龍埕生態"
-    }
-  },
-  {
-    "osm_id": 3869534331,
-    "osm_type": "node",
-    "category": "tourist_attraction",
-    "name": "Tanpa Nama",
-    "name_zh": null,
-    "name_en": null,
-    "brand": null,
-    "opening_hours": null,
-    "wheelchair": null,
-    "air_conditioning": null,
-    "latitude": 23.2050625,
-    "longitude": 119.4420463,
-    "raw_tags": {
-      "tourism": "viewpoint"
     }
   },
   {
@@ -810,45 +792,6 @@
     "longitude": 119.4435029,
     "raw_tags": {
       "historic": "memorial"
-    }
-  },
-  {
-    "osm_id": 4011361409,
-    "osm_type": "node",
-    "category": "tourist_attraction",
-    "name": "小台灣",
-    "name_zh": "小台灣",
-    "name_en": "Little Taiwan",
-    "brand": null,
-    "opening_hours": null,
-    "wheelchair": null,
-    "air_conditioning": null,
-    "latitude": 23.2089177,
-    "longitude": 119.44244,
-    "raw_tags": {
-      "name": "小台灣",
-      "name:en": "Little Taiwan",
-      "name:zh": "小台灣",
-      "name:zh-Hans": "小台湾",
-      "name:zh-Hant": "小台灣",
-      "tourism": "viewpoint"
-    }
-  },
-  {
-    "osm_id": 4011368631,
-    "osm_type": "node",
-    "category": "shelter",
-    "name": "Tanpa Nama",
-    "name_zh": null,
-    "name_en": null,
-    "brand": null,
-    "opening_hours": null,
-    "wheelchair": null,
-    "air_conditioning": null,
-    "latitude": 23.1894484,
-    "longitude": 119.4303743,
-    "raw_tags": {
-      "amenity": "shelter"
     }
   },
   {
@@ -1027,15 +970,36 @@
     "opening_hours": null,
     "wheelchair": null,
     "air_conditioning": null,
-    "latitude": 23.2000136,
-    "longitude": 119.4270223,
+    "latitude": 23.2000123,
+    "longitude": 119.4270207,
     "raw_tags": {
-      "barrier": "gate",
       "name": "南嶼城",
       "name:zh": "南嶼城",
       "name:zh-Hans": "南屿城",
       "name:zh-Hant": "南嶼城",
       "tourism": "attraction"
+    }
+  },
+  {
+    "osm_id": 4161520294,
+    "osm_type": "node",
+    "category": "tourist_attraction",
+    "name": "烏溝金鷹寶塔",
+    "name_zh": "烏溝金鷹寶塔",
+    "name_en": null,
+    "brand": null,
+    "opening_hours": null,
+    "wheelchair": null,
+    "air_conditioning": null,
+    "latitude": 23.2183432,
+    "longitude": 119.4245902,
+    "raw_tags": {
+      "historic": "memorial",
+      "memorial": "statue",
+      "name": "烏溝金鷹寶塔",
+      "name:zh": "烏溝金鷹寶塔",
+      "name:zh-Hans": "乌沟金鹰宝塔",
+      "name:zh-Hant": "烏溝金鷹寶塔"
     }
   },
   {
@@ -1049,8 +1013,8 @@
     "opening_hours": null,
     "wheelchair": null,
     "air_conditioning": null,
-    "latitude": 23.1914788,
-    "longitude": 119.4224662,
+    "latitude": 23.1914631,
+    "longitude": 119.4224592,
     "raw_tags": {
       "name": "福龍寶塔",
       "name:zh": "福龍寶塔",
@@ -1070,10 +1034,11 @@
     "opening_hours": null,
     "wheelchair": null,
     "air_conditioning": null,
-    "latitude": 23.1937966,
-    "longitude": 119.4276775,
+    "latitude": 23.1937744,
+    "longitude": 119.4276574,
     "raw_tags": {
-      "man_made": "tower",
+      "historic": "memorial",
+      "memorial": "statue",
       "name": "福龍龜王塔",
       "name:zh": "福龍龜王塔",
       "name:zh-Hans": "福龙龟王塔",
@@ -1082,71 +1047,25 @@
     }
   },
   {
-    "osm_id": 4161520298,
+    "osm_id": 4161521227,
     "osm_type": "node",
-    "category": "shelter",
-    "name": "Tanpa Nama",
-    "name_zh": null,
+    "category": "tourist_attraction",
+    "name": "鳳塔",
+    "name_zh": "鳳塔",
     "name_en": null,
     "brand": null,
     "opening_hours": null,
     "wheelchair": null,
     "air_conditioning": null,
-    "latitude": 23.189644,
-    "longitude": 119.4291273,
+    "latitude": 23.2138371,
+    "longitude": 119.4244621,
     "raw_tags": {
-      "amenity": "shelter"
-    }
-  },
-  {
-    "osm_id": 4161520305,
-    "osm_type": "node",
-    "category": "shelter",
-    "name": "Tanpa Nama",
-    "name_zh": null,
-    "name_en": null,
-    "brand": null,
-    "opening_hours": null,
-    "wheelchair": null,
-    "air_conditioning": null,
-    "latitude": 23.1923478,
-    "longitude": 119.4269924,
-    "raw_tags": {
-      "amenity": "shelter"
-    }
-  },
-  {
-    "osm_id": 4161520306,
-    "osm_type": "node",
-    "category": "shelter",
-    "name": "Tanpa Nama",
-    "name_zh": null,
-    "name_en": null,
-    "brand": null,
-    "opening_hours": null,
-    "wheelchair": null,
-    "air_conditioning": null,
-    "latitude": 23.1925328,
-    "longitude": 119.4267604,
-    "raw_tags": {
-      "amenity": "shelter"
-    }
-  },
-  {
-    "osm_id": 4161521221,
-    "osm_type": "node",
-    "category": "shelter",
-    "name": "Tanpa Nama",
-    "name_zh": null,
-    "name_en": null,
-    "brand": null,
-    "opening_hours": null,
-    "wheelchair": null,
-    "air_conditioning": null,
-    "latitude": 23.2202285,
-    "longitude": 119.4420284,
-    "raw_tags": {
-      "amenity": "shelter"
+      "historic": "memorial",
+      "memorial": "statue",
+      "name": "鳳塔",
+      "name:zh": "鳳塔",
+      "name:zh-Hans": "凤塔",
+      "name:zh-Hant": "鳳塔"
     }
   },
   {
@@ -3029,8 +2948,8 @@
     "opening_hours": "Mo-Su 08:00-14:00",
     "wheelchair": null,
     "air_conditioning": null,
-    "latitude": 23.2021717,
-    "longitude": 119.4352011,
+    "latitude": 23.2021538,
+    "longitude": 119.4351776,
     "raw_tags": {
       "amenity": "marketplace",
       "name": "大獅龍埕特產市集",
@@ -3586,8 +3505,8 @@
     "opening_hours": null,
     "wheelchair": null,
     "air_conditioning": null,
-    "latitude": 23.218576,
-    "longitude": 119.4255437,
+    "latitude": 23.2184115,
+    "longitude": 119.4252855,
     "raw_tags": {
       "tourism": "viewpoint"
     }
@@ -3603,8 +3522,8 @@
     "opening_hours": null,
     "wheelchair": null,
     "air_conditioning": null,
-    "latitude": 23.1982151,
-    "longitude": 119.4210169,
+    "latitude": 23.1982777,
+    "longitude": 119.4208446,
     "raw_tags": {
       "tourism": "viewpoint"
     }
@@ -4154,6 +4073,27 @@
       "name": "澎湖印地安平價活海鮮餐廳",
       "name:en": "Yin Di An Fish Restaurant",
       "name:zh": "澎湖印地安平價活海鮮餐廳"
+    }
+  },
+  {
+    "osm_id": 7134879388,
+    "osm_type": "node",
+    "category": "tourist_attraction",
+    "name": "月鯉灣",
+    "name_zh": "月鯉灣",
+    "name_en": null,
+    "brand": null,
+    "opening_hours": null,
+    "wheelchair": null,
+    "air_conditioning": null,
+    "latitude": 23.1967911,
+    "longitude": 119.4294516,
+    "raw_tags": {
+      "name": "月鯉灣",
+      "name:zh": "月鯉灣",
+      "name:zh-Hans": "月鲤湾",
+      "name:zh-Hant": "月鯉灣",
+      "tourism": "attraction"
     }
   },
   {
@@ -6030,27 +5970,6 @@
     }
   },
   {
-    "osm_id": 10859486178,
-    "osm_type": "node",
-    "category": "tourist_attraction",
-    "name": "玉天祠",
-    "name_zh": "玉天祠",
-    "name_en": null,
-    "brand": null,
-    "opening_hours": null,
-    "wheelchair": null,
-    "air_conditioning": null,
-    "latitude": 23.1965126,
-    "longitude": 119.4292118,
-    "raw_tags": {
-      "historic": "wayside_shrine",
-      "name": "玉天祠",
-      "name:zh": "玉天祠",
-      "name:zh-Hans": "玉天祠",
-      "name:zh-Hant": "玉天祠"
-    }
-  },
-  {
     "osm_id": 10860031311,
     "osm_type": "node",
     "category": "food_and_drink",
@@ -6069,27 +5988,6 @@
       "name:zh": "七美極品鹽水雞",
       "name:zh-Hans": "七美极品盐水鸡",
       "name:zh-Hant": "七美極品鹽水雞"
-    }
-  },
-  {
-    "osm_id": 10866434057,
-    "osm_type": "node",
-    "category": "tourist_attraction",
-    "name": "俯看大獅與龍埕",
-    "name_zh": "俯看大獅與龍埕",
-    "name_en": null,
-    "brand": null,
-    "opening_hours": null,
-    "wheelchair": null,
-    "air_conditioning": null,
-    "latitude": 23.2018458,
-    "longitude": 119.4352944,
-    "raw_tags": {
-      "name": "俯看大獅與龍埕",
-      "name:zh": "俯看大獅與龍埕",
-      "name:zh-Hans": "俯看大狮与龙埕",
-      "name:zh-Hant": "俯看大獅與龍埕",
-      "tourism": "viewpoint"
     }
   },
   {
@@ -7901,6 +7799,168 @@
     }
   },
   {
+    "osm_id": 14317226318,
+    "osm_type": "node",
+    "category": "tourist_attraction",
+    "name": "望夫石",
+    "name_zh": "望夫石",
+    "name_en": null,
+    "brand": null,
+    "opening_hours": null,
+    "wheelchair": null,
+    "air_conditioning": null,
+    "latitude": 23.1895189,
+    "longitude": 119.4291574,
+    "raw_tags": {
+      "direction": "160",
+      "name": "望夫石",
+      "tourism": "viewpoint"
+    }
+  },
+  {
+    "osm_id": 14317226414,
+    "osm_type": "node",
+    "category": "convenience_store",
+    "name": "全家便利商店",
+    "name_zh": "全家便利商店",
+    "name_en": "FamilyMart",
+    "brand": "全家便利商店",
+    "opening_hours": "07:00-23:00",
+    "wheelchair": null,
+    "air_conditioning": "yes",
+    "latitude": 23.1960036,
+    "longitude": 119.4195689,
+    "raw_tags": {
+      "addr:city": "澎湖縣",
+      "addr:country": "TW",
+      "addr:district": "七美鄉",
+      "addr:full": "澎湖縣七美鄉南港村11鄰南滬26號之17",
+      "addr:hamlet": "南港村",
+      "addr:housenumber": "26-17",
+      "addr:neighbourhood": "11",
+      "addr:place": "南滬",
+      "addr:postcode": "883",
+      "addr:province": "台灣省",
+      "air_conditioning": "yes",
+      "branch": "澎湖七美店",
+      "brand": "全家便利商店",
+      "brand:en": "FamilyMart",
+      "brand:ja": "ファミリーマート",
+      "brand:wikidata": "Q10891564",
+      "brand:zh": "全家便利商店",
+      "name": "全家便利商店",
+      "name:en": "FamilyMart",
+      "name:zh": "全家便利商店",
+      "opening_hours": "07:00-23:00",
+      "payment:cash": "yes",
+      "payment:ep_easycard": "yes",
+      "payment:ep_ipass": "yes",
+      "phone": "+886 6 997 1863",
+      "ref": "021500",
+      "shop": "convenience",
+      "toilets": "yes",
+      "website": "https://www.family.com.tw/"
+    }
+  },
+  {
+    "osm_id": 14317226415,
+    "osm_type": "node",
+    "category": "convenience_store",
+    "name": "7-Eleven",
+    "name_zh": "7-Eleven",
+    "name_en": null,
+    "brand": "7-Eleven",
+    "opening_hours": "06:00-23:00",
+    "wheelchair": null,
+    "air_conditioning": "yes",
+    "latitude": 23.1960529,
+    "longitude": 119.4199142,
+    "raw_tags": {
+      "addr:city": "澎湖縣",
+      "addr:country": "TW",
+      "addr:district": "七美鄉",
+      "addr:full": "883澎湖縣七美鄉南港村50號",
+      "addr:housenumber": "50",
+      "addr:place": "南港村",
+      "addr:postcode": "883",
+      "addr:province": "台灣省",
+      "air_conditioning": "yes",
+      "alt_name": "統一超商",
+      "atm": "yes",
+      "branch": "七美門市",
+      "brand": "7-Eleven",
+      "brand:en": "7-Eleven",
+      "brand:wikidata": "Q259340",
+      "brand:wikipedia": "en:7-Eleven",
+      "fax": "+886 6 997 1419",
+      "internet_access:fee": "no",
+      "name": "7-Eleven",
+      "opening_hours": "06:00-23:00",
+      "payment:cash": "yes",
+      "payment:ep_easycard": "yes",
+      "payment:ep_ipass": "yes",
+      "phone": "+886 6 997 1382",
+      "ref": "286668",
+      "shop": "convenience",
+      "toilets": "yes",
+      "website": "https://www.7-11.com.tw/"
+    }
+  },
+  {
+    "osm_id": 14317226464,
+    "osm_type": "node",
+    "category": "shelter",
+    "name": "Tanpa Nama",
+    "name_zh": null,
+    "name_en": null,
+    "brand": null,
+    "opening_hours": null,
+    "wheelchair": null,
+    "air_conditioning": null,
+    "latitude": 23.21535,
+    "longitude": 119.4153397,
+    "raw_tags": {
+      "amenity": "shelter"
+    }
+  },
+  {
+    "osm_id": 14317226514,
+    "osm_type": "node",
+    "category": "tourist_attraction",
+    "name": "Tanpa Nama",
+    "name_zh": null,
+    "name_en": null,
+    "brand": null,
+    "opening_hours": null,
+    "wheelchair": null,
+    "air_conditioning": null,
+    "latitude": 23.2167901,
+    "longitude": 119.4198009,
+    "raw_tags": {
+      "historic": "memorial",
+      "memorial": "stele"
+    }
+  },
+  {
+    "osm_id": 14317226525,
+    "osm_type": "node",
+    "category": "tourist_attraction",
+    "name": "福德祠",
+    "name_zh": "福德祠",
+    "name_en": null,
+    "brand": null,
+    "opening_hours": null,
+    "wheelchair": null,
+    "air_conditioning": null,
+    "latitude": 23.219367,
+    "longitude": 119.4291252,
+    "raw_tags": {
+      "historic": "wayside_cross",
+      "name": "福德祠",
+      "religion": "chinese_folk"
+    }
+  },
+  {
     "osm_id": 225400813,
     "osm_type": "way",
     "category": "tourist_attraction",
@@ -7999,8 +8059,8 @@
     "opening_hours": null,
     "wheelchair": null,
     "air_conditioning": null,
-    "latitude": 23.2048482,
-    "longitude": 119.4431285,
+    "latitude": 23.2048526,
+    "longitude": 119.4431012,
     "raw_tags": {
       "admin_level": "4",
       "boundary": "administrative",
@@ -8025,8 +8085,8 @@
     "opening_hours": null,
     "wheelchair": null,
     "air_conditioning": null,
-    "latitude": 23.1924537,
-    "longitude": 119.4263828,
+    "latitude": 23.1924552,
+    "longitude": 119.4263841,
     "raw_tags": {
       "historic": "tomb",
       "name": "七美人塚",
@@ -8147,101 +8207,6 @@
     "longitude": 119.5624355,
     "raw_tags": {
       "amenity": "shelter"
-    }
-  },
-  {
-    "osm_id": 383635710,
-    "osm_type": "way",
-    "category": "convenience_store",
-    "name": "全家便利商店",
-    "name_zh": "全家便利商店",
-    "name_en": "FamilyMart",
-    "brand": "全家便利商店",
-    "opening_hours": "07:00-23:00",
-    "wheelchair": null,
-    "air_conditioning": "yes",
-    "latitude": 23.19606,
-    "longitude": 119.4195749,
-    "raw_tags": {
-      "addr:city": "澎湖縣",
-      "addr:country": "TW",
-      "addr:district": "七美鄉",
-      "addr:full": "澎湖縣七美鄉南港村11鄰南滬26號之17",
-      "addr:hamlet": "南港村",
-      "addr:housenumber": "26-17",
-      "addr:neighbourhood": "11",
-      "addr:place": "南滬",
-      "addr:postcode": "883",
-      "addr:province": "台灣省",
-      "air_conditioning": "yes",
-      "branch": "澎湖七美店",
-      "brand": "全家便利商店",
-      "brand:en": "FamilyMart",
-      "brand:ja": "ファミリーマート",
-      "brand:wikidata": "Q10891564",
-      "brand:zh": "全家便利商店",
-      "building": "retail",
-      "name": "全家便利商店",
-      "name:en": "FamilyMart",
-      "name:zh": "全家便利商店",
-      "opening_hours": "07:00-23:00",
-      "payment:cash": "yes",
-      "payment:coins": "yes",
-      "payment:ep_easycard": "yes",
-      "payment:ep_ipass": "yes",
-      "payment:notes": "yes",
-      "phone": "+886 6 997 1863",
-      "ref": "021500",
-      "shop": "convenience",
-      "toilets": "yes",
-      "website": "https://www.family.com.tw/"
-    }
-  },
-  {
-    "osm_id": 383636297,
-    "osm_type": "way",
-    "category": "convenience_store",
-    "name": "7-Eleven",
-    "name_zh": "7-Eleven",
-    "name_en": null,
-    "brand": "7-Eleven",
-    "opening_hours": "06:00-23:00",
-    "wheelchair": null,
-    "air_conditioning": "yes",
-    "latitude": 23.1961875,
-    "longitude": 119.4198891,
-    "raw_tags": {
-      "addr:city": "澎湖縣",
-      "addr:country": "TW",
-      "addr:district": "七美鄉",
-      "addr:full": "883澎湖縣七美鄉南港村50號",
-      "addr:housenumber": "50",
-      "addr:place": "南港村",
-      "addr:postcode": "883",
-      "addr:province": "台灣省",
-      "air_conditioning": "yes",
-      "alt_name": "統一超商",
-      "atm": "yes",
-      "branch": "七美門市",
-      "brand": "7-Eleven",
-      "brand:en": "7-Eleven",
-      "brand:wikidata": "Q259340",
-      "brand:wikipedia": "en:7-Eleven",
-      "building": "retail",
-      "fax": "+886 6 997 1419",
-      "internet_access:fee": "no",
-      "name": "7-Eleven",
-      "opening_hours": "06:00-23:00",
-      "payment:cash": "yes",
-      "payment:coins": "yes",
-      "payment:ep_easycard": "yes",
-      "payment:ep_ipass": "yes",
-      "payment:notes": "yes",
-      "phone": "+886 6 997 1382",
-      "ref": "286668",
-      "shop": "convenience",
-      "toilets": "yes",
-      "website": "https://www.7-11.com.tw/"
     }
   },
   {
@@ -9745,8 +9710,8 @@
     "opening_hours": null,
     "wheelchair": null,
     "air_conditioning": null,
-    "latitude": 23.2199803,
-    "longitude": 119.4390209,
+    "latitude": 23.2199944,
+    "longitude": 119.4390176,
     "raw_tags": {
       "building": "yes",
       "historic": "tomb",
@@ -9765,8 +9730,8 @@
     "opening_hours": null,
     "wheelchair": null,
     "air_conditioning": null,
-    "latitude": 23.2200079,
-    "longitude": 119.4387105,
+    "latitude": 23.2200171,
+    "longitude": 119.4387044,
     "raw_tags": {
       "building": "yes",
       "historic": "tomb",
@@ -9789,8 +9754,8 @@
     "opening_hours": null,
     "wheelchair": null,
     "air_conditioning": null,
-    "latitude": 23.2200516,
-    "longitude": 119.4382386,
+    "latitude": 23.2200666,
+    "longitude": 119.4382388,
     "raw_tags": {
       "building": "yes",
       "historic": "tomb",
@@ -10629,11 +10594,11 @@
     "opening_hours": null,
     "wheelchair": null,
     "air_conditioning": null,
-    "latitude": 23.1967953,
-    "longitude": 119.4295745,
+    "latitude": 23.1968096,
+    "longitude": 119.4295204,
     "raw_tags": {
       "amenity": "shelter",
-      "building": "yes"
+      "building": "roof"
     }
   },
   {
@@ -10647,8 +10612,8 @@
     "opening_hours": null,
     "wheelchair": null,
     "air_conditioning": null,
-    "latitude": 23.1971951,
-    "longitude": 119.4298667,
+    "latitude": 23.1971906,
+    "longitude": 119.4298931,
     "raw_tags": {
       "amenity": "shelter",
       "building": "yes",
@@ -10669,11 +10634,11 @@
     "opening_hours": null,
     "wheelchair": null,
     "air_conditioning": null,
-    "latitude": 23.1896396,
-    "longitude": 119.4291424,
+    "latitude": 23.1895794,
+    "longitude": 119.4291032,
     "raw_tags": {
       "amenity": "shelter",
-      "building": "yes"
+      "building": "roof"
     }
   },
   {
@@ -10687,29 +10652,11 @@
     "opening_hours": null,
     "wheelchair": null,
     "air_conditioning": null,
-    "latitude": 23.1894652,
-    "longitude": 119.4303932,
+    "latitude": 23.1894165,
+    "longitude": 119.4303503,
     "raw_tags": {
       "amenity": "shelter",
-      "building": "yes"
-    }
-  },
-  {
-    "osm_id": 1167657374,
-    "osm_type": "way",
-    "category": "shelter",
-    "name": "Tanpa Nama",
-    "name_zh": null,
-    "name_en": null,
-    "brand": null,
-    "opening_hours": null,
-    "wheelchair": null,
-    "air_conditioning": null,
-    "latitude": 23.2021321,
-    "longitude": 119.4351837,
-    "raw_tags": {
-      "amenity": "shelter",
-      "building": "yes"
+      "building": "roof"
     }
   },
   {
@@ -10723,11 +10670,12 @@
     "opening_hours": null,
     "wheelchair": null,
     "air_conditioning": null,
-    "latitude": 23.2021516,
-    "longitude": 119.4354502,
+    "latitude": 23.2021749,
+    "longitude": 119.4354157,
     "raw_tags": {
       "amenity": "shelter",
-      "building": "yes"
+      "building": "roof",
+      "layer": "1"
     }
   },
   {
@@ -10741,8 +10689,8 @@
     "opening_hours": null,
     "wheelchair": null,
     "air_conditioning": null,
-    "latitude": 23.2029971,
-    "longitude": 119.4384257,
+    "latitude": 23.2030211,
+    "longitude": 119.4384015,
     "raw_tags": {
       "amenity": "shelter",
       "building": "yes"
@@ -10795,8 +10743,8 @@
     "opening_hours": null,
     "wheelchair": null,
     "air_conditioning": null,
-    "latitude": 23.2087182,
-    "longitude": 119.4423499,
+    "latitude": 23.2088216,
+    "longitude": 119.4423198,
     "raw_tags": {
       "amenity": "shelter",
       "building": "yes"
@@ -10835,8 +10783,8 @@
     "opening_hours": null,
     "wheelchair": null,
     "air_conditioning": null,
-    "latitude": 23.2080212,
-    "longitude": 119.4437211,
+    "latitude": 23.208035,
+    "longitude": 119.4437158,
     "raw_tags": {
       "name": "小台灣",
       "name:en": "Little Taiwan",
@@ -10873,6 +10821,78 @@
       "natural": "bare_rock",
       "tourism": "attraction",
       "website": "https://www.penghu-nsa.gov.tw/TravelInformationSceneryDetailC001200.aspx?Cond=a407511a-5dd2-4b2d-8985-501ece1098c8&SortType=1&SearchAdvanced=False&Language=1028"
+    }
+  },
+  {
+    "osm_id": 1167707486,
+    "osm_type": "way",
+    "category": "shelter",
+    "name": "Tanpa Nama",
+    "name_zh": null,
+    "name_en": null,
+    "brand": null,
+    "opening_hours": null,
+    "wheelchair": null,
+    "air_conditioning": null,
+    "latitude": 23.2022092,
+    "longitude": 119.4352394,
+    "raw_tags": {
+      "amenity": "shelter",
+      "building": "roof",
+      "layer": "1"
+    }
+  },
+  {
+    "osm_id": 1167707571,
+    "osm_type": "way",
+    "category": "shelter",
+    "name": "Tanpa Nama",
+    "name_zh": null,
+    "name_en": null,
+    "brand": null,
+    "opening_hours": null,
+    "wheelchair": null,
+    "air_conditioning": null,
+    "latitude": 23.2089533,
+    "longitude": 119.4346802,
+    "raw_tags": {
+      "amenity": "shelter",
+      "building": "roof"
+    }
+  },
+  {
+    "osm_id": 1167710953,
+    "osm_type": "way",
+    "category": "shelter",
+    "name": "Tanpa Nama",
+    "name_zh": null,
+    "name_en": null,
+    "brand": null,
+    "opening_hours": null,
+    "wheelchair": null,
+    "air_conditioning": null,
+    "latitude": 23.2202488,
+    "longitude": 119.4420456,
+    "raw_tags": {
+      "amenity": "shelter",
+      "building": "roof"
+    }
+  },
+  {
+    "osm_id": 1167713020,
+    "osm_type": "way",
+    "category": "shelter",
+    "name": "Tanpa Nama",
+    "name_zh": null,
+    "name_en": null,
+    "brand": null,
+    "opening_hours": null,
+    "wheelchair": null,
+    "air_conditioning": null,
+    "latitude": 23.1922721,
+    "longitude": 119.4266326,
+    "raw_tags": {
+      "amenity": "shelter"
     }
   },
   {
@@ -11333,8 +11353,8 @@
     "opening_hours": null,
     "wheelchair": null,
     "air_conditioning": null,
-    "latitude": 23.2165065,
-    "longitude": 119.4435943,
+    "latitude": 23.2164942,
+    "longitude": 119.4435812,
     "raw_tags": {
       "leisure": "park",
       "name": "白馬公園",
@@ -11559,6 +11579,113 @@
     }
   },
   {
+    "osm_id": 1493481212,
+    "osm_type": "way",
+    "category": "shelter",
+    "name": "Tanpa Nama",
+    "name_zh": null,
+    "name_en": null,
+    "brand": null,
+    "opening_hours": null,
+    "wheelchair": null,
+    "air_conditioning": null,
+    "latitude": 23.1939592,
+    "longitude": 119.4290541,
+    "raw_tags": {
+      "amenity": "shelter",
+      "building": "roof"
+    }
+  },
+  {
+    "osm_id": 1493481246,
+    "osm_type": "way",
+    "category": "shelter",
+    "name": "Tanpa Nama",
+    "name_zh": null,
+    "name_en": null,
+    "brand": null,
+    "opening_hours": null,
+    "wheelchair": null,
+    "air_conditioning": null,
+    "latitude": 23.2183679,
+    "longitude": 119.4253271,
+    "raw_tags": {
+      "amenity": "shelter",
+      "building": "roof"
+    }
+  },
+  {
+    "osm_id": 1493481442,
+    "osm_type": "way",
+    "category": "shelter",
+    "name": "Tanpa Nama",
+    "name_zh": null,
+    "name_en": null,
+    "brand": null,
+    "opening_hours": null,
+    "wheelchair": null,
+    "air_conditioning": null,
+    "latitude": 23.2068266,
+    "longitude": 119.4407085,
+    "raw_tags": {
+      "amenity": "shelter",
+      "building": "roof"
+    }
+  },
+  {
+    "osm_id": 1493481521,
+    "osm_type": "way",
+    "category": "shelter",
+    "name": "Tanpa Nama",
+    "name_zh": null,
+    "name_en": null,
+    "brand": null,
+    "opening_hours": null,
+    "wheelchair": null,
+    "air_conditioning": null,
+    "latitude": 23.1982782,
+    "longitude": 119.4208833,
+    "raw_tags": {
+      "amenity": "shelter",
+      "building": "roof"
+    }
+  },
+  {
+    "osm_id": 1493481525,
+    "osm_type": "way",
+    "category": "shelter",
+    "name": "Tanpa Nama",
+    "name_zh": null,
+    "name_en": null,
+    "brand": null,
+    "opening_hours": null,
+    "wheelchair": null,
+    "air_conditioning": null,
+    "latitude": 23.2129959,
+    "longitude": 119.4121899,
+    "raw_tags": {
+      "amenity": "shelter"
+    }
+  },
+  {
+    "osm_id": 1493481584,
+    "osm_type": "way",
+    "category": "shelter",
+    "name": "Tanpa Nama",
+    "name_zh": null,
+    "name_en": null,
+    "brand": null,
+    "opening_hours": null,
+    "wheelchair": null,
+    "air_conditioning": null,
+    "latitude": 23.2192526,
+    "longitude": 119.4293718,
+    "raw_tags": {
+      "amenity": "shelter",
+      "building": "roof"
+    }
+  },
+  {
     "osm_id": 1531383190,
     "osm_type": "way",
     "category": "tourist_attraction",
@@ -11625,6 +11752,101 @@
       "tourism": "museum",
       "wikidata": "Q21471782",
       "wikipedia": "zh:張雨生故事館"
+    }
+  },
+  {
+    "osm_id": 1571502419,
+    "osm_type": "way",
+    "category": "tourist_attraction",
+    "name": "七美人塚",
+    "name_zh": "七美人塚",
+    "name_en": null,
+    "brand": null,
+    "opening_hours": null,
+    "wheelchair": null,
+    "air_conditioning": null,
+    "latitude": 23.192388,
+    "longitude": 119.426873,
+    "raw_tags": {
+      "historic": "tomb",
+      "name": "七美人塚"
+    }
+  },
+  {
+    "osm_id": 1571502420,
+    "osm_type": "way",
+    "category": "tourist_attraction",
+    "name": "Tanpa Nama",
+    "name_zh": null,
+    "name_en": null,
+    "brand": null,
+    "opening_hours": null,
+    "wheelchair": null,
+    "air_conditioning": null,
+    "latitude": 23.2000086,
+    "longitude": 119.4270338,
+    "raw_tags": {
+      "historic": "city_gate"
+    }
+  },
+  {
+    "osm_id": 1571502442,
+    "osm_type": "way",
+    "category": "tourist_attraction",
+    "name": "Tanpa Nama",
+    "name_zh": null,
+    "name_en": null,
+    "brand": null,
+    "opening_hours": null,
+    "wheelchair": null,
+    "air_conditioning": null,
+    "latitude": 23.2018497,
+    "longitude": 119.4351357,
+    "raw_tags": {
+      "surface": "wood",
+      "tourism": "viewpoint",
+      "viewpoint": "platform"
+    }
+  },
+  {
+    "osm_id": 1571502451,
+    "osm_type": "way",
+    "category": "tourist_attraction",
+    "name": "Tanpa Nama",
+    "name_zh": null,
+    "name_en": null,
+    "brand": null,
+    "opening_hours": null,
+    "wheelchair": null,
+    "air_conditioning": null,
+    "latitude": 23.2192902,
+    "longitude": 119.4295022,
+    "raw_tags": {
+      "tourism": "viewpoint",
+      "viewpoint": "platform"
+    }
+  },
+  {
+    "osm_id": 1571502457,
+    "osm_type": "way",
+    "category": "tourist_attraction",
+    "name": "小台灣",
+    "name_zh": "小台灣",
+    "name_en": "Little Taiwan",
+    "brand": null,
+    "opening_hours": null,
+    "wheelchair": null,
+    "air_conditioning": null,
+    "latitude": 23.2090595,
+    "longitude": 119.4423863,
+    "raw_tags": {
+      "name": "小台灣",
+      "name:en": "Little Taiwan",
+      "name:zh": "小台灣",
+      "name:zh-Hans": "小台湾",
+      "name:zh-Hant": "小台灣",
+      "tourism": "viewpoint",
+      "viewpoint": "platform"
     }
   }
 ]

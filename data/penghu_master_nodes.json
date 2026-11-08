@@ -8,8 +8,8 @@
     "name_zh": "雙心石滬觀景台",
     "name_en": "雙心 Stone Weir觀景台",
     "brand": null,
-    "latitude": 23.2196248,
-    "longitude": 119.4464207,
+    "latitude": 23.2194319,
+    "longitude": 119.4465494,
     "opening_hours": null,
     "description": null,
     "fee_info": null,
@@ -30,8 +30,8 @@
     "name_zh": "望夫石",
     "name_en": "Waiting for Husband Rock",
     "brand": null,
-    "latitude": 23.1874149,
-    "longitude": 119.4297408,
+    "latitude": 23.1876485,
+    "longitude": 119.4300278,
     "opening_hours": null,
     "description": "七美嶼因島上男人捕魚工作危險艱辛，易生意外，早期曾有「寡婦之島」戲稱。相傳在望夫石附近住著一對恩愛夫妻，某日丈夫出海捕魚遲遲未歸，妻子隻身到岸邊等待郎君回航，日復一日，終不堪飢寒，香消玉殞。後人將她安葬於海邊，石岸竟風化成一婦人仰躺的形貌，包括頭髮、身軀、雙足及懷孕的小腹唯妙唯肖，望夫石的傳說於是不脛而走。七美嶼因島上男人捕魚工作危險艱辛，易生意外，早期曾有「寡婦之島」戲稱。相傳在望夫石附近住著一對恩愛夫妻，某日丈夫出海捕魚遲遲未歸，妻子隻身到岸邊等待郎君回航，日復一日，終不堪飢寒，香消玉殞。後人將她安葬於海邊，石岸竟風化成一婦人仰躺的形貌，包括頭髮、身軀、雙足及懷孕的小腹唯妙唯肖，望夫石的傳說於是不脛而走。 玩家秘笈 望夫石不單可眺望賞景，亦可循前方石橋跨過望夫石腹身來到潮池，一窟窟的潮池裡，小魚小蟹戲遊其間，為天然的生態教室。但須注意退潮時段以免發生意外。",
     "fee_info": null,
@@ -690,8 +690,8 @@
     "name_zh": "澎湖海景觀景點",
     "name_en": "Penghu Scenic Viewpoint",
     "brand": null,
-    "latitude": 23.1894592,
-    "longitude": 119.4304635,
+    "latitude": 23.1894444,
+    "longitude": 119.4304213,
     "opening_hours": null,
     "description": null,
     "fee_info": null,
@@ -712,8 +712,8 @@
     "name_zh": "龍埕生態",
     "name_en": "龍埕生態 (Penghu Spot)",
     "brand": null,
-    "latitude": 23.2030886,
-    "longitude": 119.4386665,
+    "latitude": 23.2030812,
+    "longitude": 119.4386142,
     "opening_hours": null,
     "description": null,
     "fee_info": null,
@@ -762,50 +762,6 @@
     "description": null,
     "fee_info": null,
     "is_free": null,
-    "has_ac": null,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": null,
-    "weight_scale": 1.0
-  },
-  {
-    "node_id": "OSM_node_4011361409",
-    "source": "OpenStreetMap",
-    "node_role": "attraction_node",
-    "category": "tourist_attraction",
-    "title": "小台灣 / Little Taiwan",
-    "name_zh": "小台灣",
-    "name_en": "Little Taiwan",
-    "brand": null,
-    "latitude": 23.2089177,
-    "longitude": 119.44244,
-    "opening_hours": null,
-    "description": null,
-    "fee_info": null,
-    "is_free": null,
-    "has_ac": null,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": null,
-    "weight_scale": 1.0
-  },
-  {
-    "node_id": "OSM_node_4011368631",
-    "source": "OpenStreetMap",
-    "node_role": "shelter_node",
-    "category": "shelter",
-    "title": "澎湖公共涼亭 / 休息站 / Public Rest Shelter",
-    "name_zh": "澎湖公共涼亭 / 休息站",
-    "name_en": "Public Rest Shelter",
-    "brand": null,
-    "latitude": 23.1894484,
-    "longitude": 119.4303743,
-    "opening_hours": null,
-    "description": null,
-    "fee_info": null,
-    "is_free": true,
     "has_ac": null,
     "has_wikipedia": false,
     "wiki_url_zh": null,
@@ -976,8 +932,30 @@
     "name_zh": "南嶼城",
     "name_en": "南 Island城",
     "brand": null,
-    "latitude": 23.2000136,
-    "longitude": 119.4270223,
+    "latitude": 23.2000123,
+    "longitude": 119.4270207,
+    "opening_hours": null,
+    "description": null,
+    "fee_info": null,
+    "is_free": null,
+    "has_ac": null,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": null,
+    "weight_scale": 1.0
+  },
+  {
+    "node_id": "OSM_node_4161520294",
+    "source": "OpenStreetMap",
+    "node_role": "attraction_node",
+    "category": "tourist_attraction",
+    "title": "烏溝金鷹寶塔 / 烏溝金鷹寶塔 (Penghu Spot)",
+    "name_zh": "烏溝金鷹寶塔",
+    "name_en": "烏溝金鷹寶塔 (Penghu Spot)",
+    "brand": null,
+    "latitude": 23.2183432,
+    "longitude": 119.4245902,
     "opening_hours": null,
     "description": null,
     "fee_info": null,
@@ -998,8 +976,8 @@
     "name_zh": "福龍寶塔",
     "name_en": "福龍寶塔 (Penghu Spot)",
     "brand": null,
-    "latitude": 23.1914788,
-    "longitude": 119.4224662,
+    "latitude": 23.1914631,
+    "longitude": 119.4224592,
     "opening_hours": null,
     "description": null,
     "fee_info": null,
@@ -1020,8 +998,8 @@
     "name_zh": "福龍龜王塔",
     "name_en": "福龍龜王塔 (Penghu Spot)",
     "brand": null,
-    "latitude": 23.1937966,
-    "longitude": 119.4276775,
+    "latitude": 23.1937744,
+    "longitude": 119.4276574,
     "opening_hours": null,
     "description": null,
     "fee_info": null,
@@ -1034,64 +1012,20 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "OSM_node_4161520298",
+    "node_id": "OSM_node_4161521227",
     "source": "OpenStreetMap",
-    "node_role": "shelter_node",
-    "category": "shelter",
-    "title": "澎湖公共涼亭 / 休息站 / Public Rest Shelter",
-    "name_zh": "澎湖公共涼亭 / 休息站",
-    "name_en": "Public Rest Shelter",
+    "node_role": "attraction_node",
+    "category": "tourist_attraction",
+    "title": "鳳塔 / 鳳塔 (Penghu Spot)",
+    "name_zh": "鳳塔",
+    "name_en": "鳳塔 (Penghu Spot)",
     "brand": null,
-    "latitude": 23.189644,
-    "longitude": 119.4291273,
+    "latitude": 23.2138371,
+    "longitude": 119.4244621,
     "opening_hours": null,
     "description": null,
     "fee_info": null,
-    "is_free": true,
-    "has_ac": null,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": null,
-    "weight_scale": 1.0
-  },
-  {
-    "node_id": "OSM_node_4161520305",
-    "source": "OpenStreetMap",
-    "node_role": "shelter_node",
-    "category": "shelter",
-    "title": "澎湖公共涼亭 / 休息站 / Public Rest Shelter",
-    "name_zh": "澎湖公共涼亭 / 休息站",
-    "name_en": "Public Rest Shelter",
-    "brand": null,
-    "latitude": 23.1923478,
-    "longitude": 119.4269924,
-    "opening_hours": null,
-    "description": null,
-    "fee_info": null,
-    "is_free": true,
-    "has_ac": null,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": null,
-    "weight_scale": 1.0
-  },
-  {
-    "node_id": "OSM_node_4161521221",
-    "source": "OpenStreetMap",
-    "node_role": "shelter_node",
-    "category": "shelter",
-    "title": "澎湖公共涼亭 / 休息站 / Public Rest Shelter",
-    "name_zh": "澎湖公共涼亭 / 休息站",
-    "name_en": "Public Rest Shelter",
-    "brand": null,
-    "latitude": 23.2202285,
-    "longitude": 119.4420284,
-    "opening_hours": null,
-    "description": null,
-    "fee_info": null,
-    "is_free": true,
+    "is_free": null,
     "has_ac": null,
     "has_wikipedia": false,
     "wiki_url_zh": null,
@@ -2824,8 +2758,8 @@
     "name_zh": "大獅龍埕特產市集",
     "name_en": "Traditional market",
     "brand": null,
-    "latitude": 23.2021717,
-    "longitude": 119.4352011,
+    "latitude": 23.2021538,
+    "longitude": 119.4351776,
     "opening_hours": "Mo-Su 08:00-14:00",
     "description": null,
     "fee_info": null,
@@ -3330,8 +3264,8 @@
     "name_zh": "澎湖海景觀景點",
     "name_en": "Penghu Scenic Viewpoint",
     "brand": null,
-    "latitude": 23.218576,
-    "longitude": 119.4255437,
+    "latitude": 23.2184115,
+    "longitude": 119.4252855,
     "opening_hours": null,
     "description": null,
     "fee_info": null,
@@ -3352,8 +3286,8 @@
     "name_zh": "澎湖海景觀景點",
     "name_en": "Penghu Scenic Viewpoint",
     "brand": null,
-    "latitude": 23.1982151,
-    "longitude": 119.4210169,
+    "latitude": 23.1982777,
+    "longitude": 119.4208446,
     "opening_hours": null,
     "description": null,
     "fee_info": null,
@@ -3781,6 +3715,28 @@
     "wiki_url_zh": null,
     "wiki_url_en": null,
     "image_url": null,
+    "weight_scale": 1.0
+  },
+  {
+    "node_id": "OSM_node_7134879388",
+    "source": "OpenStreetMap",
+    "node_role": "attraction_node",
+    "category": "tourist_attraction",
+    "title": "月鯉灣 / 月鯉灣 (Penghu Spot)",
+    "name_zh": "月鯉灣",
+    "name_en": "月鯉灣 (Penghu Spot)",
+    "brand": null,
+    "latitude": 23.1967911,
+    "longitude": 119.4294516,
+    "opening_hours": null,
+    "description": "呈弦月形的月鯉灣，為天然的小灣澳，是七美島漁民最早近海作業的港口，現況僅以南側小範圍闢建為簡易的「月鯉港」。 鯉灣白色珊瑚碎屑的海灘，不但是七美唯一的戲水區，其海域極適合從事浮潛活動。附近的玄武岩地形非常發達，柱狀玄武岩呈倒臥狀、放射狀、交錯狀，頗為壯觀且多樣化；海蝕地形則處處可見。呈弦月形的月鯉灣，為天然的小灣澳，是七美島漁民最早近海作業的港口，現況僅以南側小範圍闢建為簡易的「月 港」。 月鯉灣白色珊瑚碎屑的海灘，不但是七美唯一的戲水區，其海域極適合從事浮潛活動。附近的玄武岩地形非常發達，柱狀玄武岩呈倒臥狀、放射狀、交錯狀，頗為壯觀且多樣化；海蝕地形則處處可見。 玩家秘笈 夜晚觀星、黃昏夜烤，以及午後浮潛欣賞千嬌百媚的珊瑚，此乃月鯉戲水區三大玩法，輔以周邊露營涼亭、沖水衛廁設施完整，為七美最佳露營區。",
+    "fee_info": null,
+    "is_free": null,
+    "has_ac": null,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20230626113500486084.jpg",
     "weight_scale": 1.0
   },
   {
@@ -4418,7 +4374,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/347032.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/347032.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -5207,11 +5163,11 @@
     "fee_info": null,
     "is_free": null,
     "has_ac": null,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20230202152843054725.JPG",
-    "weight_scale": 1.0
+    "has_wikipedia": true,
+    "wiki_url_zh": "https://zh.wikipedia.org/wiki/西嶼鄉",
+    "wiki_url_en": "https://en.wikipedia.org/wiki/Xiyu",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Chixi_Columnar_Basalt_in_Taiwan_Penghu_%E6%BE%8E%E6%B9%96%E6%B1%A0%E8%A5%BF%E5%B2%A9%E7%80%91.jpg/330px-Chixi_Columnar_Basalt_in_Taiwan_Penghu_%E6%BE%8E%E6%B9%96%E6%B1%A0%E8%A5%BF%E5%B2%A9%E7%80%91.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "weight_scale": 1.6
   },
   {
     "node_id": "OSM_node_9889304416",
@@ -5610,28 +5566,6 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "OSM_node_10859486178",
-    "source": "OpenStreetMap",
-    "node_role": "attraction_node",
-    "category": "tourist_attraction",
-    "title": "玉天祠 / 玉天祠 (Penghu Spot)",
-    "name_zh": "玉天祠",
-    "name_en": "玉天祠 (Penghu Spot)",
-    "brand": null,
-    "latitude": 23.1965126,
-    "longitude": 119.4292118,
-    "opening_hours": null,
-    "description": null,
-    "fee_info": null,
-    "is_free": null,
-    "has_ac": null,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": null,
-    "weight_scale": 1.0
-  },
-  {
     "node_id": "OSM_node_10860031311",
     "source": "OpenStreetMap",
     "node_role": "attraction_node",
@@ -5642,28 +5576,6 @@
     "brand": null,
     "latitude": 23.1963448,
     "longitude": 119.4208636,
-    "opening_hours": null,
-    "description": null,
-    "fee_info": null,
-    "is_free": null,
-    "has_ac": null,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": null,
-    "weight_scale": 1.0
-  },
-  {
-    "node_id": "OSM_node_10866434057",
-    "source": "OpenStreetMap",
-    "node_role": "attraction_node",
-    "category": "tourist_attraction",
-    "title": "俯看大獅與龍埕 / 俯看大獅與龍埕 (Penghu Spot)",
-    "name_zh": "俯看大獅與龍埕",
-    "name_en": "俯看大獅與龍埕 (Penghu Spot)",
-    "brand": null,
-    "latitude": 23.2018458,
-    "longitude": 119.4352944,
     "opening_hours": null,
     "description": null,
     "fee_info": null,
@@ -7282,6 +7194,138 @@
     "weight_scale": 1.0
   },
   {
+    "node_id": "OSM_node_14317226318",
+    "source": "OpenStreetMap",
+    "node_role": "attraction_node",
+    "category": "tourist_attraction",
+    "title": "望夫石 / 望夫石 (Penghu Spot)",
+    "name_zh": "望夫石",
+    "name_en": "望夫石 (Penghu Spot)",
+    "brand": null,
+    "latitude": 23.1895189,
+    "longitude": 119.4291574,
+    "opening_hours": null,
+    "description": null,
+    "fee_info": null,
+    "is_free": null,
+    "has_ac": null,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": null,
+    "weight_scale": 1.0
+  },
+  {
+    "node_id": "OSM_node_14317226414",
+    "source": "OpenStreetMap",
+    "node_role": "shelter_node",
+    "category": "convenience_store",
+    "title": "全家便利商店 / FamilyMart",
+    "name_zh": "全家便利商店",
+    "name_en": "FamilyMart",
+    "brand": "全家便利商店",
+    "latitude": 23.1960036,
+    "longitude": 119.4195689,
+    "opening_hours": "07:00-23:00",
+    "description": null,
+    "fee_info": null,
+    "is_free": true,
+    "has_ac": true,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": null,
+    "weight_scale": 1.0
+  },
+  {
+    "node_id": "OSM_node_14317226415",
+    "source": "OpenStreetMap",
+    "node_role": "shelter_node",
+    "category": "convenience_store",
+    "title": "7-Eleven / 7-Eleven (Penghu Spot)",
+    "name_zh": "7-Eleven",
+    "name_en": "7-Eleven (Penghu Spot)",
+    "brand": "7-Eleven",
+    "latitude": 23.1960529,
+    "longitude": 119.4199142,
+    "opening_hours": "06:00-23:00",
+    "description": null,
+    "fee_info": null,
+    "is_free": true,
+    "has_ac": true,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": null,
+    "weight_scale": 1.0
+  },
+  {
+    "node_id": "OSM_node_14317226464",
+    "source": "OpenStreetMap",
+    "node_role": "shelter_node",
+    "category": "shelter",
+    "title": "澎湖公共涼亭 / 休息站 / Public Rest Shelter",
+    "name_zh": "澎湖公共涼亭 / 休息站",
+    "name_en": "Public Rest Shelter",
+    "brand": null,
+    "latitude": 23.21535,
+    "longitude": 119.4153397,
+    "opening_hours": null,
+    "description": null,
+    "fee_info": null,
+    "is_free": true,
+    "has_ac": null,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": null,
+    "weight_scale": 1.0
+  },
+  {
+    "node_id": "OSM_node_14317226514",
+    "source": "OpenStreetMap",
+    "node_role": "attraction_node",
+    "category": "tourist_attraction",
+    "title": "澎湖歷史文化遺址 / Historic Heritage Site",
+    "name_zh": "澎湖歷史文化遺址",
+    "name_en": "Historic Heritage Site",
+    "brand": null,
+    "latitude": 23.2167901,
+    "longitude": 119.4198009,
+    "opening_hours": null,
+    "description": null,
+    "fee_info": null,
+    "is_free": null,
+    "has_ac": null,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": null,
+    "weight_scale": 1.0
+  },
+  {
+    "node_id": "OSM_node_14317226525",
+    "source": "OpenStreetMap",
+    "node_role": "attraction_node",
+    "category": "tourist_attraction",
+    "title": "福德祠 / 福德祠 (Penghu Spot)",
+    "name_zh": "福德祠",
+    "name_en": "福德祠 (Penghu Spot)",
+    "brand": null,
+    "latitude": 23.219367,
+    "longitude": 119.4291252,
+    "opening_hours": null,
+    "description": null,
+    "fee_info": null,
+    "is_free": null,
+    "has_ac": null,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": null,
+    "weight_scale": 1.0
+  },
+  {
     "node_id": "OSM_way_225400813",
     "source": "OpenStreetMap",
     "node_role": "attraction_node",
@@ -7356,8 +7400,8 @@
     "name_zh": "分岔仔",
     "name_en": "Fenchazi",
     "brand": null,
-    "latitude": 23.2048482,
-    "longitude": 119.4431285,
+    "latitude": 23.2048526,
+    "longitude": 119.4431012,
     "opening_hours": null,
     "description": null,
     "fee_info": null,
@@ -7378,18 +7422,18 @@
     "name_zh": "七美人塚",
     "name_en": "Seven Beauties Tomb",
     "brand": null,
-    "latitude": 23.1924537,
-    "longitude": 119.4263828,
+    "latitude": 23.1924552,
+    "longitude": 119.4263841,
     "opening_hours": null,
     "description": null,
     "fee_info": null,
     "is_free": null,
     "has_ac": null,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": null,
-    "weight_scale": 1.0
+    "has_wikipedia": true,
+    "wiki_url_zh": "https://zh.wikipedia.org/wiki/漁翁島燈塔",
+    "wiki_url_en": "https://en.wikipedia.org/wiki/Yuwengdao_Lighthouse",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/%E6%BC%81%E7%BF%81%E5%B3%B6%E7%87%88%E5%A1%94_01.JPG/330px-%E6%BC%81%E7%BF%81%E5%B3%B6%E7%87%88%E5%A1%94_01.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "weight_scale": 1.6
   },
   {
     "node_id": "OSM_way_330868213",
@@ -7473,50 +7517,6 @@
     "fee_info": null,
     "is_free": true,
     "has_ac": null,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": null,
-    "weight_scale": 1.0
-  },
-  {
-    "node_id": "OSM_way_383635710",
-    "source": "OpenStreetMap",
-    "node_role": "shelter_node",
-    "category": "convenience_store",
-    "title": "全家便利商店 / FamilyMart",
-    "name_zh": "全家便利商店",
-    "name_en": "FamilyMart",
-    "brand": "全家便利商店",
-    "latitude": 23.19606,
-    "longitude": 119.4195749,
-    "opening_hours": "07:00-23:00",
-    "description": null,
-    "fee_info": null,
-    "is_free": true,
-    "has_ac": true,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": null,
-    "weight_scale": 1.0
-  },
-  {
-    "node_id": "OSM_way_383636297",
-    "source": "OpenStreetMap",
-    "node_role": "shelter_node",
-    "category": "convenience_store",
-    "title": "7-Eleven / 7-Eleven (Penghu Spot)",
-    "name_zh": "7-Eleven",
-    "name_en": "7-Eleven (Penghu Spot)",
-    "brand": "7-Eleven",
-    "latitude": 23.1961875,
-    "longitude": 119.4198891,
-    "opening_hours": "06:00-23:00",
-    "description": null,
-    "fee_info": null,
-    "is_free": true,
-    "has_ac": true,
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
@@ -7627,11 +7627,11 @@
     "fee_info": null,
     "is_free": null,
     "has_ac": null,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": null,
-    "weight_scale": 1.0
+    "has_wikipedia": true,
+    "wiki_url_zh": "https://zh.wikipedia.org/wiki/西嶼鄉",
+    "wiki_url_en": "https://en.wikipedia.org/wiki/Xiyu",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Chixi_Columnar_Basalt_in_Taiwan_Penghu_%E6%BE%8E%E6%B9%96%E6%B1%A0%E8%A5%BF%E5%B2%A9%E7%80%91.jpg/330px-Chixi_Columnar_Basalt_in_Taiwan_Penghu_%E6%BE%8E%E6%B9%96%E6%B1%A0%E8%A5%BF%E5%B2%A9%E7%80%91.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "weight_scale": 1.6
   },
   {
     "node_id": "OSM_way_495181586",
@@ -8962,8 +8962,8 @@
     "name_zh": "七美鄉第一納骨堂",
     "name_en": "七美鄉第一納骨堂 (Penghu Spot)",
     "brand": null,
-    "latitude": 23.2199803,
-    "longitude": 119.4390209,
+    "latitude": 23.2199944,
+    "longitude": 119.4390176,
     "opening_hours": null,
     "description": null,
     "fee_info": null,
@@ -8984,8 +8984,8 @@
     "name_zh": "祥園莊",
     "name_en": "Xiang Yuan Farmstead",
     "brand": null,
-    "latitude": 23.2200079,
-    "longitude": 119.4387105,
+    "latitude": 23.2200171,
+    "longitude": 119.4387044,
     "opening_hours": null,
     "description": null,
     "fee_info": null,
@@ -9006,8 +9006,8 @@
     "name_zh": "永澤堂",
     "name_en": "永澤堂 (Penghu Spot)",
     "brand": null,
-    "latitude": 23.2200516,
-    "longitude": 119.4382386,
+    "latitude": 23.2200666,
+    "longitude": 119.4382388,
     "opening_hours": null,
     "description": null,
     "fee_info": null,
@@ -9710,8 +9710,8 @@
     "name_zh": "澎湖公共涼亭 / 休息站",
     "name_en": "Public Rest Shelter",
     "brand": null,
-    "latitude": 23.1967953,
-    "longitude": 119.4295745,
+    "latitude": 23.1968096,
+    "longitude": 119.4295204,
     "opening_hours": null,
     "description": null,
     "fee_info": null,
@@ -9732,8 +9732,8 @@
     "name_zh": "露營棚屋群",
     "name_en": "露營棚屋群 (Penghu Spot)",
     "brand": null,
-    "latitude": 23.1971951,
-    "longitude": 119.4298667,
+    "latitude": 23.1971906,
+    "longitude": 119.4298931,
     "opening_hours": null,
     "description": null,
     "fee_info": null,
@@ -9746,7 +9746,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "OSM_way_1167657374",
+    "node_id": "OSM_way_1167657365",
     "source": "OpenStreetMap",
     "node_role": "shelter_node",
     "category": "shelter",
@@ -9754,8 +9754,52 @@
     "name_zh": "澎湖公共涼亭 / 休息站",
     "name_en": "Public Rest Shelter",
     "brand": null,
-    "latitude": 23.2021321,
-    "longitude": 119.4351837,
+    "latitude": 23.1895794,
+    "longitude": 119.4291032,
+    "opening_hours": null,
+    "description": null,
+    "fee_info": null,
+    "is_free": true,
+    "has_ac": null,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": null,
+    "weight_scale": 1.0
+  },
+  {
+    "node_id": "OSM_way_1167657368",
+    "source": "OpenStreetMap",
+    "node_role": "shelter_node",
+    "category": "shelter",
+    "title": "澎湖公共涼亭 / 休息站 / Public Rest Shelter",
+    "name_zh": "澎湖公共涼亭 / 休息站",
+    "name_en": "Public Rest Shelter",
+    "brand": null,
+    "latitude": 23.1894165,
+    "longitude": 119.4303503,
+    "opening_hours": null,
+    "description": null,
+    "fee_info": null,
+    "is_free": true,
+    "has_ac": null,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": null,
+    "weight_scale": 1.0
+  },
+  {
+    "node_id": "OSM_way_1167657377",
+    "source": "OpenStreetMap",
+    "node_role": "shelter_node",
+    "category": "shelter",
+    "title": "澎湖公共涼亭 / 休息站 / Public Rest Shelter",
+    "name_zh": "澎湖公共涼亭 / 休息站",
+    "name_en": "Public Rest Shelter",
+    "brand": null,
+    "latitude": 23.2021749,
+    "longitude": 119.4354157,
     "opening_hours": null,
     "description": null,
     "fee_info": null,
@@ -9776,8 +9820,8 @@
     "name_zh": "澎湖公共涼亭 / 休息站",
     "name_en": "Public Rest Shelter",
     "brand": null,
-    "latitude": 23.2029971,
-    "longitude": 119.4384257,
+    "latitude": 23.2030211,
+    "longitude": 119.4384015,
     "opening_hours": null,
     "description": null,
     "fee_info": null,
@@ -9842,8 +9886,8 @@
     "name_zh": "澎湖公共涼亭 / 休息站",
     "name_en": "Public Rest Shelter",
     "brand": null,
-    "latitude": 23.2087182,
-    "longitude": 119.4423499,
+    "latitude": 23.2088216,
+    "longitude": 119.4423198,
     "opening_hours": null,
     "description": null,
     "fee_info": null,
@@ -9886,8 +9930,8 @@
     "name_zh": "小台灣",
     "name_en": "Little Taiwan",
     "brand": null,
-    "latitude": 23.2080212,
-    "longitude": 119.4437211,
+    "latitude": 23.208035,
+    "longitude": 119.4437158,
     "opening_hours": null,
     "description": "小台灣位於澎湖縣七美嶼的東北方，由牛母坪沿著濱海公路往北走，經過斜坡路段時會看到一個觀景涼亭，站在涼亭上即可觀賞到經年累月海浪拍蝕的結果，成為形狀酷似小台灣的海蝕平台，因此稱作七美小台灣，還有狀似龜山島的岩石在同樣的位置，在海水退潮時形狀更為明顯。小台灣位於澎湖縣七美嶼的東北方，由牛母坪沿著濱海公路往北走，經過斜坡路段時會看到一個觀景涼亭，站在涼亭上即可觀賞到經年累月海浪拍蝕的結果，成為形狀酷似小台灣的海蝕平台，因此稱作七美小台灣，還有狀似龜山島的岩石在同樣的位置，在海水退潮時形狀更為明顯。",
     "fee_info": null,
@@ -9914,6 +9958,72 @@
     "description": null,
     "fee_info": null,
     "is_free": null,
+    "has_ac": null,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": null,
+    "weight_scale": 1.0
+  },
+  {
+    "node_id": "OSM_way_1167707571",
+    "source": "OpenStreetMap",
+    "node_role": "shelter_node",
+    "category": "shelter",
+    "title": "澎湖公共涼亭 / 休息站 / Public Rest Shelter",
+    "name_zh": "澎湖公共涼亭 / 休息站",
+    "name_en": "Public Rest Shelter",
+    "brand": null,
+    "latitude": 23.2089533,
+    "longitude": 119.4346802,
+    "opening_hours": null,
+    "description": null,
+    "fee_info": null,
+    "is_free": true,
+    "has_ac": null,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": null,
+    "weight_scale": 1.0
+  },
+  {
+    "node_id": "OSM_way_1167710953",
+    "source": "OpenStreetMap",
+    "node_role": "shelter_node",
+    "category": "shelter",
+    "title": "澎湖公共涼亭 / 休息站 / Public Rest Shelter",
+    "name_zh": "澎湖公共涼亭 / 休息站",
+    "name_en": "Public Rest Shelter",
+    "brand": null,
+    "latitude": 23.2202488,
+    "longitude": 119.4420456,
+    "opening_hours": null,
+    "description": null,
+    "fee_info": null,
+    "is_free": true,
+    "has_ac": null,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": null,
+    "weight_scale": 1.0
+  },
+  {
+    "node_id": "OSM_way_1167713020",
+    "source": "OpenStreetMap",
+    "node_role": "shelter_node",
+    "category": "shelter",
+    "title": "澎湖公共涼亭 / 休息站 / Public Rest Shelter",
+    "name_zh": "澎湖公共涼亭 / 休息站",
+    "name_en": "Public Rest Shelter",
+    "brand": null,
+    "latitude": 23.1922721,
+    "longitude": 119.4266326,
+    "opening_hours": null,
+    "description": null,
+    "fee_info": null,
+    "is_free": true,
     "has_ac": null,
     "has_wikipedia": false,
     "wiki_url_zh": null,
@@ -10260,8 +10370,8 @@
     "name_zh": "白馬公園",
     "name_en": "白馬公園 (Penghu Spot)",
     "brand": null,
-    "latitude": 23.2165065,
-    "longitude": 119.4435943,
+    "latitude": 23.2164942,
+    "longitude": 119.4435812,
     "opening_hours": null,
     "description": null,
     "fee_info": null,
@@ -10428,6 +10538,138 @@
     "weight_scale": 1.0
   },
   {
+    "node_id": "OSM_way_1493481212",
+    "source": "OpenStreetMap",
+    "node_role": "shelter_node",
+    "category": "shelter",
+    "title": "澎湖公共涼亭 / 休息站 / Public Rest Shelter",
+    "name_zh": "澎湖公共涼亭 / 休息站",
+    "name_en": "Public Rest Shelter",
+    "brand": null,
+    "latitude": 23.1939592,
+    "longitude": 119.4290541,
+    "opening_hours": null,
+    "description": null,
+    "fee_info": null,
+    "is_free": true,
+    "has_ac": null,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": null,
+    "weight_scale": 1.0
+  },
+  {
+    "node_id": "OSM_way_1493481246",
+    "source": "OpenStreetMap",
+    "node_role": "shelter_node",
+    "category": "shelter",
+    "title": "澎湖公共涼亭 / 休息站 / Public Rest Shelter",
+    "name_zh": "澎湖公共涼亭 / 休息站",
+    "name_en": "Public Rest Shelter",
+    "brand": null,
+    "latitude": 23.2183679,
+    "longitude": 119.4253271,
+    "opening_hours": null,
+    "description": null,
+    "fee_info": null,
+    "is_free": true,
+    "has_ac": null,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": null,
+    "weight_scale": 1.0
+  },
+  {
+    "node_id": "OSM_way_1493481442",
+    "source": "OpenStreetMap",
+    "node_role": "shelter_node",
+    "category": "shelter",
+    "title": "澎湖公共涼亭 / 休息站 / Public Rest Shelter",
+    "name_zh": "澎湖公共涼亭 / 休息站",
+    "name_en": "Public Rest Shelter",
+    "brand": null,
+    "latitude": 23.2068266,
+    "longitude": 119.4407085,
+    "opening_hours": null,
+    "description": null,
+    "fee_info": null,
+    "is_free": true,
+    "has_ac": null,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": null,
+    "weight_scale": 1.0
+  },
+  {
+    "node_id": "OSM_way_1493481521",
+    "source": "OpenStreetMap",
+    "node_role": "shelter_node",
+    "category": "shelter",
+    "title": "澎湖公共涼亭 / 休息站 / Public Rest Shelter",
+    "name_zh": "澎湖公共涼亭 / 休息站",
+    "name_en": "Public Rest Shelter",
+    "brand": null,
+    "latitude": 23.1982782,
+    "longitude": 119.4208833,
+    "opening_hours": null,
+    "description": null,
+    "fee_info": null,
+    "is_free": true,
+    "has_ac": null,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": null,
+    "weight_scale": 1.0
+  },
+  {
+    "node_id": "OSM_way_1493481525",
+    "source": "OpenStreetMap",
+    "node_role": "shelter_node",
+    "category": "shelter",
+    "title": "澎湖公共涼亭 / 休息站 / Public Rest Shelter",
+    "name_zh": "澎湖公共涼亭 / 休息站",
+    "name_en": "Public Rest Shelter",
+    "brand": null,
+    "latitude": 23.2129959,
+    "longitude": 119.4121899,
+    "opening_hours": null,
+    "description": null,
+    "fee_info": null,
+    "is_free": true,
+    "has_ac": null,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": null,
+    "weight_scale": 1.0
+  },
+  {
+    "node_id": "OSM_way_1493481584",
+    "source": "OpenStreetMap",
+    "node_role": "shelter_node",
+    "category": "shelter",
+    "title": "澎湖公共涼亭 / 休息站 / Public Rest Shelter",
+    "name_zh": "澎湖公共涼亭 / 休息站",
+    "name_en": "Public Rest Shelter",
+    "brand": null,
+    "latitude": 23.2192526,
+    "longitude": 119.4293718,
+    "opening_hours": null,
+    "description": null,
+    "fee_info": null,
+    "is_free": true,
+    "has_ac": null,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": null,
+    "weight_scale": 1.0
+  },
+  {
     "node_id": "OSM_way_1531383190",
     "source": "OpenStreetMap",
     "node_role": "attraction_node",
@@ -10460,6 +10702,94 @@
     "brand": null,
     "latitude": 23.5632898,
     "longitude": 119.5604864,
+    "opening_hours": null,
+    "description": null,
+    "fee_info": null,
+    "is_free": null,
+    "has_ac": null,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": null,
+    "weight_scale": 1.0
+  },
+  {
+    "node_id": "OSM_way_1571502420",
+    "source": "OpenStreetMap",
+    "node_role": "attraction_node",
+    "category": "tourist_attraction",
+    "title": "澎湖歷史文化遺址 / Historic Heritage Site",
+    "name_zh": "澎湖歷史文化遺址",
+    "name_en": "Historic Heritage Site",
+    "brand": null,
+    "latitude": 23.2000086,
+    "longitude": 119.4270338,
+    "opening_hours": null,
+    "description": null,
+    "fee_info": null,
+    "is_free": null,
+    "has_ac": null,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": null,
+    "weight_scale": 1.0
+  },
+  {
+    "node_id": "OSM_way_1571502442",
+    "source": "OpenStreetMap",
+    "node_role": "attraction_node",
+    "category": "tourist_attraction",
+    "title": "澎湖海景觀景點 / Penghu Scenic Viewpoint",
+    "name_zh": "澎湖海景觀景點",
+    "name_en": "Penghu Scenic Viewpoint",
+    "brand": null,
+    "latitude": 23.2018497,
+    "longitude": 119.4351357,
+    "opening_hours": null,
+    "description": null,
+    "fee_info": null,
+    "is_free": null,
+    "has_ac": null,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": null,
+    "weight_scale": 1.0
+  },
+  {
+    "node_id": "OSM_way_1571502451",
+    "source": "OpenStreetMap",
+    "node_role": "attraction_node",
+    "category": "tourist_attraction",
+    "title": "澎湖海景觀景點 / Penghu Scenic Viewpoint",
+    "name_zh": "澎湖海景觀景點",
+    "name_en": "Penghu Scenic Viewpoint",
+    "brand": null,
+    "latitude": 23.2192902,
+    "longitude": 119.4295022,
+    "opening_hours": null,
+    "description": null,
+    "fee_info": null,
+    "is_free": null,
+    "has_ac": null,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": null,
+    "weight_scale": 1.0
+  },
+  {
+    "node_id": "OSM_way_1571502457",
+    "source": "OpenStreetMap",
+    "node_role": "attraction_node",
+    "category": "tourist_attraction",
+    "title": "小台灣 / Little Taiwan",
+    "name_zh": "小台灣",
+    "name_en": "Little Taiwan",
+    "brand": null,
+    "latitude": 23.2090595,
+    "longitude": 119.4423863,
     "opening_hours": null,
     "description": null,
     "fee_info": null,
@@ -12782,28 +13112,6 @@
     "weight_scale": 1.6
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000124",
-    "source": "Taiwan_Gov_OpenData",
-    "node_role": "attraction_node",
-    "category": "attractions",
-    "title": "月鯉灣遊憩區 / 月鯉灣遊憩區 (Penghu Spot)",
-    "name_zh": "月鯉灣遊憩區",
-    "name_en": "月鯉灣遊憩區 (Penghu Spot)",
-    "brand": null,
-    "latitude": 23.1969,
-    "longitude": 119.42968,
-    "opening_hours": "",
-    "description": "呈弦月形的月鯉灣，為天然的小灣澳，是七美島漁民最早近海作業的港口，現況僅以南側小範圍闢建為簡易的「月鯉港」。 鯉灣白色珊瑚碎屑的海灘，不但是七美唯一的戲水區，其海域極適合從事浮潛活動。附近的玄武岩地形非常發達，柱狀玄武岩呈倒臥狀、放射狀、交錯狀，頗為壯觀且多樣化；海蝕地形則處處可見。呈弦月形的月鯉灣，為天然的小灣澳，是七美島漁民最早近海作業的港口，現況僅以南側小範圍闢建為簡易的「月 港」。 月鯉灣白色珊瑚碎屑的海灘，不但是七美唯一的戲水區，其海域極適合從事浮潛活動。附近的玄武岩地形非常發達，柱狀玄武岩呈倒臥狀、放射狀、交錯狀，頗為壯觀且多樣化；海蝕地形則處處可見。 玩家秘笈 夜晚觀星、黃昏夜烤，以及午後浮潛欣賞千嬌百媚的珊瑚，此乃月鯉戲水區三大玩法，輔以周邊露營涼亭、沖水衛廁設施完整，為七美最佳露營區。",
-    "fee_info": "",
-    "is_free": null,
-    "has_ac": null,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20230626113500486084.jpg",
-    "weight_scale": 1.0
-  },
-  {
     "node_id": "GOV_attractions_Attraction_A15010200H_000125",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
@@ -13068,6 +13376,28 @@
     "weight_scale": 1.0
   },
   {
+    "node_id": "GOV_attractions_Attraction_A25000000E_000026",
+    "source": "Taiwan_Gov_OpenData",
+    "node_role": "attraction_node",
+    "category": "attractions",
+    "title": "先人種下的花—望安花宅聚落 / 先人種下的花—望安花宅聚落 (Penghu Spot)",
+    "name_zh": "先人種下的花—望安花宅聚落",
+    "name_en": "先人種下的花—望安花宅聚落 (Penghu Spot)",
+    "brand": null,
+    "latitude": 23.37128,
+    "longitude": 119.49375,
+    "opening_hours": "聚落戶外空間全天開放，上列開放時間為基地可提供預約服務時間，基地服務項目採預約制，請至少於預計到訪日一週前預約（恕不接受當日預約），暫停開放時將公告於基地網站。",
+    "description": "明末，先民為了生活與生存，開始離開中國東南向海外尋找新的出路，大海茫茫，在航行的過程中，途經一座前所未知的島嶼，從海上看過去，島的地形起伏宛如一朵花的樣貌，這個地方或許能夠成為新生活的據點？於是先民的船隻更加駛近這座島，這海灣實在太適合做為船隻的依靠了！就這樣，擁有天然良港的這座島的這個地方，陸續開始有先民的船隻留下，這群人將這個地勢如同花朵的地方命名為「花宅」，以漁維生，同時開始向島陸開墾、慢慢認識這座島嶼，找出留在此生活的資源與條件，積累落地生根的資材，漸漸地，具備建築技術的匠師把原鄉的建築形式帶來這裡，運用這個地方能夠就地取材的優勢，因地制宜，配合地勢、風、水文、同一個家族的群居需求，於是，在這朵花之間的「宅」，慢慢地長出愈來愈完整的樣貌，宅與宅構成了巷道路徑，來自原鄉的信仰、一路護佑船隻平安渡海而來的媽祖娘娘安座在花心的位置，這座被稱為花心又名為山仔尾的長形山埔，被先民賦予了神聖性，因此在這聚落中心的高地上，沒有住屋也沒有田地。         島嶼近海的漁船，是落腳在此主要的維生方式，先民成為島民之後，跟隨時序，逐漸認識這座島周邊的海洋生態，為了處理夏季時節總能滿載而歸的臭肉鰮，在島上與海相鄰的地點，蓋了一座一座的魚灶，成為魚產加工製造的村落產業，同時也為村內的女性，在農作與潮間帶採集的日常家事之外，增加了一項補貼家計收入的工作機會。充滿魚鮮的炊煙在花宅的海邊此起彼落裊裊飄散，擺滿曬埕的竹架上整齊排列的熟魚在天日下準備曬成脯，等候裝箱送出島外販售，這是五零年代至七零年代時，花宅夏天的氣味，村人整日忙碌充實，大人與孩子都開心的時節。秋季進入冬季之後是土魠白腹的季節，討海的收入好壞與否就看這一冬的海了，夏季時收儲的蕃薯籤、菜乾、魚乾支持一家人的冬天，生活即使艱辛，敬神祭祖的心意不變，三牲之外，婦女用黑糖太白粉麵粉大灶炊粿，蓬萊米粹搓圓、捏雞母狗仔，在冬至這一天，謝神謝祖祈求家裡的船隻此冬漁獲滿載。五零年代以後，高雄的遠洋漁業豐厚的收入吸引了一直以來以海維生的花宅人，將自己從這座島所累積的海洋經驗帶離開這裡，漸漸地，這個地方成了這群人的故鄉，留下先民打下的基礎，自古以來的輪廓未曾改變，如巷道、水井，而建築物形式建材的變化，則演繹了這個地方的人文軌跡。",
+    "fee_info": "詳情請上基地網站洽詢",
+    "is_free": null,
+    "has_ac": null,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": "https://map.culture.tw/com/upload/baseImage/2025-01-03/2145a674-c18e-4f2e-867a-10b3fcfb081e/花宅聚落空拍.jpg",
+    "weight_scale": 1.0
+  },
+  {
     "node_id": "GOV_attractions_Attraction_A25000000E_000069",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
@@ -13222,29 +13552,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000005",
-    "source": "Taiwan_Gov_OpenData",
-    "node_role": "shelter_node",
-    "category": "restaurants",
-    "title": "玉冠嫩仙草【馬公市】 / 玉冠嫩仙草【馬公市】 (Penghu Spot)",
-    "name_zh": "玉冠嫩仙草【馬公市】",
-    "name_en": "玉冠嫩仙草【馬公市】 (Penghu Spot)",
-    "brand": null,
-    "latitude": 23.566136,
-    "longitude": 119.568551,
-    "opening_hours": "",
-    "description": "推薦菜色：翡翠嫩仙草冰整個冰磚都是濃濃的仙草哦~每口都是超級退火的清涼~",
-    "fee_info": null,
-    "is_free": null,
-    "has_ac": true,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20150217084611175.jpg",
-    "weight_scale": 1.0
-  },
-  {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000007",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000006",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13266,7 +13574,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000008",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000007",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13288,7 +13596,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000009",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000008",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13310,7 +13618,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000010",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000009",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13332,7 +13640,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000011",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000010",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13354,7 +13662,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000012",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000011",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13376,7 +13684,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000013",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000012",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13398,7 +13706,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000014",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000013",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13420,7 +13728,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000015",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000014",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13442,7 +13750,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000016",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000015",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13464,7 +13772,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000017",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000016",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13486,7 +13794,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000018",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000017",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13508,7 +13816,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000019",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000018",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13530,7 +13838,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000021",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000020",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13552,7 +13860,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000023",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000022",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13574,7 +13882,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000024",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000023",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13596,7 +13904,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000025",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000024",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13618,7 +13926,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000026",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000025",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13640,7 +13948,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000027",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000026",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13662,7 +13970,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000028",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000027",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13684,7 +13992,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000030",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000029",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13706,7 +14014,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000031",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000030",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13728,7 +14036,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000032",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000031",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13750,7 +14058,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000033",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000032",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13772,7 +14080,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000034",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000033",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13794,7 +14102,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000035",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000034",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13816,7 +14124,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000036",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000035",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13838,7 +14146,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000037",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000036",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13860,7 +14168,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000038",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000037",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13882,7 +14190,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000039",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000038",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13904,7 +14212,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000040",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000039",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13926,7 +14234,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000041",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000040",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13948,7 +14256,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000042",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000041",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13970,7 +14278,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000043",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000042",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -13992,7 +14300,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000044",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000043",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14014,7 +14322,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000046",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000045",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14036,7 +14344,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000047",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000046",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14058,7 +14366,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000048",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000047",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14080,7 +14388,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000049",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000048",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14102,7 +14410,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000050",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000049",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14124,7 +14432,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000051",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000050",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14146,7 +14454,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000052",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000051",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14168,7 +14476,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000053",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000052",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14190,7 +14498,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000054",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000053",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14212,7 +14520,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000055",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000054",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14234,7 +14542,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000056",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000055",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14256,7 +14564,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000057",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000056",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14278,7 +14586,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000058",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000057",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14300,7 +14608,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000059",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000058",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14322,7 +14630,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000060",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000059",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14344,7 +14652,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000061",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000060",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14366,7 +14674,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000062",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000061",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14388,7 +14696,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000063",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000062",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14410,7 +14718,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000064",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000063",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14432,7 +14740,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000065",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000064",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14454,7 +14762,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000066",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000065",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14476,7 +14784,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000067",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000066",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14498,7 +14806,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000068",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000067",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14520,7 +14828,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000069",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000068",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14542,7 +14850,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000070",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000069",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14564,7 +14872,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000071",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000070",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14586,7 +14894,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000072",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000071",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14608,7 +14916,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000073",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000072",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14630,7 +14938,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000074",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000073",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14652,7 +14960,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000075",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000074",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14674,7 +14982,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000076",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000075",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14696,7 +15004,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000077",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000076",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14718,7 +15026,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000078",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000077",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14740,7 +15048,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000079",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000078",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14762,7 +15070,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000080",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000079",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14784,7 +15092,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000081",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000080",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14806,7 +15114,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000082",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000081",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14828,7 +15136,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000083",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000082",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14850,7 +15158,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000084",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000083",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14872,7 +15180,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000085",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000084",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14894,7 +15202,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000086",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000085",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14916,7 +15224,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000087",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000086",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14938,7 +15246,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000088",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000087",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14960,7 +15268,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000089",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000088",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -14982,29 +15290,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000090",
-    "source": "Taiwan_Gov_OpenData",
-    "node_role": "shelter_node",
-    "category": "restaurants",
-    "title": "嚎鯎海味館【馬公市】 / 嚎鯎海味館【馬公市】 (Penghu Spot)",
-    "name_zh": "嚎鯎海味館【馬公市】",
-    "name_en": "嚎鯎海味館【馬公市】 (Penghu Spot)",
-    "brand": null,
-    "latitude": 23.55711,
-    "longitude": 119.59414,
-    "opening_hours": "",
-    "description": "為您服務是濠誠的榮幸",
-    "fee_info": null,
-    "is_free": null,
-    "has_ac": true,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "weight_scale": 1.0
-  },
-  {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000091",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000089",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15026,7 +15312,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000092",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000090",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15048,7 +15334,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000093",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000091",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15070,7 +15356,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000094",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000092",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15092,7 +15378,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000095",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000093",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15114,7 +15400,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000096",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000094",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15136,7 +15422,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000098",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000096",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15158,7 +15444,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000099",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000097",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15180,7 +15466,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000100",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000098",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15202,7 +15488,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000101",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000099",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15224,7 +15510,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000102",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000100",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15246,7 +15532,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000105",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000103",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15268,7 +15554,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000106",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000104",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15290,7 +15576,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000107",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000105",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15312,7 +15598,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000110",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000108",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15334,7 +15620,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000111",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000109",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15356,7 +15642,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000112",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000110",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15378,29 +15664,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000113",
-    "source": "Taiwan_Gov_OpenData",
-    "node_role": "shelter_node",
-    "category": "restaurants",
-    "title": "瑪咖朵披薩 Mercato Pizza【馬公市】 / 瑪咖朵披薩 Mercato Pizza【馬公市】 (Penghu Spot)",
-    "name_zh": "瑪咖朵披薩 Mercato Pizza【馬公市】",
-    "name_en": "瑪咖朵披薩 Mercato Pizza【馬公市】 (Penghu Spot)",
-    "brand": null,
-    "latitude": 23.57047,
-    "longitude": 119.57124,
-    "opening_hours": "",
-    "description": "瑪咖朵披薩Mercato Pizza 來自熱情的澎湖，提供優質的海鮮披薩，也是全台灣第一間雲朵披薩專賣店。 2019年老闆Liya親赴義大利拿坡里學習新潮流派「雲朵餅皮」，傳承自「傳統拿坡里披薩」的薄餅皮，以義大利麵粉、老麵製作，經兩次發酵、三道工序，餅皮加上滿滿的精選食材，放進義大利進口烤箱烤出豹紋般的特色餅皮，披薩餅皮空氣感十足，鬆軟Q彈超有嚼勁。 我們用心製作披薩的細節，為的是給你們最好的品質！希望你們會喜歡：）",
-    "fee_info": null,
-    "is_free": null,
-    "has_ac": true,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "weight_scale": 1.0
-  },
-  {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000114",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000111",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15422,7 +15686,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000115",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000112",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15444,7 +15708,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000116",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000113",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15466,7 +15730,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000117",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000114",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15488,7 +15752,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000118",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000115",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15510,7 +15774,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000121",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000118",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15532,7 +15796,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000122",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000119",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15554,7 +15818,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000123",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000120",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15576,7 +15840,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000124",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000121",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15598,7 +15862,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000125",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000122",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15620,7 +15884,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000126",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000123",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15642,7 +15906,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000127",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000124",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15664,7 +15928,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000128",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000125",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15686,7 +15950,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000129",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000126",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15708,7 +15972,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000130",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000127",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15730,7 +15994,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000132",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000129",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15752,7 +16016,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000133",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000130",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15774,7 +16038,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000134",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000131",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15796,7 +16060,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000135",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000132",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15818,7 +16082,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000137",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000134",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15840,7 +16104,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000138",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000135",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15862,7 +16126,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000139",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000136",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15884,7 +16148,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000140",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000137",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15906,7 +16170,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000141",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000138",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15928,7 +16192,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000142",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000139",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15950,7 +16214,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000143",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000140",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15972,7 +16236,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000144",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000141",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -15994,7 +16258,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000145",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000142",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -16016,7 +16280,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000146",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000143",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -16038,7 +16302,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000147",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000144",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -16060,7 +16324,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000148",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000145",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -16082,7 +16346,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000149",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000146",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -16104,7 +16368,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_restaurants_Restaurant_A15010200H_000150",
+    "node_id": "GOV_restaurants_Restaurant_A15010200H_000147",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "shelter_node",
     "category": "restaurants",
@@ -16562,7 +16826,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56288.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56288.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -16936,7 +17200,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/199474.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/199474.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -17024,7 +17288,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56562.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56562.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -17046,7 +17310,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/281499.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/281499.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -17244,7 +17508,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56664.png?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56664.png?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -17310,7 +17574,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56710.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56710.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -17464,7 +17728,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56741.JPG?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56741.JPG?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -17640,7 +17904,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56918.JPG?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56918.JPG?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -17904,7 +18168,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/68747.JPG?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/68747.JPG?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -18234,7 +18498,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57251.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57251.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -18256,7 +18520,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57260.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57260.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -18278,7 +18542,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57262.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57262.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -18366,7 +18630,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/304859.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/304859.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -18432,7 +18696,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57377.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57377.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -18476,7 +18740,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/148851.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/148851.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -18520,7 +18784,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57416.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57416.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -19092,7 +19356,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/147664.jpeg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/147664.jpeg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -19114,7 +19378,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57776.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57776.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -19224,7 +19488,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/148781.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/148781.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -19356,7 +19620,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57894.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57894.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -19422,7 +19686,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58006.JPG?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58006.JPG?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -19466,7 +19730,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/77678.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/77678.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -19686,7 +19950,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/184785.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/184785.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -19708,7 +19972,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58170.JPG?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58170.JPG?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -19796,7 +20060,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58215.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58215.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -19928,7 +20192,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/183296.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/183296.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -20082,7 +20346,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/76264.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/76264.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -20148,7 +20412,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58446.JPG?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58446.JPG?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -20170,7 +20434,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58457.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58457.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -20258,7 +20522,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/127594.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/127594.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -20346,7 +20610,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58604.JPG?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58604.JPG?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -20368,7 +20632,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/146957.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/146957.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -20412,7 +20676,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58647.JPG?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58647.JPG?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -20522,7 +20786,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58713.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58713.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -20588,7 +20852,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58772.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58772.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -20676,7 +20940,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/354469.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/354469.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -20852,7 +21116,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/199693.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/199693.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -21094,7 +21358,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/78703.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/78703.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -21160,7 +21424,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59135.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59135.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -21336,7 +21600,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59241.JPG?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59241.JPG?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -21380,7 +21644,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59272.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59272.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -21424,7 +21688,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59291.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59291.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -21578,7 +21842,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59496.JPG?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59496.JPG?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -21710,7 +21974,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59549.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59549.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -22106,7 +22370,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59738.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59738.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -22128,7 +22392,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59744.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59744.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -22392,7 +22656,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59914.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59914.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -22414,7 +22678,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/154535.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/154535.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -22722,7 +22986,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/100385.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/100385.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -22766,7 +23030,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60116.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60116.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -22788,7 +23052,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/80530.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/80530.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -22898,7 +23162,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60178.JPG?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60178.JPG?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -22964,7 +23228,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60226.JPG?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60226.JPG?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -23052,7 +23316,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60317.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60317.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -23118,7 +23382,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60362.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60362.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -24350,7 +24614,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60896.JPG?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60896.JPG?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -24394,7 +24658,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60942.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60942.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -24570,7 +24834,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60971.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60971.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -25758,7 +26022,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/61704.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/61704.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -25978,7 +26242,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/61811.png?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/61811.png?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -26110,7 +26374,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/61915.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/61915.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -26154,7 +26418,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/184782.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/184782.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -26528,7 +26792,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/173489.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/173489.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -26594,7 +26858,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/146330.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/146330.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -26682,7 +26946,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62317.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62317.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -26748,7 +27012,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/78665.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/78665.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -26858,7 +27122,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62414.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62414.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -26968,7 +27232,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/94841.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/94841.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -27166,7 +27430,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62642.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62642.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -27210,7 +27474,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62661.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62661.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -27518,7 +27782,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/317711.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/317711.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -27562,7 +27826,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62782.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62782.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -27892,7 +28156,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62937.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62937.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -28068,7 +28332,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63044.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63044.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -28112,7 +28376,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63048.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63048.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -28222,7 +28486,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/100086.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/100086.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -28288,7 +28552,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63075.JPG?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63075.JPG?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -28332,7 +28596,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63087.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63087.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -28420,7 +28684,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63172.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63172.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -28640,7 +28904,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63342.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63342.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -28706,7 +28970,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63385.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63385.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -28728,7 +28992,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/184793.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/184793.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -29014,7 +29278,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/68253.JPG?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/68253.JPG?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -29058,7 +29322,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/184281.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/184281.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -29388,7 +29652,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/78518.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/78518.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -29916,7 +30180,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/164143.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/164143.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -29960,7 +30224,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/350521.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/350521.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -30114,7 +30378,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/179654.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/179654.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -30268,7 +30532,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/101507.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/101507.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -30290,7 +30554,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/101739.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/101739.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -30356,7 +30620,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/75857.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/75857.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -30510,7 +30774,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349317.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349317.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -31588,7 +31852,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/133682.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/133682.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -31808,7 +32072,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/98677.JPG?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/98677.JPG?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -31918,7 +32182,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/304773.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/304773.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -32802,28 +33066,6 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_hotels_Hotel_A15010000H_027320",
-    "source": "Taiwan_Gov_OpenData",
-    "node_role": "hotel_node",
-    "category": "hotels",
-    "title": "微浮山水民宿 / 微浮山水 B&B Homestay",
-    "name_zh": "微浮山水民宿",
-    "name_en": "微浮山水 B&B Homestay",
-    "brand": null,
-    "latitude": 23.515782,
-    "longitude": 119.589501,
-    "opening_hours": "",
-    "description": "位於澎湖縣的民宿",
-    "fee_info": null,
-    "is_free": null,
-    "has_ac": true,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": null,
-    "weight_scale": 1.0
-  },
-  {
     "node_id": "GOV_hotels_Hotel_A15010000H_027336",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "hotel_node",
@@ -33304,7 +33546,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/126157.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/126157.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -33502,7 +33744,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/250272.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/250272.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -33524,7 +33766,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/250668.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/250668.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -34558,7 +34800,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349900.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349900.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -34778,29 +35020,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/129793.JPG?v=20261024",
-    "weight_scale": 1.0
-  },
-  {
-    "node_id": "GOV_hotels_Hotel_A15010000H_028868",
-    "source": "Taiwan_Gov_OpenData",
-    "node_role": "hotel_node",
-    "category": "hotels",
-    "title": "日光事務所民宿 / 日光事務所 B&B Homestay",
-    "name_zh": "日光事務所民宿",
-    "name_en": "日光事務所 B&B Homestay",
-    "brand": null,
-    "latitude": 23.5604259,
-    "longitude": 119.5860461,
-    "opening_hours": "",
-    "description": "位於澎湖縣的民宿",
-    "fee_info": null,
-    "is_free": null,
-    "has_ac": true,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": null,
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/129793.JPG?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -34822,7 +35042,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/307686.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/307686.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -36406,7 +36626,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/180899.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/180899.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -36674,28 +36894,6 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_hotels_Hotel_A15010000H_031008",
-    "source": "Taiwan_Gov_OpenData",
-    "node_role": "hotel_node",
-    "category": "hotels",
-    "title": "GO再來民宿 / GO再來 B&B Homestay",
-    "name_zh": "GO再來民宿",
-    "name_en": "GO再來 B&B Homestay",
-    "brand": null,
-    "latitude": 23.560112,
-    "longitude": 119.59497,
-    "opening_hours": "",
-    "description": "位於澎湖縣的民宿",
-    "fee_info": null,
-    "is_free": null,
-    "has_ac": true,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": null,
-    "weight_scale": 1.0
-  },
-  {
     "node_id": "GOV_hotels_Hotel_A15010000H_031062",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "hotel_node",
@@ -36802,7 +37000,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349591.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349591.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -37000,7 +37198,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/268658.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/268658.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -37946,7 +38144,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/172346.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/172346.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -38958,7 +39156,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/307486.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/307486.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -39156,7 +39354,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/283034.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/283034.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -39178,7 +39376,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/323915.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/323915.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -40652,7 +40850,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/221844.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/221844.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -40850,7 +41048,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/350005.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/350005.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -41422,7 +41620,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/284422.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/284422.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -41510,7 +41708,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/350309.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/350309.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -41910,28 +42108,6 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_hotels_Hotel_A15010000H_035340",
-    "source": "Taiwan_Gov_OpenData",
-    "node_role": "hotel_node",
-    "category": "hotels",
-    "title": "藍海會館二館民宿 / 藍海 Hall / Resort二館 B&B Homestay",
-    "name_zh": "藍海會館二館民宿",
-    "name_en": "藍海 Hall / Resort二館 B&B Homestay",
-    "brand": null,
-    "latitude": 23.55454,
-    "longitude": 119.60429,
-    "opening_hours": "",
-    "description": "位於澎湖縣的民宿",
-    "fee_info": null,
-    "is_free": null,
-    "has_ac": true,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": null,
-    "weight_scale": 1.0
-  },
-  {
     "node_id": "GOV_hotels_Hotel_A15010000H_035371",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "hotel_node",
@@ -42030,28 +42206,6 @@
     "brand": null,
     "latitude": 23.5831876,
     "longitude": 119.5822717,
-    "opening_hours": "",
-    "description": "位於澎湖縣的民宿",
-    "fee_info": null,
-    "is_free": null,
-    "has_ac": true,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": null,
-    "weight_scale": 1.0
-  },
-  {
-    "node_id": "GOV_hotels_Hotel_A15010000H_035457",
-    "source": "Taiwan_Gov_OpenData",
-    "node_role": "hotel_node",
-    "category": "hotels",
-    "title": "小小之間民宿 / 小小之間 B&B Homestay",
-    "name_zh": "小小之間民宿",
-    "name_en": "小小之間 B&B Homestay",
-    "brand": null,
-    "latitude": 23.5168372,
-    "longitude": 119.5963033,
     "opening_hours": "",
     "description": "位於澎湖縣的民宿",
     "fee_info": null,
@@ -42192,7 +42346,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/337462.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/337462.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -42896,7 +43050,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349211.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349211.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -43072,7 +43226,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/327858.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/327858.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -43248,7 +43402,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/296431.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/296431.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -43952,7 +44106,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/334459.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/334459.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -43996,7 +44150,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/301897.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/301897.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -44018,7 +44172,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/301892.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/301892.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -44128,7 +44282,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/350468.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/350468.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -44986,7 +45140,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/325215.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/325215.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -45008,7 +45162,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/329223.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/329223.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -45206,7 +45360,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349869.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349869.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -45470,7 +45624,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/333381.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/333381.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -45734,7 +45888,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/340661.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/340661.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -45756,7 +45910,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/351303.jpg?v=20261024",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/351303.jpg?v=20261107",
     "weight_scale": 1.0
   },
   {
@@ -45904,6 +46058,72 @@
     "longitude": 119.621573,
     "opening_hours": "",
     "description": "澎湖縣民宿",
+    "fee_info": null,
+    "is_free": null,
+    "has_ac": true,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": null,
+    "weight_scale": 1.0
+  },
+  {
+    "node_id": "GOV_hotels_Hotel_A15010000H_039797",
+    "source": "Taiwan_Gov_OpenData",
+    "node_role": "hotel_node",
+    "category": "hotels",
+    "title": "僩海風民宿 / 僩海風 B&B Homestay",
+    "name_zh": "僩海風民宿",
+    "name_en": "僩海風 B&B Homestay",
+    "brand": null,
+    "latitude": 23.595103,
+    "longitude": 119.608668,
+    "opening_hours": "",
+    "description": "位於潭邊的民宿",
+    "fee_info": null,
+    "is_free": null,
+    "has_ac": true,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": null,
+    "weight_scale": 1.0
+  },
+  {
+    "node_id": "GOV_hotels_Hotel_A15010000H_039798",
+    "source": "Taiwan_Gov_OpenData",
+    "node_role": "hotel_node",
+    "category": "hotels",
+    "title": "七美島民宿 / 七美 Island B&B Homestay",
+    "name_zh": "七美島民宿",
+    "name_en": "七美 Island B&B Homestay",
+    "brand": null,
+    "latitude": 23.196004,
+    "longitude": 119.425187,
+    "opening_hours": "",
+    "description": "位於澎湖的民宿。",
+    "fee_info": null,
+    "is_free": null,
+    "has_ac": true,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/357469.jpg?v=20261107",
+    "weight_scale": 1.0
+  },
+  {
+    "node_id": "GOV_hotels_Hotel_A15010000H_039809",
+    "source": "Taiwan_Gov_OpenData",
+    "node_role": "hotel_node",
+    "category": "hotels",
+    "title": "希旅宿民宿 / 希旅宿 B&B Homestay",
+    "name_zh": "希旅宿民宿",
+    "name_en": "希旅宿 B&B Homestay",
+    "brand": null,
+    "latitude": 23.5815,
+    "longitude": 119.5785,
+    "opening_hours": "",
+    "description": "位於澎湖的民宿。",
     "fee_info": null,
     "is_free": null,
     "has_ac": true,
