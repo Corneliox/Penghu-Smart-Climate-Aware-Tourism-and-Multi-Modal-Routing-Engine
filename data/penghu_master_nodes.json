@@ -3645,11 +3645,11 @@
     "fee_info": null,
     "is_free": null,
     "has_ac": null,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140812151128960.JPG",
-    "weight_scale": 1.0
+    "has_wikipedia": true,
+    "wiki_url_zh": "https://zh.wikipedia.org/wiki/西嶼鄉",
+    "wiki_url_en": "https://en.wikipedia.org/wiki/Xiyu",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Chixi_Columnar_Basalt_in_Taiwan_Penghu_%E6%BE%8E%E6%B9%96%E6%B1%A0%E8%A5%BF%E5%B2%A9%E7%80%91.jpg/330px-Chixi_Columnar_Basalt_in_Taiwan_Penghu_%E6%BE%8E%E6%B9%96%E6%B1%A0%E8%A5%BF%E5%B2%A9%E7%80%91.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "weight_scale": 1.6
   },
   {
     "node_id": "OSM_node_6776688285",
@@ -4374,7 +4374,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/347032.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/347032.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -5097,11 +5097,11 @@
     "fee_info": null,
     "is_free": null,
     "has_ac": null,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140814105449961.jpg",
-    "weight_scale": 1.0
+    "has_wikipedia": true,
+    "wiki_url_zh": "https://zh.wikipedia.org/wiki/西嶼鄉",
+    "wiki_url_en": "https://en.wikipedia.org/wiki/Xiyu",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Chixi_Columnar_Basalt_in_Taiwan_Penghu_%E6%BE%8E%E6%B9%96%E6%B1%A0%E8%A5%BF%E5%B2%A9%E7%80%91.jpg/330px-Chixi_Columnar_Basalt_in_Taiwan_Penghu_%E6%BE%8E%E6%B9%96%E6%B1%A0%E8%A5%BF%E5%B2%A9%E7%80%91.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "weight_scale": 1.6
   },
   {
     "node_id": "OSM_node_9885451732",
@@ -9937,11 +9937,11 @@
     "fee_info": null,
     "is_free": null,
     "has_ac": null,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140815083048936.jpg",
-    "weight_scale": 1.0
+    "has_wikipedia": true,
+    "wiki_url_zh": "https://zh.wikipedia.org/wiki/七美雙心石滬",
+    "wiki_url_en": "https://en.wikipedia.org/wiki/Twin-Heart_Stone_Weir",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Double-Heart_of_Stacked_Stones_20150721.jpg/330px-Double-Heart_of_Stacked_Stones_20150721.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "weight_scale": 1.6
   },
   {
     "node_id": "OSM_way_1167695075",
@@ -11598,9 +11598,9 @@
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
-    "title": "觀音亭親水遊憩區 / 觀音亭親水遊憩區 (Penghu Spot)",
-    "name_zh": "觀音亭親水遊憩區",
-    "name_en": "觀音亭親水遊憩區 (Penghu Spot)",
+    "title": "觀音亭 / 觀音亭 (Penghu Spot)",
+    "name_zh": "觀音亭",
+    "name_en": "觀音亭 (Penghu Spot)",
     "brand": null,
     "latitude": 23.56759,
     "longitude": 119.56207,
@@ -12430,7 +12430,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000087",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000088",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -12452,7 +12452,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000088",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000089",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -12474,7 +12474,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000090",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000091",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -12496,7 +12496,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000091",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000092",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -12518,7 +12518,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000092",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000093",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -12533,14 +12533,14 @@
     "fee_info": "",
     "is_free": null,
     "has_ac": null,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140825154851407.jpg",
-    "weight_scale": 1.0
+    "has_wikipedia": true,
+    "wiki_url_zh": "https://zh.wikipedia.org/wiki/山水沙灘",
+    "wiki_url_en": "https://en.wikipedia.org/wiki/Magong",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Magong_City%2C_Penghu_County%2C_Taiwan_2018.jpg/330px-Magong_City%2C_Penghu_County%2C_Taiwan_2018.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "weight_scale": 1.6
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000093",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000094",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -12562,7 +12562,7 @@
     "weight_scale": 1.6
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000094",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000095",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -12577,14 +12577,14 @@
     "fee_info": "",
     "is_free": null,
     "has_ac": null,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20160907114349771635012.jpg",
-    "weight_scale": 1.0
+    "has_wikipedia": true,
+    "wiki_url_zh": "https://zh.wikipedia.org/wiki/風櫃洞",
+    "wiki_url_en": "https://en.wikipedia.org/wiki/Fenggui_Blowholes",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/%E9%A2%A8%E6%AB%83%E6%B4%9E.jpg/330px-%E9%A2%A8%E6%AB%83%E6%B4%9E.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "weight_scale": 1.6
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000095",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000096",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -12606,7 +12606,7 @@
     "weight_scale": 1.6
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000096",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000097",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -12621,14 +12621,14 @@
     "fee_info": "",
     "is_free": null,
     "has_ac": null,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20230201161350058725.JPG",
-    "weight_scale": 1.0
+    "has_wikipedia": true,
+    "wiki_url_zh": "https://zh.wikipedia.org/wiki/風櫃洞",
+    "wiki_url_en": "https://en.wikipedia.org/wiki/Fenggui_Blowholes",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/%E9%A2%A8%E6%AB%83%E6%B4%9E.jpg/330px-%E9%A2%A8%E6%AB%83%E6%B4%9E.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "weight_scale": 1.6
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000097",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000098",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -12650,7 +12650,7 @@
     "weight_scale": 1.6
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000098",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000099",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -12672,7 +12672,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000099",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000100",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -12694,7 +12694,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000100",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000101",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -12716,7 +12716,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000101",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000102",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -12738,7 +12738,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000102",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000103",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -12760,7 +12760,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000104",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000105",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -12782,7 +12782,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000105",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000106",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -12804,7 +12804,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000106",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000107",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -12826,7 +12826,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000107",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000108",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -12848,7 +12848,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000108",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000109",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -12870,7 +12870,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000109",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000110",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -12885,14 +12885,14 @@
     "fee_info": "",
     "is_free": null,
     "has_ac": null,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140814162104291.JPG",
-    "weight_scale": 1.0
+    "has_wikipedia": true,
+    "wiki_url_zh": "https://zh.wikipedia.org/wiki/通梁古榕",
+    "wiki_url_en": "https://en.wikipedia.org/wiki/Tongliang_Great_Banyan",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Taiwan-Penghu-Tongliang-Great-Banyan.JPG/330px-Taiwan-Penghu-Tongliang-Great-Banyan.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "weight_scale": 1.6
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000110",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000111",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -12914,7 +12914,7 @@
     "weight_scale": 1.6
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000111",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000112",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -12936,7 +12936,7 @@
     "weight_scale": 1.6
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000112",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000113",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -12952,13 +12952,13 @@
     "is_free": null,
     "has_ac": null,
     "has_wikipedia": true,
-    "wiki_url_zh": "https://zh.wikipedia.org/wiki/通梁古榕",
-    "wiki_url_en": "https://en.wikipedia.org/wiki/Tongliang_Great_Banyan",
-    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Taiwan-Penghu-Tongliang-Great-Banyan.JPG/330px-Taiwan-Penghu-Tongliang-Great-Banyan.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wiki_url_zh": "https://zh.wikipedia.org/wiki/澎湖跨海大橋",
+    "wiki_url_en": "https://en.wikipedia.org/wiki/Penghu_Great_Bridge",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Penghu_Great_Bridge_20150619.jpg/330px-Penghu_Great_Bridge_20150619.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "weight_scale": 1.6
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000113",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000114",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -12980,7 +12980,7 @@
     "weight_scale": 1.6
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000116",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000117",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -13002,7 +13002,7 @@
     "weight_scale": 1.6
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000118",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000119",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -13024,7 +13024,7 @@
     "weight_scale": 1.6
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000119",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000120",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -13039,14 +13039,14 @@
     "fee_info": "",
     "is_free": null,
     "has_ac": null,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140814133912908.JPG",
-    "weight_scale": 1.0
+    "has_wikipedia": true,
+    "wiki_url_zh": "https://zh.wikipedia.org/wiki/漁翁島燈塔",
+    "wiki_url_en": "https://en.wikipedia.org/wiki/Yuwengdao_Lighthouse",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/%E6%BC%81%E7%BF%81%E5%B3%B6%E7%87%88%E5%A1%94_01.JPG/330px-%E6%BC%81%E7%BF%81%E5%B3%B6%E7%87%88%E5%A1%94_01.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "weight_scale": 1.6
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000120",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000121",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -13068,7 +13068,7 @@
     "weight_scale": 1.6
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000121",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000122",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -13083,14 +13083,14 @@
     "fee_info": "",
     "is_free": null,
     "has_ac": null,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20240401161150467237.jpg",
-    "weight_scale": 1.0
+    "has_wikipedia": true,
+    "wiki_url_zh": "https://zh.wikipedia.org/wiki/漁翁島燈塔",
+    "wiki_url_en": "https://en.wikipedia.org/wiki/Yuwengdao_Lighthouse",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/%E6%BC%81%E7%BF%81%E5%B3%B6%E7%87%88%E5%A1%94_01.JPG/330px-%E6%BC%81%E7%BF%81%E5%B3%B6%E7%87%88%E5%A1%94_01.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "weight_scale": 1.6
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000122",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000123",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -13112,7 +13112,7 @@
     "weight_scale": 1.6
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000125",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000126",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -13134,7 +13134,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000126",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000127",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -13156,7 +13156,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000128",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000129",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -13178,7 +13178,7 @@
     "weight_scale": 1.6
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000129",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000130",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -13200,7 +13200,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000131",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000132",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -13222,7 +13222,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000132",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000133",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -13244,7 +13244,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000133",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000134",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -13266,7 +13266,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000134",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000135",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -13288,7 +13288,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000135",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000136",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -13310,7 +13310,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000136",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000137",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -13332,7 +13332,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000137",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000138",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -13354,7 +13354,7 @@
     "weight_scale": 1.0
   },
   {
-    "node_id": "GOV_attractions_Attraction_A15010200H_000138",
+    "node_id": "GOV_attractions_Attraction_A15010200H_000139",
     "source": "Taiwan_Gov_OpenData",
     "node_role": "attraction_node",
     "category": "attractions",
@@ -16826,7 +16826,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56288.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56288.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -17200,7 +17200,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/199474.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/199474.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -17288,7 +17288,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56562.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56562.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -17310,7 +17310,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/281499.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/281499.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -17508,7 +17508,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56664.png?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56664.png?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -17574,7 +17574,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56710.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56710.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -17728,7 +17728,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56741.JPG?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56741.JPG?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -17904,7 +17904,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56918.JPG?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/56918.JPG?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -18168,7 +18168,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/68747.JPG?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/68747.JPG?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -18498,7 +18498,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57251.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57251.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -18520,7 +18520,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57260.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57260.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -18542,7 +18542,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57262.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57262.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -18630,7 +18630,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/304859.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/304859.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -18696,7 +18696,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57377.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57377.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -18740,7 +18740,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/148851.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/148851.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -18784,7 +18784,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57416.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57416.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -19356,7 +19356,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/147664.jpeg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/147664.jpeg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -19378,7 +19378,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57776.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57776.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -19488,7 +19488,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/148781.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/148781.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -19620,7 +19620,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57894.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/57894.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -19686,7 +19686,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58006.JPG?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58006.JPG?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -19730,7 +19730,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/77678.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/77678.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -19950,7 +19950,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/184785.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/184785.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -19972,7 +19972,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58170.JPG?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58170.JPG?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -20060,7 +20060,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58215.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58215.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -20192,7 +20192,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/183296.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/183296.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -20346,7 +20346,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/76264.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/76264.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -20412,7 +20412,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58446.JPG?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58446.JPG?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -20434,7 +20434,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58457.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58457.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -20522,7 +20522,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/127594.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/127594.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -20610,7 +20610,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58604.JPG?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58604.JPG?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -20632,7 +20632,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/146957.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/146957.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -20676,7 +20676,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58647.JPG?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58647.JPG?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -20786,7 +20786,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58713.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58713.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -20852,7 +20852,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58772.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/58772.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -20940,7 +20940,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/354469.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/354469.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -21116,7 +21116,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/199693.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/199693.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -21358,7 +21358,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/78703.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/78703.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -21424,7 +21424,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59135.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59135.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -21600,7 +21600,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59241.JPG?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59241.JPG?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -21644,7 +21644,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59272.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59272.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -21688,7 +21688,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59291.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59291.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -21842,7 +21842,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59496.JPG?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59496.JPG?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -21974,7 +21974,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59549.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59549.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -22370,7 +22370,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59738.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59738.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -22392,7 +22392,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59744.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59744.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -22656,7 +22656,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59914.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/59914.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -22678,7 +22678,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/154535.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/154535.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -22986,7 +22986,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/100385.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/100385.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -23030,7 +23030,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60116.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60116.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -23052,7 +23052,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/80530.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/80530.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -23162,7 +23162,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60178.JPG?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60178.JPG?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -23228,7 +23228,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60226.JPG?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60226.JPG?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -23316,7 +23316,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60317.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60317.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -23382,7 +23382,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60362.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60362.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -24614,7 +24614,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60896.JPG?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60896.JPG?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -24658,7 +24658,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60942.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60942.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -24834,7 +24834,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60971.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/60971.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -26022,7 +26022,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/61704.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/61704.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -26242,7 +26242,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/61811.png?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/61811.png?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -26280,28 +26280,6 @@
     "longitude": 119.579079,
     "opening_hours": "",
     "description": "位於澎湖縣馬公市的民宿,其擁有5間房,可供訂房",
-    "fee_info": null,
-    "is_free": null,
-    "has_ac": true,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": null,
-    "weight_scale": 1.0
-  },
-  {
-    "node_id": "GOV_hotels_Hotel_A15010000H_017365",
-    "source": "Taiwan_Gov_OpenData",
-    "node_role": "hotel_node",
-    "category": "hotels",
-    "title": "風島藍民宿 / 風 Island藍 B&B Homestay",
-    "name_zh": "風島藍民宿",
-    "name_en": "風 Island藍 B&B Homestay",
-    "brand": null,
-    "latitude": 23.568255,
-    "longitude": 119.582802,
-    "opening_hours": "",
-    "description": "位於澎湖縣的民宿",
     "fee_info": null,
     "is_free": null,
     "has_ac": true,
@@ -26374,7 +26352,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/61915.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/61915.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -26418,7 +26396,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/184782.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/184782.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -26792,7 +26770,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/173489.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/173489.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -26858,7 +26836,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/146330.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/146330.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -26946,7 +26924,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62317.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62317.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -27012,7 +26990,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/78665.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/78665.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -27122,7 +27100,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62414.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62414.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -27232,7 +27210,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/94841.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/94841.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -27430,7 +27408,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62642.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62642.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -27474,7 +27452,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62661.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62661.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -27782,7 +27760,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/317711.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/317711.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -27826,7 +27804,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62782.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62782.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -28156,7 +28134,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62937.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/62937.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -28332,7 +28310,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63044.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63044.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -28376,7 +28354,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63048.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63048.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -28486,7 +28464,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/100086.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/100086.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -28552,7 +28530,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63075.JPG?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63075.JPG?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -28596,7 +28574,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63087.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63087.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -28684,7 +28662,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63172.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63172.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -28904,7 +28882,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63342.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63342.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -28970,7 +28948,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63385.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/63385.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -28992,7 +28970,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/184793.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/184793.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -29278,7 +29256,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/68253.JPG?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/68253.JPG?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -29322,7 +29300,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/184281.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/184281.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -29652,7 +29630,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/78518.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/78518.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -30180,7 +30158,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/164143.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/164143.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -30224,7 +30202,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/350521.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/350521.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -30378,7 +30356,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/179654.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/179654.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -30532,7 +30510,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/101507.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/101507.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -30554,7 +30532,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/101739.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/101739.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -30620,7 +30598,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/75857.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/75857.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -30774,7 +30752,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349317.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349317.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -31852,7 +31830,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/133682.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/133682.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -31932,28 +31910,6 @@
     "brand": null,
     "latitude": 23.5646973,
     "longitude": 119.5872887,
-    "opening_hours": "",
-    "description": "位於澎湖縣的民宿",
-    "fee_info": null,
-    "is_free": null,
-    "has_ac": true,
-    "has_wikipedia": false,
-    "wiki_url_zh": null,
-    "wiki_url_en": null,
-    "image_url": null,
-    "weight_scale": 1.0
-  },
-  {
-    "node_id": "GOV_hotels_Hotel_A15010000H_026521",
-    "source": "Taiwan_Gov_OpenData",
-    "node_role": "hotel_node",
-    "category": "hotels",
-    "title": "居墅民宿 / 居墅 B&B Homestay",
-    "name_zh": "居墅民宿",
-    "name_en": "居墅 B&B Homestay",
-    "brand": null,
-    "latitude": 23.5666053,
-    "longitude": 119.5655959,
     "opening_hours": "",
     "description": "位於澎湖縣的民宿",
     "fee_info": null,
@@ -32072,7 +32028,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/98677.JPG?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/98677.JPG?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -32182,7 +32138,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/304773.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/304773.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -33546,7 +33502,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/126157.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/126157.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -33744,7 +33700,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/250272.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/250272.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -33766,7 +33722,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/250668.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/250668.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -34800,7 +34756,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349900.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349900.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -35020,7 +34976,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/129793.JPG?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/129793.JPG?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -35042,7 +34998,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/307686.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/307686.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -36626,7 +36582,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/180899.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/180899.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -37000,7 +36956,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349591.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349591.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -37198,7 +37154,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/268658.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/268658.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -38144,7 +38100,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/172346.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/172346.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -39156,7 +39112,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/307486.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/307486.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -39354,7 +39310,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/283034.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/283034.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -39376,7 +39332,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/323915.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/323915.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -40850,7 +40806,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/221844.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/221844.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -41048,7 +41004,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/350005.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/350005.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -41620,7 +41576,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/284422.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/284422.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -41708,7 +41664,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/350309.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/350309.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -42346,7 +42302,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/337462.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/337462.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -43050,7 +43006,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349211.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349211.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -43226,7 +43182,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/327858.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/327858.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -43402,7 +43358,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/296431.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/296431.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -44106,7 +44062,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/334459.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/334459.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -44150,7 +44106,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/301897.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/301897.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -44172,7 +44128,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/301892.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/301892.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -44282,7 +44238,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/350468.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/350468.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -45140,7 +45096,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/325215.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/325215.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -45162,7 +45118,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/329223.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/329223.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -45360,7 +45316,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349869.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/349869.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -45624,7 +45580,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/333381.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/333381.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -45888,7 +45844,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/340661.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/340661.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -45910,7 +45866,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/351303.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/351303.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -46108,7 +46064,7 @@
     "has_wikipedia": false,
     "wiki_url_zh": null,
     "wiki_url_en": null,
-    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/357469.jpg?v=20261107",
+    "image_url": "https://taiwan.taiwanstay.net.tw/twpic/357469.jpg?v=20261114",
     "weight_scale": 1.0
   },
   {
@@ -46124,6 +46080,28 @@
     "longitude": 119.5785,
     "opening_hours": "",
     "description": "位於澎湖的民宿。",
+    "fee_info": null,
+    "is_free": null,
+    "has_ac": true,
+    "has_wikipedia": false,
+    "wiki_url_zh": null,
+    "wiki_url_en": null,
+    "image_url": null,
+    "weight_scale": 1.0
+  },
+  {
+    "node_id": "GOV_hotels_Hotel_A15010000H_039870",
+    "source": "Taiwan_Gov_OpenData",
+    "node_role": "hotel_node",
+    "category": "hotels",
+    "title": "勻禾谷旅宿 / 勻禾谷旅宿 (Penghu Spot)",
+    "name_zh": "勻禾谷旅宿",
+    "name_en": "勻禾谷旅宿 (Penghu Spot)",
+    "brand": null,
+    "latitude": 23.588199,
+    "longitude": 119.61162,
+    "opening_hours": "",
+    "description": "在澎湖的一間民宿",
     "fee_info": null,
     "is_free": null,
     "has_ac": true,
